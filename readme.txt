@@ -19,23 +19,57 @@
 
   Temporal annotations are based on an adaption of the TimeML specification
  ( http://www.timeml.org/ ), and currently consist of EVENT, TIMEX and 
- TLINK annotations. Annotation of TLINKs was separated into 4 layers: 
-  1) Relations between EVENTs and TIMEXes (TLINK-event-timex);
-  2) Relations between EVENTs and document creation time (TLINK-event-DCT);
-  3) Relations between main EVENTs of two consecutive sentences (TLINK-main-events);
-  4) Relations between EVENTs in the same sentence (TLINK-event-event);
+ TLINK annotations. The creation process of the corpus, along with the 
+ evaluation of consistency of annotation is described in (Orasmaa, 2014a) 
+ and (Orasmaa, 2014b).
 
+=================================
+  In breif: Temporal annotation 
+=================================
+
+ In this corpus, temporal relation annotations (TLINK annotations)
+ are separated into 4 layers: 
+
+   1) Relations between EVENTs and TIMEXes (TLINK-event-timex);
+      E.g.
+         [Pühapäeva varahommikul] [kutsuti] politsei Riia mäele.
+         '[On Sunday morning], police was [called] to Riia Hill.'
+         
+         EVENT [kutsuti]    IS_INCLUDED    TIMEX [Pühapäeva varahommikul]
+
+   2) Relations between EVENTs and document creation time (TLINK-event-DCT);
+      E.g.
+         Eestisse kavatseb reisimees [naasta] tuleva aasta märtsis.
+         'The traveler plans [to return] to Estonia in March next year.'
+         
+         EVENT [naasta]     AFTER          DCT
+
+   3) Relations between main EVENTs of two consecutive sentences (TLINK-main-events);
+      E.g.
+        (1) Pühapäeva varahommikul [kutsuti] politsei Riia mäele.
+            'On Sunday morning, police was [called] to Riia Hill.'
+        (2) Seal oli ühelt noorelt mehelt ära [võetud] nahktagi ja käekell.
+            'There, a young man had been [robbed] from his leather jacket and 
+             wristwatch.'
+             
+         EVENT [kutsuti]    AFTER          EVENT [võetud]
+           
+   4) Relations between EVENTs in the same sentence (TLINK-event-event);
+      E.g.
+         Bussijuht [päästis] tee ääres põlevasse autosse lõksu [jäänud] inimese.
+         'A bus driver [saved] a person who was [trapped] in a burning car alongside 
+          the road.'
+
+         EVENT [päästis]    AFTER          EVENT [trapped]
+         
   Following TLINK relation types are used: BEFORE, BEFORE-OR-OVERLAP,
  SIMULTANEOUS, IS_INCLUDED, INCLUDES, OVERLAP-OR-AFTER, AFTER, IDENTITY, 
  VAGUE. 
 
-  In addition to final TLINK annotations, the corpus also contains initial TLINK 
- annotations provided by three different annotators (A, B, C). Each file was 
- initially annotated by two annotators and the final decision on the relations
- was made by a judge;
-
-  The creation process of the corpus, along with the evaluation of consistency 
- of annotation is described in (Orasmaa, 2014a) and (Orasmaa, 2014b).
+   In addition to final TLINK annotations, the corpus also contains initial TLINK 
+ annotations provided by three different annotators (A, B, C). Each file was initially 
+ annotated by two annotators and the final decision on the relations was made by a 
+ judge;
 
 ==============================
   Accessing/Exploring corpus
@@ -195,9 +229,38 @@
    Language-specific differences    
 ====================================
  
- TODO: Here, Estonian language-specific divergences from the original TimeML 
-       specification will be listed
+  In following, divergences from the original TimeML specification are listed:
  
+   EVENTs:
+     extent:  multiword event annotations are allowed (mostly in light verb 
+              and grammatical verb constructions);
+     class:   for modal verbs, a special class value is used - MODAL;
+     other event attributes (pos, tense) are not annotated, as these 
+     can be derived from the syntactic annotation;
+     events vs event instances: currently, no distinction is made between 
+              annotated event mentions and event instances, i.e. even if 
+              one textual mention could be related to multiple instances,
+              no additional annotations are created;
+   TIMEXes:
+     mod:   special modifiers FIRST_HALF and SECOND_HALF are added
+            (in expressions such as 'during the second half of the April');
+
+   TLINKs:  
+     relType: 9 relation types are used: 
+              1) Clear relations
+                 BEFORE -- precedes temporally;
+                 AFTER -- succeeds temporally;
+                 SIMULTANEOUS -- exact temporal overlap;
+                 IDENTITY -- exact temporal overlap + event coreference;
+                 IS_INCLUDED -- temporal inclusion: A is included in B;
+                 INCLUDES -- temporal inclusion: B includes A;
+                 Note: relations IS_INCLUDED and INCLUDES are also used 
+                  instead of the TimeML relations DURING and DURING_INV;
+              2) Unclear relations
+                 BEFORE-OR-OVERLAP -- doubts between preceding and overlap;
+                 OVERLAP-OR-AFTER -- doubts between succeeding and overlap;
+                 VAGUE -- unclear temporal relation;
+     
 ==============================
   Related publications
 ==============================
