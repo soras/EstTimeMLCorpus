@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*- 
 #
 #   Developed and tested under Python's version: 3.3.2
@@ -26,7 +25,7 @@ def load_base_segmentation(inputFile):
     last_sentenceID = ""
     f = open(inputFile, mode='r', encoding="utf-8")
     for line in f:
-        # Skipt the comment line
+        # Skip the comment line
         if ( re.match("^#.+$", line) ):
             continue
         items = (line.rstrip()).split("\t")
@@ -54,7 +53,7 @@ def load_entity_annotation(inputFile):
     annotationsByID  = dict()
     f = open(inputFile, mode='r', encoding="utf-8")
     for line in f:
-        # Skipt the comment line
+        # Skip the comment line
         if ( re.match("^#.+$", line) ):
             continue
         items = (line.rstrip()).split("\t")
@@ -88,7 +87,7 @@ def load_dct_annotation(inputFile):
     DCTsByFile = dict()
     f = open(inputFile, mode='r', encoding="utf-8")
     for line in f:
-        # Skipt the comment line
+        # Skip the comment line
         if ( re.match("^#.+$", line) ):
             continue
         items = (line.rstrip()).split("\t")
@@ -105,7 +104,7 @@ def load_relation_annotation(inputFile):
     annotationsByID  = dict()
     f = open(inputFile, mode='r', encoding="utf-8")
     for line in f:
-        # Skipt the comment line
+        # Skip the comment line
         if ( re.match("^#.+$", line) ):
             continue
         items = line.split("\t")
@@ -135,7 +134,7 @@ def load_relation_to_dct_annotations(inputFile):
     annotationsByID  = dict()
     f = open(inputFile, mode='r', encoding="utf-8")
     for line in f:
-        # Skipt the comment line
+        # Skip the comment line
         if ( re.match("^#.+$", line) ):
             continue
         items = line.split("\t")

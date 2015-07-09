@@ -1,0 +1,664 @@
+# fileName	sentence_ID	word_ID_in_sentence	expression	timex_annotation	timex_ID
+aja_ml_2002_47.tasak.a006.sol	1	8	"endisesse"	TIMEX DATE PAST_REF	t1
+aja_ml_2002_47.tasak.a006.sol	2	8	"2004. aasta maiks"	TIMEX DATE 2004-05 multiword="true"	t2
+aja_ml_2002_47.tasak.a006.sol	2	9	"2004. aasta maiks"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a006.sol	2	10	"2004. aasta maiks"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a006.sol	3	0	"Hooaja jooksul"	TIMEX DURATION PXM multiword="true"	t3
+aja_ml_2002_47.tasak.a006.sol	3	1	"Hooaja jooksul"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a006.sol	5	4	"1960. aastate lõpul"	TIMEX DATE 1970 mod="BEFORE" multiword="true"	t4
+aja_ml_2002_47.tasak.a006.sol	5	5	"1960. aastate lõpul"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a006.sol	5	6	"1960. aastate lõpul"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a006.sol	8	9	"kaheksa aastat tagasi"	TIMEX DATE 1994 multiword="true"	t5
+aja_ml_2002_47.tasak.a006.sol	8	10	"kaheksa aastat tagasi"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a006.sol	8	11	"kaheksa aastat tagasi"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a006.sol	9	6	"2000. aasta suveks"	TIMEX DATE 2000-SU multiword="true"	t6
+aja_ml_2002_47.tasak.a006.sol	9	7	"2000. aasta suveks"	TIMEX multiword="true"	t6
+aja_ml_2002_47.tasak.a006.sol	9	8	"2000. aasta suveks"	TIMEX multiword="true"	t6
+aja_ml_2002_47.tasak.a006.sol	11	13	"nüüd"	TIMEX UNK PRESENT_REF	t7
+aja_ml_2002_47.tasak.a006.sol	13	0	"Varem"	TIMEX DATE FUTURE_REF	t8
+aja_ml_2002_47.tasak.a006.sol	13	2	"hiljem"	TIMEX DATE FUTURE_REF	t9
+aja_ml_2002_47.tasak.a006.sol	14	8	"praegu"	TIMEX UNK PRESENT_REF	t10
+aja_ml_2002_47.tasak.a007.sol	8	12	"pühapäeva hommikuti"	TIMEX SET XXXX-WXX-7TMO multiword="true"	t1
+aja_ml_2002_47.tasak.a007.sol	8	13	"pühapäeva hommikuti"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a007.sol	13	4	"18. detsembril"	TIMEX DATE 2002-12-18 multiword="true"	t2
+aja_ml_2002_47.tasak.a007.sol	13	5	"18. detsembril"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a007.sol	14	4	"19. detsembril"	TIMEX DATE 2002-12-19 multiword="true"	t3
+aja_ml_2002_47.tasak.a007.sol	14	5	"19. detsembril"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a007.sol	14	9	"uuest aastast"	TIMEX DATE 2003-01 multiword="true"	t4
+aja_ml_2002_47.tasak.a007.sol	14	10	"uuest aastast"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a008.sol	3	4	"paar nädalat tagasi"	TIMEX DATE PAST_REF multiword="true"	t1
+aja_ml_2002_47.tasak.a008.sol	3	5	"paar nädalat tagasi"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a008.sol	3	6	"paar nädalat tagasi"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a008.sol	5	0	"Varasematel aastatel"	TIMEX DATE PAST_REF multiword="true"	t2
+aja_ml_2002_47.tasak.a008.sol	5	1	"Varasematel aastatel"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a008.sol	6	9	"kolmandat talve"	TIMEX DATE P3Y multiword="true"	t3
+aja_ml_2002_47.tasak.a008.sol	6	10	"kolmandat talve"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a008.sol	7	11	"kohe"	TIMEX DATE FUTURE_REF	t4
+aja_ml_2002_47.tasak.a008.sol	8	1	"Tänapäeval"	TIMEX DATE PRESENT_REF	t5
+aja_ml_2002_47.tasak.a008.sol	10	0	"Möödunud aastal"	TIMEX DATE 2001 multiword="true"	t6
+aja_ml_2002_47.tasak.a008.sol	10	1	"Möödunud aastal"	TIMEX multiword="true"	t6
+aja_ml_2002_47.tasak.a008.sol	10	15	"suve"	TIMEX DATE 2001-SU	t7
+aja_ml_2002_47.tasak.a008.sol	14	10	"kohe"	TIMEX DATE PRESENT_REF	t8
+aja_ml_2002_47.tasak.a008.sol	15	11	"edaspidigi"	TIMEX DATE FUTURE_REF	t9
+aja_ml_2002_47.tasak.a014.sol	2	2	"eelmisel kolmapäeval"	TIMEX DATE 2002-11-13 multiword="true"	t1
+aja_ml_2002_47.tasak.a014.sol	2	3	"eelmisel kolmapäeval"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a014.sol	2	11	"uuest aastast"	TIMEX DATE 2003 multiword="true"	t2
+aja_ml_2002_47.tasak.a014.sol	2	12	"uuest aastast"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a014.sol	3	0	"Praeguse"	TIMEX DATE PRESENT_REF	t3
+aja_ml_2002_47.tasak.a014.sol	7	19	"takkajärgi"	TIMEX DATE FUTURE_REF	t4
+aja_ml_2002_47.tasak.a014.sol	9	5	"pärast"	TIMEX DATE FUTURE_REF	t5
+aja_ml_2002_47.tasak.a014.sol	14	5	"kohe"	TIMEX DATE PRESENT_REF	t6
+aja_ml_2002_47.tasak.a014.sol	15	3	"1996. aastast"	TIMEX DATE 1996 multiword="true"	t7
+aja_ml_2002_47.tasak.a014.sol	15	4	"1996. aastast"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a014.sol	28	1	"eelmisel sügisel"	TIMEX DATE 2001-FA multiword="true"	t8
+aja_ml_2002_47.tasak.a014.sol	28	2	"eelmisel sügisel"	TIMEX multiword="true"	t8
+aja_ml_2002_47.tasak.a014.sol	28	11	"tänavu mais"	TIMEX DATE 2002-05 multiword="true"	t9
+aja_ml_2002_47.tasak.a014.sol	28	12	"tänavu mais"	TIMEX multiword="true"	t9
+aja_ml_2002_47.tasak.a014.sol	28	15	"1. juulini"	TIMEX DATE 2002-07-01 multiword="true"	t10
+aja_ml_2002_47.tasak.a014.sol	28	16	"1. juulini"	TIMEX multiword="true"	t10
+aja_ml_2002_47.tasak.a014.sol	31	0	"Paar aastat"	TIMEX DURATION PXY multiword="true"	t11
+aja_ml_2002_47.tasak.a014.sol	31	1	"Paar aastat"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a014.sol	37	5	"30. mai"	TIMEX DATE 2002-05-30 multiword="true"	t12
+aja_ml_2002_47.tasak.a014.sol	37	6	"30. mai"	TIMEX multiword="true"	t12
+aja_ml_2002_47.tasak.a016.sol	1	0	"29."	TIMEX DATE 2002-11-29T11	t1
+aja_ml_2002_47.tasak.a016.sol	1	0	"29. novembril kl 11-17"	TIMEX DATE 2002-11-29T17 multiword="true"	t2
+aja_ml_2002_47.tasak.a016.sol	1	1	"29. novembril kl 11-17"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a016.sol	1	2	"29. novembril kl 11-17"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a016.sol	1	3	"29. novembril kl 11-17"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a016.sol	8	2	"25. novembriks"	TIMEX DATE 2002-11-25 multiword="true"	t3
+aja_ml_2002_47.tasak.a016.sol	8	3	"25. novembriks"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a017.sol	1	0	"Suvel"	TIMEX DATE 2002-SU	t1
+aja_ml_2002_47.tasak.a017.sol	1	8	"nüüdsest"	TIMEX DATE PRESENT_REF	t2
+aja_ml_2002_47.tasak.a017.sol	3	7	"1810"	TIMEX DATE 1810	t3
+aja_ml_2002_47.tasak.a017.sol	3	16	"sajanditki"	TIMEX DURATION P100Y	t4
+aja_ml_2002_47.tasak.a017.sol	4	0	"Aastast 1893"	TIMEX DATE 1893 multiword="true"	t5
+aja_ml_2002_47.tasak.a017.sol	4	1	"Aastast 1893"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a017.sol	4	3	"tänavuse suveni"	TIMEX DATE 2002-SU multiword="true"	t6
+aja_ml_2002_47.tasak.a017.sol	4	4	"tänavuse suveni"	TIMEX multiword="true"	t6
+aja_ml_2002_47.tasak.a017.sol	6	13	"eelmisel aastal"	TIMEX DATE 2001 multiword="true"	t7
+aja_ml_2002_47.tasak.a017.sol	6	14	"eelmisel aastal"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a017.sol	7	12	"enne"	TIMEX DATE PAST_REF	t8
+aja_ml_2002_47.tasak.a023.sol	1	1	"aastaid"	TIMEX DURATION PXY	t1
+aja_ml_2002_47.tasak.a023.sol	3	7	"kuude kaupa"	TIMEX DURATION PXM multiword="true"	t2
+aja_ml_2002_47.tasak.a023.sol	3	8	"kuude kaupa"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a023.sol	5	8	"seitse kuud"	TIMEX DURATION P7M multiword="true"	t3
+aja_ml_2002_47.tasak.a023.sol	5	9	"seitse kuud"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a023.sol	7	1	"kuude kaupa"	TIMEX DURATION PXM multiword="true"	t4
+aja_ml_2002_47.tasak.a023.sol	7	2	"kuude kaupa"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a023.sol	10	9	"varem"	TIMEX DATE PAST_REF	t5
+aja_ml_2002_47.tasak.a023.sol	11	1	"senistest"	TIMEX DATE PRESENT_REF	t6
+aja_ml_2002_47.tasak.a023.sol	13	10	"kunagi"	TIMEX DATE PAST_REF	t7
+aja_ml_2002_47.tasak.a023.sol	18	1	"praegu"	TIMEX DATE PRESENT_REF	t8
+aja_ml_2002_47.tasak.a023.sol	21	1	"kunagi"	TIMEX DATE PAST_REF	t9
+aja_ml_2002_47.tasak.a023.sol	27	4	"tänases"	TIMEX DATE PRESENT_REF	t10
+aja_ml_2002_47.tasak.a023.sol	28	4	"ühel heal päeval"	TIMEX DATE XXXX-XX-XX multiword="true"	t11
+aja_ml_2002_47.tasak.a023.sol	28	5	"ühel heal päeval"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a023.sol	28	6	"ühel heal päeval"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a030.sol	1	2	"29. novembril"	TIMEX DATE 2002-11-29 multiword="true"	t1
+aja_ml_2002_47.tasak.a030.sol	1	3	"29. novembril"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a030.sol	6	4	"seni"	TIMEX DATE PRESENT_REF	t2
+aja_ml_2002_47.tasak.a030.sol	13	4	"ühetunnine"	TIMEX DURATION PT1H	t3
+aja_ml_2002_47.tasak.a030.sol	14	5	"kell 10"	TIMEX DATE 2002-11-29T10 multiword="true"	t4
+aja_ml_2002_47.tasak.a030.sol	14	6	"kell 10"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a033.sol	0	6	"iga kuu esimesel kolmapäeval"	TIMEX SET XXXX-WXX-03 comment="ei oska täpselt seda aega kirja panna" multiword="true"	t1
+aja_ml_2002_47.tasak.a033.sol	0	7	"iga kuu esimesel kolmapäeval"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a033.sol	0	8	"iga kuu esimesel kolmapäeval"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a033.sol	0	9	"iga kuu esimesel kolmapäeval"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a033.sol	5	9	"aastast 1929"	TIMEX DATE 1929 multiword="true"	t2
+aja_ml_2002_47.tasak.a033.sol	5	10	"aastast 1929"	TIMEX multiword="true"	t2
+aja_ml_2002_47.tasak.a033.sol	6	12	"aastast 1922"	TIMEX DATE 1922 multiword="true"	t3
+aja_ml_2002_47.tasak.a033.sol	6	13	"aastast 1922"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a033.sol	6	18	"1959"	TIMEX DATE 1959	t4
+aja_ml_2002_47.tasak.a033.sol	6	24	"1946"	TIMEX DATE 1946	t5
+aja_ml_2002_47.tasak.a033.sol	6	31	"1960"	TIMEX DATE 1960	t6
+aja_ml_2002_47.tasak.a033.sol	7	1	"juunikuu"	TIMEX DATE XXXX-06-WE comment=""teisel" on märkimata..."	t7
+aja_ml_2002_47.tasak.a033.sol	7	11	"nüüd"	TIMEX DATE PRESENT_REF	t8
+aja_ml_2002_47.tasak.a033.sol	11	0	"Nüüd"	TIMEX DATE PRESENT_REF	t9
+aja_ml_2002_47.tasak.a033.sol	11	16	"aastas"	TIMEX SET XXXX	t10
+aja_ml_2002_47.tasak.a033.sol	12	4	"augustikuu viimasel laupäeval"	TIMEX DATE 2002-08-31 multiword="true"	t11
+aja_ml_2002_47.tasak.a033.sol	12	5	"augustikuu viimasel laupäeval"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a033.sol	12	6	"augustikuu viimasel laupäeval"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a033.sol	13	8	"mullu"	TIMEX DATE 2001	t12
+aja_ml_2002_47.tasak.a033.sol	16	8	"25aastaseks"	TIMEX DURATION P25Y	t13
+aja_ml_2002_47.tasak.a033.sol	21	15	"nüüd"	TIMEX DATE PRESENT_REF	t14
+aja_ml_2002_47.tasak.a038.sol	0	0	"Kuuendat aastat"	TIMEX DURATION P6Y multiword="true"	t1
+aja_ml_2002_47.tasak.a038.sol	0	1	"Kuuendat aastat"	TIMEX multiword="true"	t1
+aja_ml_2002_47.tasak.a038.sol	0	17	"23.-29."	TIMEX DATE 2002-11-23	t2
+aja_ml_2002_47.tasak.a038.sol	0	17	"23.-29. novembrini"	TIMEX DATE 2002-11-29 multiword="true"	t3
+aja_ml_2002_47.tasak.a038.sol	0	18	"23.-29. novembrini"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a038.sol	5	0	"Kahe"	TIMEX DATE 2001	t4
+aja_ml_2002_47.tasak.a038.sol	5	0	"Kahe viimase aasta"	TIMEX DATE 2002 multiword="true"	t5
+aja_ml_2002_47.tasak.a038.sol	5	1	"Kahe viimase aasta"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a038.sol	5	2	"Kahe viimase aasta"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a038.sol	5	7	"sel"	TIMEX DATE 2002-11-23	t6
+aja_ml_2002_47.tasak.a038.sol	5	7	"sel aastal 23.-30. novembrini"	TIMEX DATE 2002-11-30 multiword="true"	t7
+aja_ml_2002_47.tasak.a038.sol	5	8	"sel aastal 23.-30. novembrini"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a038.sol	5	9	"sel aastal 23.-30. novembrini"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a038.sol	5	10	"sel aastal 23.-30. novembrini"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a038.sol	6	4	"varasematel aastatel"	TIMEX DATE PAST_REF multiword="true"	t8
+aja_ml_2002_47.tasak.a038.sol	6	5	"varasematel aastatel"	TIMEX multiword="true"	t8
+aja_ml_2002_47.tasak.a038.sol	8	6	"eelmisel"	TIMEX DATE 1999	t9
+aja_ml_2002_47.tasak.a038.sol	8	6	"eelmisel kolmel aastalgi"	TIMEX DATE 2001 multiword="true"	t10
+aja_ml_2002_47.tasak.a038.sol	8	7	"eelmisel kolmel aastalgi"	TIMEX multiword="true"	t10
+aja_ml_2002_47.tasak.a038.sol	8	8	"eelmisel kolmel aastalgi"	TIMEX multiword="true"	t10
+aja_ml_2002_47.tasak.a038.sol	10	3	"möödunud aastal"	TIMEX DATE 2001 multiword="true"	t11
+aja_ml_2002_47.tasak.a038.sol	10	4	"möödunud aastal"	TIMEX multiword="true"	t11
+aja_ml_2002_47.tasak.a038.sol	11	8	"lõpupäeval 7. detsembril"	TIMEX DATE 2002-12-07 multiword="true"	t12
+aja_ml_2002_47.tasak.a038.sol	11	9	"lõpupäeval 7. detsembril"	TIMEX multiword="true"	t12
+aja_ml_2002_47.tasak.a038.sol	11	10	"lõpupäeval 7. detsembril"	TIMEX multiword="true"	t12
+aja_ml_2002_47.tasak.a038.sol	12	1	"mullu"	TIMEX DATE 2001	t13
+aja_ml_2002_47.tasak.a038.sol	17	7	"viimastel aegadel"	TIMEX DATE PRESENT_REF multiword="true"	t14
+aja_ml_2002_47.tasak.a038.sol	17	8	"viimastel aegadel"	TIMEX multiword="true"	t14
+aja_ml_2002_47.tasak.a038.sol	23	5	"suvelgi"	TIMEX DATE 2002-SU	t15
+aja_ml_2002_47.tasak.a038.sol	26	9	"praegu"	TIMEX DATE PRESENT_REF	t16
+aja_ml_2002_47.tasak.a038.sol	27	18	"kaks aastat tagasi"	TIMEX DATE 2000 multiword="true"	t17
+aja_ml_2002_47.tasak.a038.sol	27	19	"kaks aastat tagasi"	TIMEX multiword="true"	t17
+aja_ml_2002_47.tasak.a038.sol	27	20	"kaks aastat tagasi"	TIMEX multiword="true"	t17
+aja_ml_2002_47.tasak.a038.sol	29	3	"reedel , 29. novembril kl 19"	TIMEX DATE 2002-11-29T19 multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	29	4	"reedel , 29. novembril kl 19"	TIMEX multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	29	5	"reedel , 29. novembril kl 19"	TIMEX multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	29	6	"reedel , 29. novembril kl 19"	TIMEX multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	29	7	"reedel , 29. novembril kl 19"	TIMEX multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	29	8	"reedel , 29. novembril kl 19"	TIMEX multiword="true"	t18
+aja_ml_2002_47.tasak.a038.sol	30	1	"7. detsembril"	TIMEX DATE 2002-12-07 multiword="true"	t19
+aja_ml_2002_47.tasak.a038.sol	30	2	"7. detsembril"	TIMEX multiword="true"	t19
+aja_ml_2002_47.tasak.a038.sol	35	0	"Seni"	TIMEX DATE PRESENT_REF	t20
+aja_ml_2002_47.tasak.a040.sol	2	0	"2001"	TIMEX DATE 2001	t1
+aja_ml_2002_47.tasak.a040.sol	6	0	"1997"	TIMEX DATE 1997	t2
+aja_ml_2002_47.tasak.a040.sol	7	8	"31 nädala"	TIMEX DURATION P31W multiword="true"	t3
+aja_ml_2002_47.tasak.a040.sol	7	9	"31 nädala"	TIMEX multiword="true"	t3
+aja_ml_2002_47.tasak.a040.sol	9	4	"3."	TIMEX DATE 1996-01-03	t4
+aja_ml_2002_47.tasak.a040.sol	10	16	"mullu novembris"	TIMEX DATE 2001-11 multiword="true"	t5
+aja_ml_2002_47.tasak.a040.sol	10	17	"mullu novembris"	TIMEX multiword="true"	t5
+aja_ml_2002_47.tasak.a040.sol	16	0	"1998"	TIMEX DATE 1998	t6
+aja_ml_2002_47.tasak.a040.sol	17	2	"21 aastat"	TIMEX DURATION P21Y multiword="true"	t7
+aja_ml_2002_47.tasak.a040.sol	17	3	"21 aastat"	TIMEX multiword="true"	t7
+aja_ml_2002_47.tasak.a040.sol	18	0	"Iga kahe nädala tagant"	TIMEX SET P2W quant="EVERY" freq="1X" multiword="true"	t8
+aja_ml_2002_47.tasak.a040.sol	18	1	"Iga kahe nädala tagant"	TIMEX multiword="true"	t8
+aja_ml_2002_47.tasak.a040.sol	18	2	"Iga kahe nädala tagant"	TIMEX multiword="true"	t8
+aja_ml_2002_47.tasak.a040.sol	18	3	"Iga kahe nädala tagant"	TIMEX multiword="true"	t8
+aja_ml_2002_47.tasak.a040.sol	20	0	"1960. a"	TIMEX DATE 1960 multiword="true"	t9
+aja_ml_2002_47.tasak.a040.sol	20	1	"1960. a"	TIMEX multiword="true"	t9
+aja_ml_2002_47.tasak.a040.sol	23	0	"1997"	TIMEX DATE 1997	t10
+aja_ml_2002_47.tasak.a040.sol	23	14	"nelja-aastane"	TIMEX DURATION P4Y	t11
+aja_ml_2002_47.tasak.a040.sol	25	0	"1923"	TIMEX DATE 1923	t12
+aja_ml_2002_47.tasak.a040.sol	27	0	"1998"	TIMEX DATE 1998	t13
+aja_ml_2002_47.tasak.a040.sol	30	0	"1918"	TIMEX DATE 1918	t14
+aja_ml_2002_47.tasak.a040.sol	35	1	"1919. a suveni"	TIMEX DATE 1919-SU multiword="true"	t15
+aja_ml_2002_47.tasak.a040.sol	35	2	"1919. a suveni"	TIMEX multiword="true"	t15
+aja_ml_2002_47.tasak.a040.sol	35	3	"1919. a suveni"	TIMEX multiword="true"	t15
+aja_ml_2002_47.tasak.a040.sol	36	4	"16.-19."	TIMEX DATE 1918-11-16	t16
+aja_ml_2002_47.tasak.a040.sol	36	4	"16.-19."	TIMEX DATE 1918-11-19	t17
+aja_ml_2002_47.tasak.a045.sol	1	0	"Nädalavahetusel"	TIMEX DATE 2002-11-16	t1
+aja_ml_2002_47.tasak.a045.sol	1	0	"Nädalavahetusel"	TIMEX DATE 2002-11-17	t2
+aja_ml_2002_47.tasak.a045.sol	2	13	"seni"	TIMEX UNK PRESENT_REF	t3
+aja_ml_2002_47.tasak.a045.sol	5	8	"selle aasta jooksul"	TIMEX DATE 2002-FA multiword="true"	t4
+aja_ml_2002_47.tasak.a045.sol	5	9	"selle aasta jooksul"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a045.sol	5	10	"selle aasta jooksul"	TIMEX multiword="true"	t4
+aja_ml_2002_47.tasak.a045.sol	6	0	"Nädalavahetusel"	TIMEX DATE 2002-11-16	t5
+aja_ml_2002_47.tasak.a045.sol	6	0	"Nädalavahetusel"	TIMEX DATE 2002-11-17	t6
+aja_ml_2002_47.tasak.a045.sol	8	12	"oktoobris"	TIMEX DATE 2002-10	t7
+aja_ml_2002_47.tasak.a051.sol	4	4	"tänase"	TIMEX DATE 2002-11-21	t1
+aja_ml_2002_47.tasak.a051.sol	8	18	"igakuiselt"	TIMEX SET XXXX-XX quant="EVERY"	t2
+aja_pm_2000_10_04.tasak.a001.sol	2	13	"varem"	TIMEX DATE PAST_REF	t1
+aja_pm_2000_10_04.tasak.a001.sol	3	3	"2002.-2003."	TIMEX DATE 2002	t2
+aja_pm_2000_10_04.tasak.a001.sol	3	3	"2002.-2003. aastal"	TIMEX DATE 2003 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a001.sol	3	4	"2002.-2003. aastal"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a001.sol	19	5	"täna"	TIMEX DATE 2000-10-04	t4
+aja_pm_2000_10_04.tasak.a001.sol	20	13	"eile"	TIMEX DATE 2000-10-03	t5
+aja_pm_2000_10_04.tasak.a006.sol	0	5	"sel sügisel"	TIMEX DATE 2000-FA multiword="true"	t1
+aja_pm_2000_10_04.tasak.a006.sol	0	6	"sel sügisel"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a006.sol	0	16	"talvel"	TIMEX DATE 2001-WI	t2
+aja_pm_2000_10_04.tasak.a006.sol	1	3	"läinud aasta detsembris"	TIMEX DATE 1999-12 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a006.sol	1	4	"läinud aasta detsembris"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a006.sol	1	5	"läinud aasta detsembris"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a006.sol	1	14	"alates selle aasta 1. jaanuarist"	TIMEX DATE 2000-01-01 mod="ON_OR_AFTER" multiword="true"	t4
+aja_pm_2000_10_04.tasak.a006.sol	1	15	"alates selle aasta 1. jaanuarist"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a006.sol	1	16	"alates selle aasta 1. jaanuarist"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a006.sol	1	17	"alates selle aasta 1. jaanuarist"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a006.sol	1	18	"alates selle aasta 1. jaanuarist"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a006.sol	7	4	"detsembrikuise"	TIMEX DATE 1999-12	t5
+aja_pm_2000_10_04.tasak.a006.sol	9	2	"aprilli lõpul"	TIMEX DATE 2000-04 mod="END" multiword="true"	t6
+aja_pm_2000_10_04.tasak.a006.sol	9	3	"aprilli lõpul"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a006.sol	9	11	"mullu detsembris"	TIMEX DATE 1999-12 multiword="true"	t7
+aja_pm_2000_10_04.tasak.a006.sol	9	12	"mullu detsembris"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a006.sol	10	22	"ammu"	TIMEX DATE PAST_REF	t8
+aja_pm_2000_10_04.tasak.a006.sol	11	12	"edasist"	TIMEX DATE FUTURE_REF	t9
+aja_pm_2000_10_04.tasak.a009.sol	6	6	"igal nädalal"	TIMEX SET XXXX-WXX quant="EVERY" multiword="true"	t1
+aja_pm_2000_10_04.tasak.a009.sol	6	7	"igal nädalal"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a009.sol	11	15	"kuus"	TIMEX SET XXXX-XX	t2
+aja_pm_2000_10_04.tasak.a009.sol	13	0	"Eelmisel aastal"	TIMEX DATE 1999 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a009.sol	13	1	"Eelmisel aastal"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a009.sol	16	4	"seni"	TIMEX UNK FUTURE_REF	t4
+aja_pm_2000_10_04.tasak.a010.sol	1	19	"oktoobri lõpus"	TIMEX DATE 2000-10 mod="END" multiword="true"	t1
+aja_pm_2000_10_04.tasak.a010.sol	1	20	"oktoobri lõpus"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a010.sol	2	0	"Neljakuuliseks"	TIMEX DURATION P4M	t2
+aja_pm_2000_10_04.tasak.a010.sol	3	7	"tuleva aasta 3. märtsil"	TIMEX DATE 2001-03-03 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a010.sol	3	8	"tuleva aasta 3. märtsil"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a010.sol	3	9	"tuleva aasta 3. märtsil"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a010.sol	3	10	"tuleva aasta 3. märtsil"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a010.sol	5	1	"Nõukogude"	TIMEX DATE PAST_REF	t4
+aja_pm_2000_10_04.tasak.a010.sol	5	2	"ajal"	TIMEX DATE PAST_REF	t5
+aja_pm_2000_10_04.tasak.a010.sol	6	0	"Nüüd"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a010.sol	6	14	"viis aastat tagasi"	TIMEX DATE 1995 multiword="true"	t7
+aja_pm_2000_10_04.tasak.a010.sol	6	15	"viis aastat tagasi"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a010.sol	6	16	"viis aastat tagasi"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a010.sol	6	22	"nüüd"	TIMEX DATE PRESENT_REF	t8
+aja_pm_2000_10_04.tasak.a010.sol	6	26	"19."	TIMEX DATE 1801	t9
+aja_pm_2000_10_04.tasak.a010.sol	6	26	"19. sajandil"	TIMEX DATE 1900 multiword="true"	t10
+aja_pm_2000_10_04.tasak.a010.sol	6	27	"19. sajandil"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a010.sol	14	10	"ühel päeval"	TIMEX DATE XXXX-XX-XX multiword="true"	t11
+aja_pm_2000_10_04.tasak.a010.sol	14	11	"ühel päeval"	TIMEX multiword="true"	t11
+aja_pm_2000_10_04.tasak.a010.sol	15	1	"Nüüd"	TIMEX DATE PRESENT_REF	t12
+aja_pm_2000_10_04.tasak.a012.sol	0	0	"Täna"	TIMEX DATE 2000-10-04	t1
+aja_pm_2000_10_04.tasak.a012.sol	4	0	"Tänavu"	TIMEX DATE 2000	t2
+aja_pm_2000_10_04.tasak.a012.sol	6	0	"Täna kell 18.45"	TIMEX DATE 2000-10-04T18:45 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a012.sol	6	1	"Täna kell 18.45"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a012.sol	6	2	"Täna kell 18.45"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a013.sol	0	6	"tänavu"	TIMEX DATE 2000	t1
+aja_pm_2000_10_04.tasak.a013.sol	11	6	"novembri keskel"	TIMEX DATE 2000-11 mod="MID" multiword="true"	t2
+aja_pm_2000_10_04.tasak.a013.sol	11	7	"novembri keskel"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a013.sol	12	2	"seni"	TIMEX DATE PRESENT_REF	t3
+aja_pm_2000_10_04.tasak.a015.sol	0	17	"praeguse"	TIMEX DATE PRESENT_REF	t1
+aja_pm_2000_10_04.tasak.a015.sol	1	10	"17."	TIMEX DATE 1601	t2
+aja_pm_2000_10_04.tasak.a015.sol	1	10	"17. sajandi"	TIMEX DATE 1700 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a015.sol	1	11	"17. sajandi"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a015.sol	1	18	"rootsiaegse"	TIMEX DATE PAST_REF	t4
+aja_pm_2000_10_04.tasak.a015.sol	1	23	"1632. aastal"	TIMEX DATE 1632 multiword="true"	t5
+aja_pm_2000_10_04.tasak.a015.sol	1	24	"1632. aastal"	TIMEX multiword="true"	t5
+aja_pm_2000_10_04.tasak.a015.sol	2	5	"praegusel"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a015.sol	4	8	"1637. aastal"	TIMEX DATE 1637 multiword="true"	t7
+aja_pm_2000_10_04.tasak.a015.sol	4	9	"1637. aastal"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a015.sol	4	23	"praegu"	TIMEX DATE PRESENT_REF	t8
+aja_pm_2000_10_04.tasak.a015.sol	5	0	"1640. aastal"	TIMEX DATE 1640 multiword="true"	t9
+aja_pm_2000_10_04.tasak.a015.sol	5	1	"1640. aastal"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a015.sol	6	3	"praegu"	TIMEX DATE PRESENT_REF	t10
+aja_pm_2000_10_04.tasak.a015.sol	7	4	"1656"	TIMEX DATE 1656 tokenSubstring="true"	t11
+aja_pm_2000_10_04.tasak.a015.sol	7	4	"1661"	TIMEX DATE 1661 tokenSubstring="true"	t12
+aja_pm_2000_10_04.tasak.a015.sol	8	11	"tolleaegses"	TIMEX DATE PAST_REF	t13
+aja_pm_2000_10_04.tasak.a015.sol	9	0	"Praegu"	TIMEX DATE PRESENT_REF	t14
+aja_pm_2000_10_04.tasak.a015.sol	11	1	"rootsiaegse"	TIMEX DATE PAST_REF	t15
+aja_pm_2000_10_04.tasak.a015.sol	11	14	"praeguse"	TIMEX DATE PRESENT_REF	t16
+aja_pm_2000_10_04.tasak.a015.sol	13	0	"1699"	TIMEX DATE 1699	t17
+aja_pm_2000_10_04.tasak.a015.sol	15	0	"1710. aastal"	TIMEX DATE 1710 multiword="true"	t18
+aja_pm_2000_10_04.tasak.a015.sol	15	1	"1710. aastal"	TIMEX multiword="true"	t18
+aja_pm_2000_10_04.tasak.a016.sol	1	0	"Laupäeva õhtul kell 23"	TIMEX DATE 2000-09-30T23 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a016.sol	1	1	"Laupäeva õhtul kell 23"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a016.sol	1	2	"Laupäeva õhtul kell 23"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a016.sol	1	3	"Laupäeva õhtul kell 23"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a016.sol	4	0	"Pühapäeva varahommikul kell 4"	TIMEX DATE 2000-10-01T04 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a016.sol	4	1	"Pühapäeva varahommikul kell 4"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a016.sol	4	2	"Pühapäeva varahommikul kell 4"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a016.sol	4	3	"Pühapäeva varahommikul kell 4"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a016.sol	7	0	"Pühapäeva hilisõhtul enne keskööd"	TIMEX DATE 2000-10-02T00 mod="BEFORE" multiword="true"	t3
+aja_pm_2000_10_04.tasak.a016.sol	7	1	"Pühapäeva hilisõhtul enne keskööd"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a016.sol	7	2	"Pühapäeva hilisõhtul enne keskööd"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a016.sol	7	3	"Pühapäeva hilisõhtul enne keskööd"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a016.sol	12	0	"Teisipäeval kell 15.44"	TIMEX DATE 2000-10-03T15:44 multiword="true"	t4
+aja_pm_2000_10_04.tasak.a016.sol	12	1	"Teisipäeval kell 15.44"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a016.sol	12	2	"Teisipäeval kell 15.44"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a016.sol	15	0	"Teisipäeval kell 16"	TIMEX DATE 2000-10-03T16 multiword="true"	t5
+aja_pm_2000_10_04.tasak.a016.sol	15	1	"Teisipäeval kell 16"	TIMEX multiword="true"	t5
+aja_pm_2000_10_04.tasak.a016.sol	15	2	"Teisipäeval kell 16"	TIMEX multiword="true"	t5
+aja_pm_2000_10_04.tasak.a016.sol	19	0	"Teisipäeval kell 18.20"	TIMEX DATE 2000-10-03T18:20 multiword="true"	t6
+aja_pm_2000_10_04.tasak.a016.sol	19	1	"Teisipäeval kell 18.20"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a016.sol	19	2	"Teisipäeval kell 18.20"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a016.sol	20	6	"pärast avariid"	TIMEX DATE 2000-10-03T18:20 mod="AFTER" multiword="true"	t7
+aja_pm_2000_10_04.tasak.a016.sol	20	7	"pärast avariid"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a016.sol	23	0	"Teisipäeval kell 18.30"	TIMEX DATE 2000-10-03T18:30 multiword="true"	t8
+aja_pm_2000_10_04.tasak.a016.sol	23	1	"Teisipäeval kell 18.30"	TIMEX multiword="true"	t8
+aja_pm_2000_10_04.tasak.a016.sol	23	2	"Teisipäeval kell 18.30"	TIMEX multiword="true"	t8
+aja_pm_2000_10_04.tasak.a016.sol	28	0	"Teisipäeval kell 19.14"	TIMEX DATE 2000-10-03T19:14 multiword="true"	t9
+aja_pm_2000_10_04.tasak.a016.sol	28	1	"Teisipäeval kell 19.14"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a016.sol	28	2	"Teisipäeval kell 19.14"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a016.sol	31	0	"Eile öösel kell 1.31"	TIMEX UNK 2000-10-04T01:31 multiword="true"	t10
+aja_pm_2000_10_04.tasak.a016.sol	31	1	"Eile öösel kell 1.31"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a016.sol	31	2	"Eile öösel kell 1.31"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a016.sol	31	3	"Eile öösel kell 1.31"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a018.sol	0	0	"Eelmistel"	TIMEX DATE PAST_REF	t1
+aja_pm_2000_10_04.tasak.a018.sol	4	0	"Omal ajal"	TIMEX DATE PAST_REF multiword="true"	t2
+aja_pm_2000_10_04.tasak.a018.sol	4	1	"Omal ajal"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a018.sol	6	0	"Tollane"	TIMEX DATE PAST_REF	t3
+aja_pm_2000_10_04.tasak.a019.sol	0	11	"praegu"	TIMEX DATE PRESENT_REF	t1
+aja_pm_2000_10_04.tasak.a019.sol	1	9	"teist aastat"	TIMEX DURATION P2Y multiword="true"	t2
+aja_pm_2000_10_04.tasak.a019.sol	1	10	"teist aastat"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a019.sol	2	3	"1992. aastal"	TIMEX DATE 1992 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a019.sol	2	4	"1992. aastal"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a019.sol	3	0	"Siis"	TIMEX DATE PAST_REF	t4
+aja_pm_2000_10_04.tasak.a019.sol	4	5	"kuus"	TIMEX DURATION PXM	t5
+aja_pm_2000_10_04.tasak.a019.sol	5	0	"Nüüd"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a019.sol	7	6	"2002. aastaks"	TIMEX DATE 2002 multiword="true"	t7
+aja_pm_2000_10_04.tasak.a019.sol	7	7	"2002. aastaks"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a019.sol	8	0	"Selleks ajaks"	TIMEX DATE FUTURE_REF multiword="true"	t8
+aja_pm_2000_10_04.tasak.a019.sol	8	1	"Selleks ajaks"	TIMEX multiword="true"	t8
+aja_pm_2000_10_04.tasak.a019.sol	9	0	"Nõukogude ajal"	TIMEX DATE PAST_REF multiword="true"	t9
+aja_pm_2000_10_04.tasak.a019.sol	9	1	"Nõukogude ajal"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a019.sol	10	0	"Nüüd"	TIMEX DATE PRESENT_REF	t10
+aja_pm_2000_10_04.tasak.a019.sol	10	6	"aasta 2002."	TIMEX DATE 2002 multiword="true"	t11
+aja_pm_2000_10_04.tasak.a019.sol	10	7	"aasta 2002."	TIMEX multiword="true"	t11
+aja_pm_2000_10_04.tasak.a019.sol	11	0	"19. septembril"	TIMEX DATE 2000-09-19 multiword="true"	t12
+aja_pm_2000_10_04.tasak.a019.sol	11	1	"19. septembril"	TIMEX multiword="true"	t12
+aja_pm_2000_10_04.tasak.a021.sol	0	0	"Tänavu"	TIMEX DATE 2000	t1
+aja_pm_2000_10_04.tasak.a021.sol	13	10	"ühel päeval"	TIMEX DATE XXXX-XX-XX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a021.sol	13	11	"ühel päeval"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a025.sol	1	12	"sel aastal"	TIMEX DATE 2000 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a025.sol	1	13	"sel aastal"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a025.sol	7	3	"möödunud aastal"	TIMEX DATE 1999 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a025.sol	7	4	"möödunud aastal"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a025.sol	7	13	"selle aasta"	TIMEX DATE 2000 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a025.sol	7	14	"selle aasta"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a025.sol	8	7	"aastast"	TIMEX DATE XXXX	t4
+aja_pm_2000_10_04.tasak.a025.sol	8	8	"aastasse"	TIMEX DATE XXXX	t5
+aja_pm_2000_10_04.tasak.a025.sol	9	17	"aasta lõpuks"	TIMEX DATE XXXX mod="END" multiword="true"	t6
+aja_pm_2000_10_04.tasak.a025.sol	9	18	"aasta lõpuks"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a028.sol	3	9	"üle kahe nädala"	TIMEX DURATION P2W mod=MORE_THAN multiword="true"	t1
+aja_pm_2000_10_04.tasak.a028.sol	3	10	"üle kahe nädala"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a028.sol	3	11	"üle kahe nädala"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a028.sol	4	0	"Pühapäeval"	TIMEX DATE 2000-10-01	t2
+aja_pm_2000_10_04.tasak.a028.sol	6	5	"kuus kuud"	TIMEX DURATION P6M multiword="true"	t3
+aja_pm_2000_10_04.tasak.a028.sol	6	6	"kuus kuud"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a028.sol	6	7	"aastail"	TIMEX DATE 1936	t4
+aja_pm_2000_10_04.tasak.a028.sol	6	7	"aastail 1936-1937"	TIMEX DATE 1937 multiword="true"	t5
+aja_pm_2000_10_04.tasak.a028.sol	6	8	"aastail 1936-1937"	TIMEX multiword="true"	t5
+aja_pm_2000_10_04.tasak.a028.sol	7	3	"1960.-1970."	TIMEX DATE 1960	t6
+aja_pm_2000_10_04.tasak.a028.sol	7	3	"1960.-1970. aastatel"	TIMEX DATE 1980 mod="BEFORE" multiword="true"	t7
+aja_pm_2000_10_04.tasak.a028.sol	7	4	"1960.-1970. aastatel"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a028.sol	7	10	"tolleaegse"	TIMEX DATE 1960	t8
+aja_pm_2000_10_04.tasak.a028.sol	7	10	"tolleaegse"	TIMEX DATE 1980 mod="BEFORE"	t9
+aja_pm_2000_10_04.tasak.a028.sol	8	12	"1953. aastal"	TIMEX DATE 1953 multiword="true"	t10
+aja_pm_2000_10_04.tasak.a028.sol	8	13	"1953. aastal"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a028.sol	8	18	"paari kuu"	TIMEX DURATION PXM multiword="true"	t11
+aja_pm_2000_10_04.tasak.a028.sol	8	19	"paari kuu"	TIMEX multiword="true"	t11
+aja_pm_2000_10_04.tasak.a028.sol	9	0	"Õige pea"	TIMEX DATE 1953 comment="kas peaks kuidagi teisiti märgendama selle?" multiword="true"	t12
+aja_pm_2000_10_04.tasak.a028.sol	9	1	"Õige pea"	TIMEX multiword="true"	t12
+aja_pm_2000_10_04.tasak.a028.sol	10	5	"nüüd"	TIMEX DATE PRESENT_REF	t13
+aja_pm_2000_10_04.tasak.a029.sol	3	0	"1992. aastal"	TIMEX DATE 1992 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a029.sol	3	1	"1992. aastal"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a029.sol	4	0	"Pooleteise aasta pärast"	TIMEX DATE 2002-04 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a029.sol	4	1	"Pooleteise aasta pärast"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a029.sol	4	2	"Pooleteise aasta pärast"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a029.sol	11	8	"viimasel aastal"	TIMEX DATE 2000 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a029.sol	11	9	"viimasel aastal"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a029.sol	12	0	"Augusti algul"	TIMEX DATE 2000-08 mod="START" multiword="true"	t4
+aja_pm_2000_10_04.tasak.a029.sol	12	1	"Augusti algul"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a029.sol	12	3	"tänavusel"	TIMEX UNK 2000	t5
+aja_pm_2000_10_04.tasak.a029.sol	13	4	"16. novembril"	TIMEX DATE 2000-11-16 multiword="true"	t6
+aja_pm_2000_10_04.tasak.a029.sol	13	5	"16. novembril"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a029.sol	16	3	"200-aastase"	TIMEX DURATION P200Y	t7
+aja_pm_2000_10_04.tasak.a029.sol	17	15	"1950."	TIMEX DATE 1950	t8
+aja_pm_2000_10_04.tasak.a029.sol	17	18	"1980. aastatest"	TIMEX DATE 1980 multiword="true"	t9
+aja_pm_2000_10_04.tasak.a029.sol	17	19	"1980. aastatest"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a030.sol	0	2	"eile"	TIMEX DATE 2000-10-03	t1
+aja_pm_2000_10_04.tasak.a030.sol	6	5	"varem"	TIMEX DATE PAST_REF	t2
+aja_pm_2000_10_04.tasak.a030.sol	7	18	"siiani"	TIMEX DATE PRESENT_REF	t3
+aja_pm_2000_10_04.tasak.a030.sol	8	4	"hetkel"	TIMEX DATE PRESENT_REF	t4
+aja_pm_2000_10_04.tasak.a030.sol	9	5	"lähiajal"	TIMEX DATE FUTURE_REF	t5
+aja_pm_2000_10_04.tasak.a030.sol	10	1	"Seni"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a030.sol	10	6	"kaheksa aastat"	TIMEX DURATION P8Y multiword="true"	t7
+aja_pm_2000_10_04.tasak.a030.sol	10	7	"kaheksa aastat"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a030.sol	11	5	"kevadel"	TIMEX DATE 2000-SP	t8
+aja_pm_2000_10_04.tasak.a030.sol	12	0	"Septembri keskel"	TIMEX DATE 2000-09 mod="MID" multiword="true"	t9
+aja_pm_2000_10_04.tasak.a030.sol	12	1	"Septembri keskel"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a030.sol	12	6	"kevadisi"	TIMEX DATE 2000-SP	t10
+aja_pm_2000_10_04.tasak.a030.sol	13	1	"Kevadise"	TIMEX DATE 2000-SP	t11
+aja_pm_2000_10_04.tasak.a030.sol	13	18	"talvel"	TIMEX DATE XXXX-WI	t12
+aja_pm_2000_10_04.tasak.a030.sol	14	3	"varem"	TIMEX DATE PAST_REF	t13
+aja_pm_2000_10_04.tasak.a030.sol	16	21	"lähiajal"	TIMEX DATE FUTURE_REF	t14
+aja_pm_2000_10_04.tasak.a030.sol	18	3	"lähipäevadel"	TIMEX DATE FUTURE_REF	t15
+aja_pm_2000_10_04.tasak.a030.sol	19	14	"mitu aastat"	TIMEX DURATION PXY multiword="true"	t16
+aja_pm_2000_10_04.tasak.a030.sol	19	15	"mitu aastat"	TIMEX multiword="true"	t16
+aja_pm_2000_10_04.tasak.a030.sol	20	6	"praegune"	TIMEX DATE PRESENT_REF	t17
+aja_pm_2000_10_04.tasak.a031.sol	0	1	"eile"	TIMEX DATE 2000-10-03	t1
+aja_pm_2000_10_04.tasak.a031.sol	0	7	"edaspidi"	TIMEX DATE FUTURE_REF	t2
+aja_pm_2000_10_04.tasak.a031.sol	11	1	"Seni"	TIMEX DATE PRESENT_REF	t3
+aja_pm_2000_10_04.tasak.a031.sol	13	1	"Kahe aasta taguste"	TIMEX DATE 1998 multiword="true"	t4
+aja_pm_2000_10_04.tasak.a031.sol	13	2	"Kahe aasta taguste"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a031.sol	13	3	"Kahe aasta taguste"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a031.sol	13	21	"aastas"	TIMEX SET P1Y	t5
+aja_pm_2000_10_04.tasak.a031.sol	15	0	"Praegu"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a033.sol	0	5	"eelmisel kuul"	TIMEX DATE 2000-09 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a033.sol	0	6	"eelmisel kuul"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a033.sol	2	2	"septembris"	TIMEX DATE 2000-09	t2
+aja_pm_2000_10_04.tasak.a033.sol	5	0	"Üheksa kuuga"	TIMEX DURATION P9M multiword="true"	t3
+aja_pm_2000_10_04.tasak.a033.sol	5	1	"Üheksa kuuga"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a033.sol	6	3	"hetkel"	TIMEX DATE PRESENT_REF	t4
+aja_pm_2000_10_04.tasak.a033.sol	8	0	"Aasta"	TIMEX DATE 2000	t5
+aja_pm_2000_10_04.tasak.a033.sol	8	3	"üheksa kuuga"	TIMEX DURATION P9M multiword="true"	t6
+aja_pm_2000_10_04.tasak.a033.sol	8	4	"üheksa kuuga"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a033.sol	9	1	"eelmise aasta septembriga"	TIMEX DATE 1999-09 multiword="true"	t7
+aja_pm_2000_10_04.tasak.a033.sol	9	2	"eelmise aasta septembriga"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a033.sol	9	3	"eelmise aasta septembriga"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a033.sol	9	6	"üheksa kuu"	TIMEX DURATION P9M multiword="true"	t8
+aja_pm_2000_10_04.tasak.a033.sol	9	7	"üheksa kuu"	TIMEX multiword="true"	t8
+aja_pm_2000_10_04.tasak.a033.sol	10	0	"Möödunud kuul"	TIMEX DATE 2000-09 multiword="true"	t9
+aja_pm_2000_10_04.tasak.a033.sol	10	1	"Möödunud kuul"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a033.sol	12	1	"järgmisel kuul"	TIMEX DATE 2000-11 multiword="true"	t10
+aja_pm_2000_10_04.tasak.a033.sol	12	2	"järgmisel kuul"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a033.sol	13	0	"Septembris"	TIMEX DATE 2000-09	t11
+aja_pm_2000_10_04.tasak.a033.sol	15	10	"septembri viimastel päevadel"	TIMEX DATE 2000-09 mod="END" multiword="true"	t12
+aja_pm_2000_10_04.tasak.a033.sol	15	11	"septembri viimastel päevadel"	TIMEX multiword="true"	t12
+aja_pm_2000_10_04.tasak.a033.sol	15	12	"septembri viimastel päevadel"	TIMEX multiword="true"	t12
+aja_pm_2000_10_04.tasak.a033.sol	15	29	"oktoobris"	TIMEX DATE 2000-10	t13
+aja_pm_2000_10_04.tasak.a033.sol	16	0	"Möödunud kuul"	TIMEX DATE 2000-09 multiword="true"	t14
+aja_pm_2000_10_04.tasak.a033.sol	16	1	"Möödunud kuul"	TIMEX multiword="true"	t14
+aja_pm_2000_10_04.tasak.a042.sol	0	2	"täna"	TIMEX DATE 2000-10-04	t1
+aja_pm_2000_10_04.tasak.a042.sol	2	5	"24. septembril"	TIMEX DATE 2000-09-24 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a042.sol	2	6	"24. septembril"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a042.sol	3	0	"Esmaspäeva õhtul"	TIMEX DATE 2000-10-02TEV multiword="true"	t3
+aja_pm_2000_10_04.tasak.a042.sol	3	1	"Esmaspäeva õhtul"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a042.sol	3	7	"mullu 12. oktoobril"	TIMEX DATE 1999-10-12 multiword="true"	t4
+aja_pm_2000_10_04.tasak.a042.sol	3	8	"mullu 12. oktoobril"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a042.sol	3	9	"mullu 12. oktoobril"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a042.sol	5	13	"praegu"	TIMEX DATE PRESENT_REF	t5
+aja_pm_2000_10_04.tasak.a042.sol	7	6	"eile"	TIMEX DATE 2000-10-03	t6
+aja_pm_2000_10_04.tasak.a042.sol	8	4	"eile"	TIMEX DATE 2000-10-03	t7
+aja_pm_2000_10_04.tasak.a042.sol	12	1	"Juulis 1999"	TIMEX DATE 1999-07 multiword="true"	t8
+aja_pm_2000_10_04.tasak.a042.sol	12	2	"Juulis 1999"	TIMEX multiword="true"	t8
+aja_pm_2000_10_04.tasak.a042.sol	13	18	"aprillis"	TIMEX DATE 2000-04	t9
+aja_pm_2000_10_04.tasak.a042.sol	16	0	"Ligi kaks kuud hiljem"	TIMEX DATE FUTURE_REF mod="LESS_THAN" comment="kas siin peaks kuidagi seda anchorTimeID-d kasutama? kui konkreetsem ajaväljend on üleüleüleüleeelmises lauses..." multiword="true"	t10
+aja_pm_2000_10_04.tasak.a042.sol	16	1	"Ligi kaks kuud hiljem"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a042.sol	16	2	"Ligi kaks kuud hiljem"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a042.sol	16	3	"Ligi kaks kuud hiljem"	TIMEX multiword="true"	t10
+aja_pm_2000_10_04.tasak.a042.sol	21	4	"praegu"	TIMEX DATE PRESENT_REF	t11
+aja_pm_2000_10_04.tasak.a042.sol	22	11	"seni"	TIMEX DATE PRESENT_REF	t12
+aja_pm_2000_10_04.tasak.a042.sol	35	4	"aasta"	TIMEX DURATION P1Y	t13
+aja_pm_2000_10_04.tasak.a042.sol	36	3	"kohe"	TIMEX DATE FUTURE_REF	t14
+aja_pm_2000_10_04.tasak.a042.sol	46	4	"tollal"	TIMEX DATE PAST_REF	t15
+aja_pm_2000_10_04.tasak.a042.sol	49	0	"Kaks kuud"	TIMEX DURATION P2M multiword="true"	t16
+aja_pm_2000_10_04.tasak.a042.sol	49	1	"Kaks kuud"	TIMEX multiword="true"	t16
+aja_pm_2000_10_04.tasak.a044.sol	0	8	"eile"	TIMEX DATE 2000-10-03	t1
+aja_pm_2000_10_04.tasak.a044.sol	3	0	"Päev varem"	TIMEX DATE 2000-10-02 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a044.sol	3	1	"Päev varem"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a044.sol	5	11	"pärast eilset"	TIMEX DATE 2000-10-03 multiword="true"	t3
+aja_pm_2000_10_04.tasak.a044.sol	5	12	"pärast eilset"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a044.sol	6	13	"kolme aasta tagusele"	TIMEX DATE 1997 multiword="true"	t4
+aja_pm_2000_10_04.tasak.a044.sol	6	14	"kolme aasta tagusele"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a044.sol	6	15	"kolme aasta tagusele"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a046.sol	1	6	"tuleval nädalal"	TIMEX DATE 2000-W41 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a046.sol	1	7	"tuleval nädalal"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a046.sol	3	7	"kahel päeval nädalas"	TIMEX SET P1W freq="2D" comment="kas selline märgendus on korrektne?" multiword="true"	t2
+aja_pm_2000_10_04.tasak.a046.sol	3	8	"kahel päeval nädalas"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a046.sol	3	9	"kahel päeval nädalas"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a046.sol	3	14	"teistel päevadel"	TIMEX SET P1W freq="5D" multiword="true"	t3
+aja_pm_2000_10_04.tasak.a046.sol	3	15	"teistel päevadel"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a046.sol	4	5	"12. oktoobril"	TIMEX DATE 2000-10-12 multiword="true"	t4
+aja_pm_2000_10_04.tasak.a046.sol	4	6	"12. oktoobril"	TIMEX multiword="true"	t4
+aja_pm_2000_10_04.tasak.a046.sol	4	12	"õhtuti"	TIMEX SET XXXX-XX-XXTEV	t5
+aja_pm_2000_10_04.tasak.a046.sol	4	14	"alates 16. oktoobrist"	TIMEX DATE 2000-10-16 mod="ON_OR_AFTER" multiword="true"	t6
+aja_pm_2000_10_04.tasak.a046.sol	4	15	"alates 16. oktoobrist"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a046.sol	4	16	"alates 16. oktoobrist"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a046.sol	5	4	"tund aega"	TIMEX DURATION PT1H multiword="true"	t7
+aja_pm_2000_10_04.tasak.a046.sol	5	5	"tund aega"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a046.sol	7	11	"tunniajase"	TIMEX DURATION PT1H	t8
+aja_pm_2000_10_04.tasak.a046.sol	8	4	"praegu"	TIMEX DATE PRESENT_REF	t9
+aja_pm_2000_10_04.tasak.a046.sol	11	11	"õhtused"	TIMEX SET XXXX-XX-XXTEV	t10
+aja_pm_2000_10_04.tasak.a046.sol	12	3	"hommikuti"	TIMEX SET XXXX-XX-XXTMO	t11
+aja_pm_2000_10_04.tasak.a046.sol	12	16	"tunniajase"	TIMEX DURATION PT1H	t12
+aja_pm_2000_10_04.tasak.a046.sol	14	0	"Hetkel"	TIMEX DATE PRESENT_REF	t13
+aja_pm_2000_10_04.tasak.a046.sol	14	16	"täna"	TIMEX DATE 2000-10-04	t14
+aja_pm_2000_10_04.tasak.a047.sol	0	17	"selle kuu lõpuks"	TIMEX DATE 2000-10 mod="END" multiword="true"	t1
+aja_pm_2000_10_04.tasak.a047.sol	0	18	"selle kuu lõpuks"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a047.sol	0	19	"selle kuu lõpuks"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a047.sol	1	8	"seni"	TIMEX DATE PRESENT_REF	t2
+aja_pm_2000_10_04.tasak.a047.sol	2	1	"Praegu"	TIMEX DATE PRESENT_REF	t3
+aja_pm_2000_10_04.tasak.a047.sol	3	8	"tänaseks"	TIMEX DATE PRESENT_REF	t4
+aja_pm_2000_10_04.tasak.a047.sol	5	5	"nüüd"	TIMEX DATE PRESENT_REF	t5
+aja_pm_2000_10_04.tasak.a047.sol	5	16	"septembri lõpuks"	TIMEX DATE 2000-09 mod="END" multiword="true"	t6
+aja_pm_2000_10_04.tasak.a047.sol	5	17	"septembri lõpuks"	TIMEX multiword="true"	t6
+aja_pm_2000_10_04.tasak.a047.sol	5	25	"nüüd"	TIMEX DATE PRESENT_REF	t7
+aja_pm_2000_10_04.tasak.a047.sol	6	8	"praegu"	TIMEX DATE PRESENT_REF	t8
+aja_pm_2000_10_04.tasak.a047.sol	7	11	"selle aastanumbri sees"	TIMEX DATE 2000 multiword="true"	t9
+aja_pm_2000_10_04.tasak.a047.sol	7	12	"selle aastanumbri sees"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a047.sol	7	13	"selle aastanumbri sees"	TIMEX multiword="true"	t9
+aja_pm_2000_10_04.tasak.a047.sol	8	7	"oktoobrikuuga"	TIMEX DATE 2000-10	t10
+aja_pm_2000_10_04.tasak.a047.sol	9	2	"suvel"	TIMEX DATE 2000-SU	t11
+aja_pm_2000_10_04.tasak.a052.sol	1	20	"terve eluaeg"	TIMEX DURATION PXY multiword="true"	t1
+aja_pm_2000_10_04.tasak.a052.sol	1	21	"terve eluaeg"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a052.sol	3	17	"28. septembri"	TIMEX DATE 2000-09-28 multiword="true"	t2
+aja_pm_2000_10_04.tasak.a052.sol	3	18	"28. septembri"	TIMEX multiword="true"	t2
+aja_pm_2000_10_04.tasak.a052.sol	11	0	"Referendumijärgsel hommikul"	TIMEX DATE 2000-09-29TMO multiword="true"	t3
+aja_pm_2000_10_04.tasak.a052.sol	11	1	"Referendumijärgsel hommikul"	TIMEX multiword="true"	t3
+aja_pm_2000_10_04.tasak.a053.sol	1	13	"kümne aasta eest"	TIMEX DATE 1990 multiword="true"	t1
+aja_pm_2000_10_04.tasak.a053.sol	1	14	"kümne aasta eest"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a053.sol	1	15	"kümne aasta eest"	TIMEX multiword="true"	t1
+aja_pm_2000_10_04.tasak.a053.sol	7	9	"praegu"	TIMEX DATE PRESENT_REF	t2
+aja_pm_2000_10_04.tasak.a053.sol	8	4	"eile"	TIMEX DATE 2000-10-03	t3
+aja_pm_2000_10_04.tasak.a053.sol	11	6	"eile"	TIMEX DATE 2000-10-03	t4
+aja_pm_2000_10_04.tasak.a053.sol	12	2	"1989. aastal"	TIMEX DATE 1989 multiword="true"	t5
+aja_pm_2000_10_04.tasak.a053.sol	12	3	"1989. aastal"	TIMEX multiword="true"	t5
+aja_pm_2000_10_04.tasak.a053.sol	13	1	"praegune"	TIMEX DATE PRESENT_REF	t6
+aja_pm_2000_10_04.tasak.a053.sol	13	22	"omal ajal"	TIMEX DATE PAST_REF multiword="true"	t7
+aja_pm_2000_10_04.tasak.a053.sol	13	23	"omal ajal"	TIMEX multiword="true"	t7
+aja_pm_2000_10_04.tasak.a053.sol	14	0	"Eile"	TIMEX DATE 2000-10-03	t8
+aja_pm_2000_10_04.tasak.a053.sol	15	5	"Täna"	TIMEX DATE 2000-10-03	t9
+aja_sloleht_2007_12_17.tasak.a002.sol	3	4	"enne euro tulekut"	TIMEX DATE PAST_REF multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a002.sol	3	5	"enne euro tulekut"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a002.sol	3	6	"enne euro tulekut"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	1	"kaks nädalat enne oma traagilist surma"	TIMEX DATE 1997-W33 multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	2	"kaks nädalat enne oma traagilist surma"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	3	"kaks nädalat enne oma traagilist surma"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	4	"kaks nädalat enne oma traagilist surma"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	5	"kaks nädalat enne oma traagilist surma"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	2	6	"kaks nädalat enne oma traagilist surma"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a003.sol	7	20	"Nüüd"	TIMEX DATE PRESENT_REF	t2
+aja_sloleht_2007_12_17.tasak.a003.sol	9	10	"1997. aasta suvel"	TIMEX DATE 1997-SU multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a003.sol	9	11	"1997. aasta suvel"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a003.sol	9	12	"1997. aasta suvel"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a003.sol	9	14	"mõni kuu enne printsessi surma"	TIMEX DATE 1997-Q2 multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a003.sol	9	15	"mõni kuu enne printsessi surma"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a003.sol	9	16	"mõni kuu enne printsessi surma"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a003.sol	9	17	"mõni kuu enne printsessi surma"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a003.sol	9	18	"mõni kuu enne printsessi surma"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a003.sol	10	8	"hiljemalt aasta pärast"	TIMEX DURATION P1Y mod="EQUAL_OR_LESS" multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a003.sol	10	9	"hiljemalt aasta pärast"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a003.sol	10	10	"hiljemalt aasta pärast"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a003.sol	13	6	"1995. aastal"	TIMEX DATE 1995 multiword="true"	t6
+aja_sloleht_2007_12_17.tasak.a003.sol	13	7	"1995. aastal"	TIMEX multiword="true"	t6
+aja_sloleht_2007_12_17.tasak.a003.sol	16	0	"Praegu"	TIMEX DATE PRESENT_REF	t7
+aja_sloleht_2007_12_17.tasak.a003.sol	16	6	"paar kuud tagasi"	TIMEX DATE 2007-Q4 multiword="true"	t8
+aja_sloleht_2007_12_17.tasak.a003.sol	16	7	"paar kuud tagasi"	TIMEX multiword="true"	t8
+aja_sloleht_2007_12_17.tasak.a003.sol	16	8	"paar kuud tagasi"	TIMEX multiword="true"	t8
+aja_sloleht_2007_12_17.tasak.a003.sol	23	10	"varem"	TIMEX DATE PAST_REF	t9
+aja_sloleht_2007_12_17.tasak.a003.sol	24	1	"Praegu"	TIMEX DATE PRESENT_REF	t10
+aja_sloleht_2007_12_17.tasak.a003.sol	25	4	"kolm päeva enne õnnetust"	TIMEX DATE 1997-08-28 multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a003.sol	25	5	"kolm päeva enne õnnetust"	TIMEX multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a003.sol	25	6	"kolm päeva enne õnnetust"	TIMEX multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a003.sol	25	7	"kolm päeva enne õnnetust"	TIMEX multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a005.sol	0	0	"Eile varahommikul"	TIMEX DATE 2007-12-16TMO multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a005.sol	0	1	"Eile varahommikul"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a005.sol	2	10	"kella kahe ajal öösel"	TIMEX DATE 2007-12-16T02:00 mod="APPROX" multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a005.sol	2	11	"kella kahe ajal öösel"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a005.sol	2	12	"kella kahe ajal öösel"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a005.sol	2	13	"kella kahe ajal öösel"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a005.sol	2	17	"mitu tundi"	TIMEX DURATION PTXH multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a005.sol	2	18	"mitu tundi"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a005.sol	6	13	"lähinädalatel"	TIMEX DATE 2007-12	t4
+aja_sloleht_2007_12_17.tasak.a005.sol	8	0	"Varem"	TIMEX DATE PAST_REF	t5
+aja_sloleht_2007_12_17.tasak.a006.sol	0	0	"Sel nädalal"	TIMEX DATE 2007-W51 multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a006.sol	0	1	"Sel nädalal"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a006.sol	1	6	"tulevikus"	TIMEX DATE FUTURE_REF	t2
+aja_sloleht_2007_12_17.tasak.a006.sol	1	11	"senise"	TIMEX DATE PRESENT_REF	t3
+aja_sloleht_2007_12_17.tasak.a006.sol	1	12	"kuue kuu"	TIMEX DURATION P6M multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a006.sol	1	13	"kuue kuu"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a006.sol	1	16	"kolm kuud"	TIMEX DURATION P3M multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a006.sol	1	17	"kolm kuud"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a006.sol	4	0	"Praegu"	TIMEX DATE PRESENT_REF	t6
+aja_sloleht_2007_12_17.tasak.a006.sol	4	10	"aastas"	TIMEX SET P1Y	t7
+aja_sloleht_2007_12_17.tasak.a009.sol	4	5	"nädalavahetuse"	TIMEX DATE 2007-W50-WE	t1
+aja_sloleht_2007_12_17.tasak.a009.sol	5	1	"Detsembrikuu"	TIMEX DATE 2007-12	t2
+aja_sloleht_2007_12_17.tasak.a009.sol	7	16	"hiljuti"	TIMEX DATE PAST_REF	t3
+aja_sloleht_2007_12_17.tasak.a009.sol	12	4	"eelmise päeva"	TIMEX DATE 2007-12-15 multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a009.sol	12	5	"eelmise päeva"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a009.sol	13	4	"laupäeval"	TIMEX DATE 2007-12-15	t5
+aja_sloleht_2007_12_17.tasak.a009.sol	18	5	"neljapäevaks"	TIMEX DATE 2007-12-20	t6
+aja_sloleht_2007_12_17.tasak.a009.sol	19	2	"nädalaks"	TIMEX DURATION P1W	t7
+aja_sloleht_2007_12_17.tasak.a009.sol	19	7	"reedeks"	TIMEX DATE 2007-12-21	t8
+aja_sloleht_2007_12_17.tasak.a010.sol	1	6	"eile"	TIMEX DATE 2007-12-16	t1
+aja_sloleht_2007_12_17.tasak.a010.sol	5	3	"12 sekundit"	TIMEX DURATION PT12S comment="kas sekundeid saab märkida nii?" multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a010.sol	5	4	"12 sekundit"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a010.sol	6	1	"kaks sekundit"	TIMEX DURATION PT2S comment="sekundite märkimine?" multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a010.sol	6	2	"kaks sekundit"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a010.sol	8	0	"Laupäeval"	TIMEX DATE 2007-12-15	t4
+aja_sloleht_2007_12_17.tasak.a015.sol	0	7	"mullune"	TIMEX DATE 2006	t1
+aja_sloleht_2007_12_17.tasak.a019.sol	0	4	"üleeilset"	TIMEX DATE 2007-12-15	t1
+aja_sloleht_2007_12_17.tasak.a019.sol	1	22	"kümme päeva"	TIMEX DURATION P10D multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a019.sol	1	23	"kümme päeva"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a020.sol	3	11	"49,38"	TIMEX DURATION PT0H49M comment="sekundid?"	t1
+aja_sloleht_2007_12_17.tasak.a020.sol	4	3	"2.31"	TIMEX DURATION PT2H31M	t2
+aja_sloleht_2007_12_17.tasak.a023.sol	1	4	"aastaks"	TIMEX DURATION P1Y	t1
+aja_sloleht_2007_12_17.tasak.a023.sol	1	12	"eilses"	TIMEX DATE 2007-12-16	t2
+aja_sloleht_2007_12_17.tasak.a023.sol	1	20	"Reedese"	TIMEX DATE 2007-12-14	t3
+aja_sloleht_2007_12_17.tasak.a023.sol	2	5	"nädalatagust"	TIMEX DATE 2007-12-10	t4
+aja_sloleht_2007_12_17.tasak.a023.sol	2	32	"nüüd"	TIMEX DATE PRESENT_REF	t5
+aja_sloleht_2007_12_17.tasak.a023.sol	3	24	"eile"	TIMEX DATE 2007-12-16	t6
+aja_sloleht_2007_12_17.tasak.a023.sol	4	11	"nüüd"	TIMEX DATE PRESENT_REF	t7
+aja_sloleht_2007_12_17.tasak.a023.sol	6	1	"Nüüd"	TIMEX DATE PRESENT_REF	t8
+aja_sloleht_2007_12_17.tasak.a023.sol	9	14	"eile"	TIMEX DATE 2007-12-16	t9
+aja_sloleht_2007_12_17.tasak.a023.sol	13	0	"Kolme aasta eest"	TIMEX DATE 2004 multiword="true"	t10
+aja_sloleht_2007_12_17.tasak.a023.sol	13	1	"Kolme aasta eest"	TIMEX multiword="true"	t10
+aja_sloleht_2007_12_17.tasak.a023.sol	13	2	"Kolme aasta eest"	TIMEX multiword="true"	t10
+aja_sloleht_2007_12_17.tasak.a039.sol	0	0	"Jüripäeva hommikul"	TIMEX DATE 2007-04-23TMO multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a039.sol	0	1	"Jüripäeva hommikul"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a039.sol	0	20	"tunni aja pärast"	TIMEX DURATION PT1H multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a039.sol	0	21	"tunni aja pärast"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a039.sol	0	22	"tunni aja pärast"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a039.sol	3	4	"esmaspäeva varahommikul"	TIMEX DATE 2007-04-23TMO multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a039.sol	3	5	"esmaspäeva varahommikul"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a039.sol	4	3	"4.45"	TIMEX DATE 2008-04-23T04:45	t4
+aja_sloleht_2007_12_17.tasak.a039.sol	8	3	"viie minuti pärast"	TIMEX DATE 2007-04-23T04:50 multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a039.sol	8	4	"viie minuti pärast"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a039.sol	8	5	"viie minuti pärast"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a039.sol	11	2	"5.35"	TIMEX DATE 2007-04-23T05:35	t6
+aja_sloleht_2007_12_17.tasak.a039.sol	11	9	"45 minutit"	TIMEX DURATION PT45M multiword="true"	t7
+aja_sloleht_2007_12_17.tasak.a039.sol	11	10	"45 minutit"	TIMEX multiword="true"	t7
+aja_sloleht_2007_12_17.tasak.a039.sol	14	0	"Praegu"	TIMEX DATE PRESENT_REF	t8
+aja_sloleht_2007_12_17.tasak.a039.sol	30	3	"ülemöödunud nädalal"	TIMEX DATE 2007-W49 multiword="true"	t9
+aja_sloleht_2007_12_17.tasak.a039.sol	30	4	"ülemöödunud nädalal"	TIMEX multiword="true"	t9
+aja_sloleht_2007_12_17.tasak.a039.sol	31	4	"algusest peale"	TIMEX DATE 2007-04-23 multiword="true"	t10
+aja_sloleht_2007_12_17.tasak.a039.sol	31	5	"algusest peale"	TIMEX multiword="true"	t10
+aja_sloleht_2007_12_17.tasak.a039.sol	33	15	"ühel päeval"	TIMEX DATE 2007-XX-XX multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a039.sol	33	16	"ühel päeval"	TIMEX multiword="true"	t11
+aja_sloleht_2007_12_17.tasak.a040.sol	0	0	"Kolmapäevaõhtuses"	TIMEX DATE 2007-12-12TEV	t1
+aja_sloleht_2007_12_17.tasak.a040.sol	2	13	"kolmapäeva õhtul"	TIMEX DATE 2007-12-12TEV multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a040.sol	2	14	"kolmapäeva õhtul"	TIMEX multiword="true"	t2
+aja_sloleht_2007_12_17.tasak.a040.sol	3	8	"teist aastat"	TIMEX DURATION P2Y comment="kas on ikka duration?" multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a040.sol	3	9	"teist aastat"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a040.sol	4	9	"tund aega"	TIMEX DURATION PT1H multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a040.sol	4	10	"tund aega"	TIMEX multiword="true"	t4
+aja_sloleht_2007_12_17.tasak.a040.sol	16	8	"nädala keskpaigani"	TIMEX DATE 2007-12-W51 mod="MID" multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a040.sol	16	9	"nädala keskpaigani"	TIMEX multiword="true"	t5
+aja_sloleht_2007_12_17.tasak.a040.sol	17	0	"Eile"	TIMEX DATE 2007-12-16	t6
+aja_sloleht_2007_12_17.tasak.a040.sol	17	7	"homme"	TIMEX DATE 2007-12-18	t7
+aja_sloleht_2007_12_17.tasak.a040.sol	17	14	"kolmapäeval"	TIMEX DATE 2007-12-19	t8
+aja_sloleht_2007_12_17.tasak.a043.sol	0	10	"eile pärastlõunal"	TIMEX DATE 2007-12-16TAF multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a043.sol	0	11	"eile pärastlõunal"	TIMEX multiword="true"	t1
+aja_sloleht_2007_12_17.tasak.a043.sol	0	21	"tänavused"	TIMEX DATE 2007	t2
+aja_sloleht_2007_12_17.tasak.a043.sol	1	14	"tänavu"	TIMEX DATE 2007	t3
+aja_sloleht_2007_12_17.tasak.a043.sol	2	8	"2008."	TIMEX DATE 2008	t4
+aja_sloleht_2007_12_17.tasak.a043.sol	2	9	"aastal"	TIMEX DATE 2008	t5
+aja_sloleht_2007_12_17.tasak.a047.sol	0	0	"Reedeses"	TIMEX DATE 2007-12-14	t1
+aja_sloleht_2007_12_17.tasak.a047.sol	1	0	"Äsja"	TIMEX DATE PAST_REF	t2
+aja_sloleht_2007_12_17.tasak.a047.sol	1	20	"1936. aasta"	TIMEX DATE 1936 multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a047.sol	1	21	"1936. aasta"	TIMEX multiword="true"	t3
+aja_sloleht_2007_12_17.tasak.a047.sol	4	5	"toonane"	TIMEX DATE PAST_REF	t4
+aja_sloleht_2007_12_17.tasak.a051.sol	7	5	"novembrikuist"	TIMEX DATE 2007-11	t1

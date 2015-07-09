@@ -60,16 +60,11 @@
          'A bus driver [saved] a person who was [trapped] in a burning car alongside 
           the road.'
 
-         EVENT [p‰‰stis]    AFTER          EVENT [trapped]
+         EVENT [p‰‰stis]    AFTER          EVENT [j‰‰nud]
          
   Following TLINK relation types are used: BEFORE, BEFORE-OR-OVERLAP,
  SIMULTANEOUS, IS_INCLUDED, INCLUDES, OVERLAP-OR-AFTER, AFTER, IDENTITY, 
  VAGUE. 
-
-   In addition to final TLINK annotations, the corpus also contains initial TLINK 
- annotations provided by three different annotators (A, B, C). Each file was initially 
- annotated by two annotators and the final decision on the relations was made by a 
- judge;
 
 ==============================
   Accessing/Exploring corpus
@@ -219,11 +214,29 @@
         relations);
          Events are given by their IDs;
 
-  Note: In case of TLINK annotations, the corpus contains both annotations 
- initially provided by 3 annotators (tlink-* files with endings .ann-a, .ann-b, 
- .ann-c), and annotations corrected/adjudicated by the judge (tlink-* files 
- without endings). Each article has been annotated by two annotators, and 
- corrected by the judge.
+  Note: Files with endings .ann-a, .ann-b, .ann-c represent the initial annotations 
+ provided by 3 annotators. See below for details.
+
+==============================
+  Different annotators
+==============================
+
+   In addition to final annotations (annotations corrected by the judge), the corpus 
+ also contains initial annotations provided by three different annotators (A, B, C). 
+ Each file was initially annotated by two annotators and the final decision/correction 
+ of the annotations was made by the judge;
+ 
+   The annotations corrected by the judge (which represent the gold standard part 
+ of the corpus) have no specific file endings, while the annotations initially 
+ provided by 3 annotators are marked with file endings .ann-a, .ann-b, .ann-c
+ 
+   All TLINK annotations (in tlink-* files) are based on the event and timex
+ annotations corrected by the judge (files "event-annotation", "timex-annotation").
+ 
+   EVENT and TIMEX annotations produced by 3 annotators were corrected up to some 
+ extent: a missing mandatory attribute (EVENT class or TIMEX type, value) was 
+ replaced by a placeholder UNK. However, in general, attributes in these annotations 
+ can be ill-formed.
 
 ====================================
    Language-specific differences    
@@ -256,7 +269,7 @@
                  INCLUDES -- temporal inclusion: B includes A;
                  Note: relations IS_INCLUDED and INCLUDES are also used 
                   instead of the TimeML relations DURING and DURING_INV;
-              2) Unclear relations
+              2) Dubious relations
                  BEFORE-OR-OVERLAP -- doubts between preceding and overlap;
                  OVERLAP-OR-AFTER -- doubts between succeeding and overlap;
                  VAGUE -- unclear temporal relation;

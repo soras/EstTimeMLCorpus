@@ -1,0 +1,2092 @@
+# fileName	sentence_ID	word_ID_in_sentence	expression	event_annotation	event_ID
+aja_ml_2002_47.tasak.a006.sol	1	2	"ehitab"	EVENT I_ACTION	e1
+aja_ml_2002_47.tasak.a006.sol	1	4	"süvasadama"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a006.sol	2	5	"tahetakse"	EVENT OCCURRENCE conditional	e3
+aja_ml_2002_47.tasak.a006.sol	3	2	"peaks"	EVENT MODAL	e4
+aja_ml_2002_47.tasak.a006.sol	3	5	"võtma"	EVENT OCCURRENCE modality= pidama	e5
+aja_ml_2002_47.tasak.a006.sol	4	3	"põhjendas"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a006.sol	4	11	"pole"	EVENT OCCURRENCE polarity=NEG	e7
+aja_ml_2002_47.tasak.a006.sol	4	21	"kuulub"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a006.sol	5	1	"oli"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a006.sol	5	11	"rajamist"	EVENT UNK comment pole kindel kas on sündmus	e10
+aja_ml_2002_47.tasak.a006.sol	6	4	"ütles"	EVENT REPORTING	e11
+aja_ml_2002_47.tasak.a006.sol	6	8	"on"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a006.sol	7	1	"pakub"	EVENT I_ACTION	e13
+aja_ml_2002_47.tasak.a006.sol	7	6	"nimeks"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a006.sol	8	4	"ütles"	EVENT REPORTING	e15
+aja_ml_2002_47.tasak.a006.sol	8	7	"uskus"	EVENT I_STATE	e16
+aja_ml_2002_47.tasak.a006.sol	8	13	"tulevat"	EVENT OCCURRENCE	e17
+aja_ml_2002_47.tasak.a006.sol	9	2	"tahtis"	EVENT I_STATE	e18
+aja_ml_2002_47.tasak.a006.sol	9	4	"ehitada"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a006.sol	10	2	"olid"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a006.sol	10	10	"asub"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a006.sol	11	9	"imesta"	EVENT OCCURRENCE polarity "NEG"	e22
+aja_ml_2002_47.tasak.a006.sol	11	12	"süvasadam"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a006.sol	11	16	"ehitatakse"	EVENT I_ACTION	e24
+aja_ml_2002_47.tasak.a006.sol	12	6	"lastud"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a006.sol	13	3	"tulnuks"	EVENT I_ACTION conditional	e26
+aja_ml_2002_47.tasak.a006.sol	13	5	"sadam"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a006.sol	13	10	"hakatakse"	EVENT I_ACTION	e28
+aja_ml_2002_47.tasak.a006.sol	13	11	"küsima"	EVENT OCCURRENCE	e29
+aja_ml_2002_47.tasak.a006.sol	13	16	"projekti"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a006.sol	13	18	"lasite"	EVENT I_ACTION	e31
+aja_ml_2002_47.tasak.a006.sol	13	24	"pakkunud"	EVENT OCCURRENCE polarity=NEG	e32
+aja_ml_2002_47.tasak.a006.sol	13	27	"ütles"	EVENT REPORTING	e33
+aja_ml_2002_47.tasak.a006.sol	14	2	"pidanud"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a006.sol	14	5	"Veeret"	EVENT OCCURRENCE	e35
+aja_ml_2002_47.tasak.a006.sol	14	9	"kuulub"	EVENT I_STATE	e36
+aja_ml_2002_47.tasak.a007.sol	1	16	"pürib"	EVENT OCCURRENCE	e1
+aja_ml_2002_47.tasak.a007.sol	2	1	"kandidatuuri"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a007.sol	2	2	"esitas"	EVENT I_ACTION	e3
+aja_ml_2002_47.tasak.a007.sol	3	4	"töötanud"	EVENT  OCCURRENCE	e4
+aja_ml_2002_47.tasak.a007.sol	3	11	"osalenud"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a007.sol	4	3	"on"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a007.sol	5	9	"uuritakse"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a007.sol	5	13	"on"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a007.sol	6	4	"teinud"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a007.sol	6	8	"kulutanud"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a007.sol	6	16	"kandideerimisotsus"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a007.sol	6	23	"ütles"	EVENT REPORTING	e12
+aja_ml_2002_47.tasak.a007.sol	7	3	"on"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a007.sol	7	8	"suudavad"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a007.sol	8	1	"pole"	EVENT OCCURRENCE polarity "NEG"	e15
+aja_ml_2002_47.tasak.a007.sol	8	6	"arvata"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a007.sol	8	9	"saaks"	EVENT  MODAL	e17
+aja_ml_2002_47.tasak.a007.sol	8	11	"käia"	EVENT OCCURRENCE modality saama	e18
+aja_ml_2002_47.tasak.a007.sol	9	3	"pole"	EVENT OCCURRENCE polarity "NEG"	e19
+aja_ml_2002_47.tasak.a007.sol	9	9	"raskendab"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a007.sol	9	12	"annab"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a007.sol	9	18	"arutles"	EVENT REPORTING	e22
+aja_ml_2002_47.tasak.a007.sol	10	2	"töötanud"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a007.sol	11	0	"Näen"	EVENT PERCEPTION	e24
+aja_ml_2002_47.tasak.a007.sol	12	1	"teavad"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a007.sol	12	8	"on vaja"	EVENT OCCURRENCE MODALITY multiword="true"	e26
+aja_ml_2002_47.tasak.a007.sol	12	9	"on vaja"	EVENT multiword="true"	e26
+aja_ml_2002_47.tasak.a007.sol	13	1	"rektorivalimised"	EVENT OCCURRENCE	e28
+aja_ml_2002_47.tasak.a007.sol	13	2	"leiavad"	EVENT OCCURRENCE	e29
+aja_ml_2002_47.tasak.a007.sol	14	2	"annab"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a007.sol	14	7	"asub"	EVENT OCCURRENCE	e31
+aja_ml_2002_47.tasak.a014.sol	1	1	"peavad"	EVENT MODAL	e1
+aja_ml_2002_47.tasak.a014.sol	1	2	"hakkama"	EVENT OCCURRENCE modality=pidama	e2
+aja_ml_2002_47.tasak.a014.sol	1	5	"lammutama"	EVENT OCCURRENCE modality=pidama	e3
+aja_ml_2002_47.tasak.a014.sol	2	1	"võttis"	EVENT I_ACTION	e4
+aja_ml_2002_47.tasak.a014.sol	2	6	"planeerimisseaduse"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a014.sol	2	9	"annab"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a014.sol	3	3	"on"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a014.sol	3	14	"kasuta"	EVENT OCCURRENCE polarity=NEG	e8
+aja_ml_2002_47.tasak.a014.sol	4	1	"on"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a014.sol	6	3	"läinud"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a014.sol	6	9	"pidime"	EVENT MODAL	e11
+aja_ml_2002_47.tasak.a014.sol	6	12	"võtma"	EVENT OCCURRENCE modality=pidama	e12
+aja_ml_2002_47.tasak.a014.sol	6	15	"jääb"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a014.sol	6	22	"põhjendas"	EVENT REPORTING	e14
+aja_ml_2002_47.tasak.a014.sol	7	1	"sõnul"	EVENT REPORTING	e15
+aja_ml_2002_47.tasak.a014.sol	7	2	"rikuvad"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a014.sol	7	10	"on"	EVENT OCCURRENCE	e17
+aja_ml_2002_47.tasak.a014.sol	7	16	"juhtu"	EVENT OCCURRENCE POLARITY=NEG	e18
+aja_ml_2002_47.tasak.a014.sol	7	22	"seadustatakse"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a014.sol	8	1	"on"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a014.sol	8	9	"vaatavad"	EVENT PERCEPTION	e21
+aja_ml_2002_47.tasak.a014.sol	8	13	"lähed"	EVENT OCCURRENCE	e22
+aja_ml_2002_47.tasak.a014.sol	8	25	"on"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a014.sol	9	2	"kardavad"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a014.sol	9	6	"pannakse"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a014.sol	9	15	"ütles"	EVENT REPORTING	e26
+aja_ml_2002_47.tasak.a014.sol	10	1	"paneb"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a014.sol	10	11	"ohkama"	EVENT OCCURRENCE	e28
+aja_ml_2002_47.tasak.a014.sol	11	7	"ole"	EVENT OCCURRENCE	e29
+aja_ml_2002_47.tasak.a014.sol	11	12	"on"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a014.sol	12	2	"loodab"	EVENT I_STATE	e31
+aja_ml_2002_47.tasak.a014.sol	12	12	"viidud"	EVENT OCCURRENCE	e32
+aja_ml_2002_47.tasak.a014.sol	12	21	"teki"	EVENT OCCURRENCE polarity=NEG	e33
+aja_ml_2002_47.tasak.a014.sol	13	2	"ongi"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a014.sol	13	9	"ütles"	EVENT REPORTING	e35
+aja_ml_2002_47.tasak.a014.sol	14	2	"sõnul"	EVENT REPORTING	e36
+aja_ml_2002_47.tasak.a014.sol	14	3	"tuleks"	EVENT OCCURRENCE conditional	e37
+aja_ml_2002_47.tasak.a014.sol	15	11	"andnud"	EVENT OCCURRENCE	e38
+aja_ml_2002_47.tasak.a014.sol	16	2	"taotles"	EVENT I_ACTION	e39
+aja_ml_2002_47.tasak.a014.sol	16	10	"muutmist"	EVENT OCCURRENCE	e40
+aja_ml_2002_47.tasak.a014.sol	16	13	"seadustada"	EVENT OCCURRENCE	e41
+aja_ml_2002_47.tasak.a014.sol	17	4	"keelatud"	EVENT OCCURRENCE	e42
+aja_ml_2002_47.tasak.a014.sol	18	1	"täiendas"	EVENT OCCURRENCE	e43
+aja_ml_2002_47.tasak.a014.sol	19	4	"kuulu"	EVENT OCCURRENCE polarity=NEG	e44
+aja_ml_2002_47.tasak.a014.sol	20	2	"võib"	EVENT MODAL	e45
+aja_ml_2002_47.tasak.a014.sol	20	3	"ehitada"	EVENT OCCURRENCE modality=võima	e46
+aja_ml_2002_47.tasak.a014.sol	21	2	"lähe"	EVENT OCCURRENCE polarity=NEG	e47
+aja_ml_2002_47.tasak.a014.sol	22	4	"on"	EVENT OCCURRENCE	e48
+aja_ml_2002_47.tasak.a014.sol	23	2	"lasti"	EVENT OCCURRENCE	e49
+aja_ml_2002_47.tasak.a014.sol	23	18	"jõudsid"	EVENT OCCURRENCE	e50
+aja_ml_2002_47.tasak.a014.sol	23	20	"polnud"	EVENT OCCURRENCE polarity=NEG	e51
+aja_ml_2002_47.tasak.a014.sol	24	2	"oli"	EVENT OCCURRENCE	e52
+aja_ml_2002_47.tasak.a014.sol	24	7	"ütles"	EVENT REPORTING	e53
+aja_ml_2002_47.tasak.a014.sol	24	15	"oleks"	EVENT OCCURRENCE conditional	e54
+aja_ml_2002_47.tasak.a014.sol	24	17	"tegutsenud"	EVENT OCCURRENCE	e55
+aja_ml_2002_47.tasak.a014.sol	25	3	"läinud"	EVENT OCCURRENCE polarity=NEG	e56
+aja_ml_2002_47.tasak.a014.sol	26	11	"kaebas"	EVENT OCCURRENCE	e57
+aja_ml_2002_47.tasak.a014.sol	26	19	"kuulutas"	EVENT REPORTING	e58
+aja_ml_2002_47.tasak.a014.sol	27	4	"sõnul"	EVENT REPORTING	e59
+aja_ml_2002_47.tasak.a014.sol	27	8	"reageerinud"	EVENT OCCURRENCE polarity=NEG	e60
+aja_ml_2002_47.tasak.a014.sol	28	3	"tegi"	EVENT I_ACTION	e61
+aja_ml_2002_47.tasak.a014.sol	28	7	"korralduse"	EVENT OCCURRENCE	e62
+aja_ml_2002_47.tasak.a014.sol	28	10	"pikendas"	EVENT I_ACTION	e63
+aja_ml_2002_47.tasak.a014.sol	29	1	"arvates"	EVENT REPORTING	e64
+aja_ml_2002_47.tasak.a014.sol	29	2	"läks"	EVENT OCCURRENCE	e65
+aja_ml_2002_47.tasak.a014.sol	30	2	"olid"	EVENT OCCURRENCE	e66
+aja_ml_2002_47.tasak.a014.sol	30	6	"lootis"	EVENT I_STATE	e67
+aja_ml_2002_47.tasak.a014.sol	30	12	"on"	EVENT OCCURRENCE	e68
+aja_ml_2002_47.tasak.a014.sol	31	3	"jaurata"	EVENT OCCURRENCE	e69
+aja_ml_2002_47.tasak.a014.sol	31	5	"lubanud"	EVENT I_ACTION	e70
+aja_ml_2002_47.tasak.a014.sol	31	16	"andis"	EVENT I_ACTION	e71
+aja_ml_2002_47.tasak.a014.sol	31	18	"loa"	EVENT OCCURRENCE	e72
+aja_ml_2002_47.tasak.a014.sol	32	1	"sõnul"	EVENT REPORTING	e73
+aja_ml_2002_47.tasak.a014.sol	32	2	"teadis"	EVENT OCCURRENCE	e74
+aja_ml_2002_47.tasak.a014.sol	32	8	"hakkas"	EVENT ASPECTUAL	e75
+aja_ml_2002_47.tasak.a014.sol	32	9	"ehitama"	EVENT I_STATE	e76
+aja_ml_2002_47.tasak.a014.sol	33	3	"saa"	EVENT OCCURRENCE polarity=NEG	e77
+aja_ml_2002_47.tasak.a014.sol	33	5	"nimetada"	EVENT OCCURRENCE	e78
+aja_ml_2002_47.tasak.a014.sol	33	11	"ütles"	EVENT REPORTING	e79
+aja_ml_2002_47.tasak.a014.sol	34	7	"läks"	EVENT I_ACTION	e80
+aja_ml_2002_47.tasak.a014.sol	34	10	"nõutama"	EVENT OCCURRENCE	e81
+aja_ml_2002_47.tasak.a014.sol	34	12	"taotles"	EVENT I_ACTION	e82
+aja_ml_2002_47.tasak.a014.sol	34	16	"vähendamist"	EVENT OCCURRENCE	e83
+aja_ml_2002_47.tasak.a014.sol	35	2	"ütles"	EVENT REPORTING	e84
+aja_ml_2002_47.tasak.a014.sol	35	7	"sõnas"	EVENT REPORTING	e85
+aja_ml_2002_47.tasak.a014.sol	36	1	"keeldus"	EVENT OCCURRENCE	e86
+aja_ml_2002_47.tasak.a014.sol	36	6	"on"	EVENT OCCURRENCE	e87
+aja_ml_2002_47.tasak.a014.sol	36	19	"kahjustaks"	EVENT OCCURRENCE	e88
+aja_ml_2002_47.tasak.a017.sol	1	7	"troonib"	EVENT OCCURRENCE	e1
+aja_ml_2002_47.tasak.a017.sol	1	14	"koidutäht"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a017.sol	2	5	"sõnul"	EVENT REPORTING	e3
+aja_ml_2002_47.tasak.a017.sol	2	7	"ole"	EVENT OCCURRENCE polarity "NEG"	e4
+aja_ml_2002_47.tasak.a017.sol	3	1	"kõrgus"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a017.sol	3	12	"täht"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a017.sol	3	14	"pidanud"	EVENT OCCURRENCE polarity "NEG"	e7
+aja_ml_2002_47.tasak.a017.sol	4	5	"oli"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a017.sol	5	3	"seostatakse"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a017.sol	5	12	"tähendab"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a017.sol	5	18	"lasknud"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a017.sol	5	26	"valmistada"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a017.sol	5	29	"teab"	EVENT REPORTING	e13
+aja_ml_2002_47.tasak.a017.sol	6	1	"täht"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a017.sol	6	2	"valmistati"	EVENT I_ACTION	e15
+aja_ml_2002_47.tasak.a017.sol	6	17	"leiti"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a017.sol	7	4	"sai"	EVENT OCCURRENCE	e17
+aja_ml_2002_47.tasak.a017.sol	7	11	"vahetati"	EVENT I_ACTION	e18
+aja_ml_2002_47.tasak.a017.sol	7	15	"puiduosi"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a017.sol	8	3	"läksid"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a017.sol	8	16	"piirdusid"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a017.sol	9	1	"tuli"	EVENT OCCURRENCE	e22
+aja_ml_2002_47.tasak.a017.sol	9	7	"tööd"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a017.sol	9	8	"tegi"	EVENT I_ACTION	e24
+aja_ml_2002_47.tasak.a025.sol	2	1	"tuleb"	EVENT OCCURRENCE	e1
+aja_ml_2002_47.tasak.a025.sol	3	2	"tähendab"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a025.sol	3	3	"debatt"	EVENT OCCURRENCE	e3
+aja_ml_2002_47.tasak.a025.sol	4	1	"on"	EVENT OCCURRENCE	e4
+aja_ml_2002_47.tasak.a025.sol	4	10	"sorivad"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a025.sol	5	1	"on"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a025.sol	5	22	"raha"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a025.sol	5	23	"kasutab"	EVENT I_ACTION	e8
+aja_ml_2002_47.tasak.a025.sol	6	6	"teenis"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a025.sol	7	3	"on"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a025.sol	8	3	"moodustab"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a025.sol	9	0	"Tuleb"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a025.sol	9	6	"on"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a025.sol	9	13	"vähendavad"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a025.sol	11	1	"on"	EVENT OCCURRENCE	e15
+aja_ml_2002_47.tasak.a025.sol	11	9	"võib"	EVENT MODAL	e16
+aja_ml_2002_47.tasak.a025.sol	11	11	"olla"	EVENT OCCURRENCE modality=võima	e17
+aja_ml_2002_47.tasak.a025.sol	11	16	"saab"	EVENT OCCURRENCE	e18
+aja_ml_2002_47.tasak.a025.sol	12	2	"ole"	EVENT OCCURRENCE polarity=NEG	e19
+aja_ml_2002_47.tasak.a025.sol	13	6	"laiutavad"	EVENT I_ACTION	e20
+aja_ml_2002_47.tasak.a025.sol	13	9	"käsi"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a025.sol	13	13	"võeti"	EVENT OCCURRENCE	e22
+aja_ml_2002_47.tasak.a025.sol	14	1	"oli"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a025.sol	15	1	"on"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a025.sol	16	3	"ole"	EVENT OCCURRENCE polarity=NEG	e25
+aja_ml_2002_47.tasak.a025.sol	17	2	"on"	EVENT OCCURRENCE	e26
+aja_ml_2002_47.tasak.a025.sol	17	10	"on"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a025.sol	18	1	"hakati"	EVENT ASPECTUAL	e28
+aja_ml_2002_47.tasak.a025.sol	18	2	"andma"	EVENT I_STATE	e29
+aja_ml_2002_47.tasak.a025.sol	18	17	"oli"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a025.sol	19	2	"ajagem"	EVENT OCCURRENCE  polarity=NEG CONDITIONAL	e31
+aja_ml_2002_47.tasak.a025.sol	20	1	"võeti"	EVENT OCCURRENCE	e32
+aja_ml_2002_47.tasak.a025.sol	21	3	"oli"	EVENT OCCURRENCE	e33
+aja_ml_2002_47.tasak.a025.sol	22	6	"olnud"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a025.sol	23	1	"muudeti"	EVENT I_ACTION	e35
+aja_ml_2002_47.tasak.a025.sol	23	6	"pensioniseadust"	EVENT OCCURRENCE	e36
+aja_ml_2002_47.tasak.a025.sol	23	11	"hakati"	EVENT ASPECTUAL	e37
+aja_ml_2002_47.tasak.a025.sol	23	12	"andma"	EVENT I_STATE	e38
+aja_ml_2002_47.tasak.a025.sol	24	3	"õnnestus"	EVENT OCCURRENCE	e39
+aja_ml_2002_47.tasak.a025.sol	25	0	"Karta"	EVENT OCCURRENCE	e40
+aja_ml_2002_47.tasak.a025.sol	25	7	"suuda"	EVENT OCCURRENCE polarity=NEG	e41
+aja_ml_2002_47.tasak.a025.sol	26	5	"nimetanud"	EVENT OCCURRENCE	e42
+aja_ml_2002_47.tasak.a025.sol	27	1	"toimib"	EVENT OCCURRENCE	e43
+aja_ml_2002_47.tasak.a025.sol	27	9	"läheb"	EVENT OCCURRENCE	e44
+aja_ml_2002_47.tasak.a025.sol	28	1	"kuritarvitab"	EVENT OCCURRENCE	e45
+aja_ml_2002_47.tasak.a025.sol	29	0	"On"	EVENT OCCURRENCE	e46
+aja_ml_2002_47.tasak.a025.sol	29	8	"saab"	EVENT MODAL	e47
+aja_ml_2002_47.tasak.a025.sol	29	9	"olla"	EVENT OCCURRENCE modality=saama	e48
+aja_ml_2002_47.tasak.a025.sol	29	14	"tuleb"	EVENT OCCURRENCE	e49
+aja_ml_2002_47.tasak.a025.sol	30	2	"tuleb"	EVENT OCCURRENCE	e50
+aja_ml_2002_47.tasak.a025.sol	30	18	"määrab"	EVENT OCCURRENCE	e51
+aja_ml_2002_47.tasak.a025.sol	30	26	"kontrollib"	EVENT OCCURRENCE	e52
+aja_ml_2002_47.tasak.a025.sol	32	2	"peaks"	EVENT MODAL	e53
+aja_ml_2002_47.tasak.a025.sol	32	5	"lähtuma"	EVENT OCCURRENCE modality=pidama	e54
+aja_ml_2002_47.tasak.a025.sol	33	8	"on"	EVENT OCCURRENCE	e55
+aja_ml_2002_47.tasak.a025.sol	33	18	"arvestatakse"	EVENT OCCURRENCE	e56
+aja_ml_2002_47.tasak.a025.sol	33	22	"on"	EVENT OCCURRENCE	e57
+aja_ml_2002_47.tasak.a025.sol	34	0	"On"	EVENT OCCURRENCE	e58
+aja_ml_2002_47.tasak.a025.sol	34	8	"võitleb"	EVENT I_ACTION	e59
+aja_ml_2002_47.tasak.a025.sol	34	15	"eest"	EVENT OCCURRENCE	e60
+aja_ml_2002_47.tasak.a025.sol	34	24	"langevad"	EVENT OCCURRENCE	e61
+aja_ml_2002_47.tasak.a025.sol	35	12	"peavad"	EVENT MODAL	e62
+aja_ml_2002_47.tasak.a025.sol	35	13	"saama"	EVENT OCCURRENCE modality=pidama	e63
+aja_ml_2002_47.tasak.a025.sol	36	2	"muutub"	EVENT OCCURRENCE	e64
+aja_ml_2002_47.tasak.a025.sol	37	6	"tuleb"	EVENT OCCURRENCE	e65
+aja_ml_2002_47.tasak.a025.sol	38	2	"toetab"	EVENT OCCURRENCE	e66
+aja_ml_2002_47.tasak.a025.sol	38	9	"otsin"	EVENT I_ACTION	e67
+aja_ml_2002_47.tasak.a025.sol	38	10	"kaasamõtlejaid"	EVENT OCCURRENCE	e68
+aja_ml_2002_47.tasak.a025.sol	39	1	"andke"	EVENT I_ACTION IMPERATIVE	e69
+aja_ml_2002_47.tasak.a025.sol	39	3	"märku"	EVENT OCCURRENCE	e70
+aja_ml_2002_47.tasak.a025.sol	40	1	"on"	EVENT OCCURRENCE	e71
+aja_ml_2002_47.tasak.a031.sol	1	1	"valitseb"	EVENT I_ACTION	e1
+aja_ml_2002_47.tasak.a031.sol	1	4	"vaikus"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a031.sol	2	7	"on"	EVENT OCCURRENCE	e3
+aja_ml_2002_47.tasak.a031.sol	3	6	"tõmmanud"	EVENT OCCURRENCE	e4
+aja_ml_2002_47.tasak.a031.sol	3	11	"avamine"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a031.sol	4	1	"avati"	EVENT I_ACTION	e6
+aja_ml_2002_47.tasak.a031.sol	4	6	"Säästumarket"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a031.sol	4	11	"saavad"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a031.sol	5	1	"huvi"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a031.sol	5	2	"pakub"	EVENT I_ACTION	e10
+aja_ml_2002_47.tasak.a031.sol	5	12	"käivad"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a031.sol	6	1	"on"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a031.sol	7	4	"maksis"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a031.sol	8	1	"maksis"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a031.sol	8	9	"on"	EVENT STATE	e15
+aja_ml_2002_47.tasak.a031.sol	9	10	"näha"	EVENT PERCEPTION	e16
+aja_ml_2002_47.tasak.a031.sol	9	17	"on"	EVENT OCCURRENCE	e17
+aja_ml_2002_47.tasak.a031.sol	10	1	"on"	EVENT OCCURRENCE	e18
+aja_ml_2002_47.tasak.a031.sol	10	7	"ületavad"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a031.sol	11	2	"maksab"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a031.sol	12	2	"maksab"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a031.sol	13	2	"lõppesid"	EVENT ASPECTUAL	e22
+aja_ml_2002_47.tasak.a031.sol	14	2	"oli"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a031.sol	15	8	"maksab"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a031.sol	17	2	"köögiviljahinnad"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a031.sol	17	4	"tõusevad"	EVENT I_ACTION	e26
+aja_ml_2002_47.tasak.a031.sol	17	9	"hinnad"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a031.sol	17	13	"kerkinud"	EVENT I_ACTION	e28
+aja_ml_2002_47.tasak.a031.sol	17	15	"ole"	EVENT OCCURRENCE polarity=NEG	e29
+aja_ml_2002_47.tasak.a031.sol	18	4	"on"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a031.sol	18	12	"hinnad"	EVENT OCCURRENCE	e31
+aja_ml_2002_47.tasak.a031.sol	18	16	"surunud"	EVENT I_ACTION	e32
+aja_ml_2002_47.tasak.a033.sol	0	4	"saavad"	EVENT OCCURRENCE	e1
+aja_ml_2002_47.tasak.a033.sol	1	1	"on"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a033.sol	2	3	"tuleb"	EVENT OCCURRENCE	e3
+aja_ml_2002_47.tasak.a033.sol	3	5	"käiakse"	EVENT I_ACTION	e4
+aja_ml_2002_47.tasak.a033.sol	3	6	"külas"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a033.sol	3	11	"ollakse"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a033.sol	4	8	"pelga"	EVENT OCCURRENCE polarity=NEG	e7
+aja_ml_2002_47.tasak.a033.sol	5	19	"saanud"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a033.sol	6	0	"Usun"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a033.sol	6	33	"saavad"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a033.sol	7	4	"on"	EVENT STATE	e11
+aja_ml_2002_47.tasak.a033.sol	8	0	"Saadakse"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a033.sol	8	9	"vahetatakse"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a033.sol	8	11	"müüakse"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a033.sol	8	17	"satuks"	EVENT OCCURRENCE	e15
+aja_ml_2002_47.tasak.a033.sol	8	23	"seda"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a033.sol	8	24	"otsib"	EVENT I_ACTION	e17
+aja_ml_2002_47.tasak.a033.sol	9	5	"pakub"	EVENT I_ACTION	e18
+aja_ml_2002_47.tasak.a033.sol	9	8	"täikakaupa"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a033.sol	10	1	"on"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a033.sol	11	3	"märganud"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a033.sol	11	15	"peab"	EVENT MODAL	e22
+aja_ml_2002_47.tasak.a033.sol	11	18	"saama"	EVENT OCCURRENCE modality=pidama	e23
+aja_ml_2002_47.tasak.a033.sol	12	2	"leiti"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a033.sol	13	2	"on"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a033.sol	13	7	"astuti"	EVENT OCCURRENCE	e26
+aja_ml_2002_47.tasak.a033.sol	16	0	"Harrastussõidukid"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a033.sol	16	1	"jõuavad"	EVENT I_ACTION	e28
+aja_ml_2002_47.tasak.a033.sol	17	6	"läbivad"	EVENT OCCURRENCE	e29
+aja_ml_2002_47.tasak.a033.sol	17	10	"saavad"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a033.sol	18	3	"omab"	EVENT OCCURRENCE	e31
+aja_ml_2002_47.tasak.a033.sol	18	13	"vabastatud"	EVENT OCCURRENCE	e32
+aja_ml_2002_47.tasak.a033.sol	19	3	"on"	EVENT OCCURRENCE	e33
+aja_ml_2002_47.tasak.a033.sol	19	10	"on"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a033.sol	20	7	"juhindutud"	EVENT OCCURRENCE	e35
+aja_ml_2002_47.tasak.a033.sol	20	13	"vaadati"	EVENT PERCEPTION	e36
+aja_ml_2002_47.tasak.a033.sol	21	3	"kõlas"	EVENT OCCURRENCE	e37
+aja_ml_2002_47.tasak.a033.sol	21	8	"jaksasite"	EVENT OCCURRENCE	e38
+aja_ml_2002_47.tasak.a033.sol	21	19	"jaksa"	EVENT OCCURRENCE polarity=NEG	e39
+aja_ml_2002_47.tasak.a038.sol	0	3	"Pimedate Ööde Filmifestivali"	EVENT OCCURRENCE multiword="true"	e1
+aja_ml_2002_47.tasak.a038.sol	0	4	"Pimedate Ööde Filmifestivali"	EVENT multiword="true"	e1
+aja_ml_2002_47.tasak.a038.sol	0	5	"Pimedate Ööde Filmifestivali"	EVENT multiword="true"	e1
+aja_ml_2002_47.tasak.a038.sol	0	9	"juhatab"	EVENT I_ACTION	e4
+aja_ml_2002_47.tasak.a038.sol	1	2	"on"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a038.sol	2	2	"on"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a038.sol	3	8	"saab"	EVENT MODAL	e7
+aja_ml_2002_47.tasak.a038.sol	3	9	"näha"	EVENT PERCEPTION modality=saama	e8
+aja_ml_2002_47.tasak.a038.sol	5	6	"näidatakse"	EVENT PERCEPTION	e9
+aja_ml_2002_47.tasak.a038.sol	6	6	"olnud"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a038.sol	6	12	"tasuks"	EVENT MODAL	e11
+aja_ml_2002_47.tasak.a038.sol	6	15	"näha"	EVENT OCCURRENCE MODALITY=tasuma	e12
+aja_ml_2002_47.tasak.a038.sol	7	6	"on"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a038.sol	7	8	"pandud"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a038.sol	8	2	"on"	EVENT OCCURRENCE	e15
+aja_ml_2002_47.tasak.a038.sol	9	2	"on"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a038.sol	9	5	"näha"	EVENT PERCEPTION	e17
+aja_ml_2002_47.tasak.a038.sol	10	1	"langes"	EVENT I_STATE	e18
+aja_ml_2002_47.tasak.a038.sol	10	11	"kätteandmine"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a038.sol	11	1	"kuulutatakse"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a038.sol	12	3	"on"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a038.sol	12	17	"taotlevad"	EVENT I_ACTION	e22
+aja_ml_2002_47.tasak.a038.sol	12	21	"nimetust"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a038.sol	13	1	"on"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a038.sol	15	1	"on"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a038.sol	16	2	"on"	EVENT OCCURRENCE	e26
+aja_ml_2002_47.tasak.a038.sol	17	1	"mõjub"	EVENT OCCURRENCE	e27
+aja_ml_2002_47.tasak.a038.sol	17	9	"polegi näinud"	EVENT multiword="true"	e28
+aja_ml_2002_47.tasak.a038.sol	17	15	"polegi näinud"	EVENT PERCEPTION multiword="true"	e28
+aja_ml_2002_47.tasak.a038.sol	18	1	"on"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a038.sol	19	1	"on"	EVENT OCCURRENCE	e31
+aja_ml_2002_47.tasak.a038.sol	20	13	"on"	EVENT OCCURRENCE	e32
+aja_ml_2002_47.tasak.a038.sol	21	1	"näidatakse"	EVENT I_ACTION	e33
+aja_ml_2002_47.tasak.a038.sol	21	4	"retrospektiivi"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a038.sol	22	6	"tõusnud"	EVENT OCCURRENCE	e35
+aja_ml_2002_47.tasak.a038.sol	23	1	"on"	EVENT OCCURRENCE	e36
+aja_ml_2002_47.tasak.a038.sol	24	1	"on"	EVENT OCCURRENCE	e37
+aja_ml_2002_47.tasak.a038.sol	26	10	"jookseb"	EVENT OCCURRENCE	e38
+aja_ml_2002_47.tasak.a038.sol	26	13	"pole"	EVENT OCCURRENCE polarity "NEG"	e39
+aja_ml_2002_47.tasak.a038.sol	26	17	"on"	EVENT OCCURRENCE	e40
+aja_ml_2002_47.tasak.a038.sol	27	1	"peaksid"	EVENT MODAL	e41
+aja_ml_2002_47.tasak.a038.sol	27	2	"pakkuma"	EVENT OCCURRENCE modality=pidama	e42
+aja_ml_2002_47.tasak.a038.sol	28	1	"näevad"	EVENT PERCEPTION	e43
+aja_ml_2002_47.tasak.a038.sol	29	2	"avatakse"	EVENT ASPECTUAL	e44
+aja_ml_2002_47.tasak.a038.sol	30	3	"esilinastub"	EVENT ASPECTUAL	e45
+aja_ml_2002_47.tasak.a038.sol	31	2	"on"	EVENT OCCURRENCE	e46
+aja_ml_2002_47.tasak.a038.sol	32	2	"esitab"	EVENT I_ACTION	e47
+aja_ml_2002_47.tasak.a038.sol	32	3	"filmi"	EVENT OCCURRENCE	e48
+aja_ml_2002_47.tasak.a038.sol	33	10	"pole"	EVENT OCCURRENCE polarity "NEG"	e49
+aja_ml_2002_47.tasak.a038.sol	35	3	"olnud"	EVENT OCCURRENCE	e50
+aja_ml_2002_47.tasak.a038.sol	36	2	"tähenda"	EVENT OCCURRENCE polarity "NEG"	e51
+aja_ml_2002_47.tasak.a038.sol	36	6	"peabki"	EVENT MODAL	e52
+aja_ml_2002_47.tasak.a038.sol	36	7	"olema"	EVENT OCCURRENCE modality=pidama	e53
+aja_ml_2002_47.tasak.a038.sol	37	5	"leidub"	EVENT OCCURRENCE	e54
+aja_ml_2002_47.tasak.a038.sol	38	2	"räägib"	EVENT OCCURRENCE	e55
+aja_ml_2002_47.tasak.a038.sol	39	1	"on"	EVENT OCCURRENCE	e56
+aja_ml_2002_47.tasak.a038.sol	39	2	"madalamad"	EVENT OCCURRENCE	e57
+aja_ml_2002_47.tasak.a038.sol	40	4	"on"	EVENT OCCURRENCE	e58
+aja_ml_2002_47.tasak.a041.sol	1	1	"on"	EVENT OCCURRENCE	e1
+aja_ml_2002_47.tasak.a041.sol	1	11	"saab"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a041.sol	1	12	"tellida"	EVENT OCCURRENCE	e3
+aja_ml_2002_47.tasak.a041.sol	2	3	"mõeldud"	EVENT OCCURRENCE	e4
+aja_ml_2002_47.tasak.a041.sol	2	8	"eelistab"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a041.sol	2	22	"ütles"	EVENT REPORTING	e6
+aja_ml_2002_47.tasak.a041.sol	3	2	"tuleb"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a041.sol	4	2	"saadetakse"	EVENT OCCURRENCE	e8
+aja_ml_2002_47.tasak.a041.sol	5	1	"saada"	EVENT OCCURRENCE	e9
+aja_ml_2002_47.tasak.a041.sol	5	6	"väljub"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a041.sol	5	13	"tuleb"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a041.sol	6	1	"töötab"	EVENT OCCURRENCE	e12
+aja_ml_2002_47.tasak.a041.sol	6	7	"on"	EVENT OCCURRENCE	e13
+aja_ml_2002_47.tasak.a041.sol	7	4	"sõnul"	EVENT REPORTING	e14
+aja_ml_2002_47.tasak.a041.sol	7	5	"on"	EVENT OCCURRENCE	e15
+aja_ml_2002_47.tasak.a041.sol	8	5	"oli"	EVENT OCCURRENCE	e16
+aja_ml_2002_47.tasak.a041.sol	8	8	"Tartu"	EVENT OCCURRENCE	e17
+aja_ml_2002_47.tasak.a041.sol	8	9	"e-mõtete"	EVENT OCCURRENCE	e18
+aja_ml_2002_47.tasak.a041.sol	8	10	"konkursil"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a041.sol	8	17	"on"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a041.sol	8	28	"saanud"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a041.sol	8	31	"ütles"	EVENT REPORTING	e22
+aja_ml_2002_47.tasak.a041.sol	9	2	"kasutas"	EVENT OCCURRENCE	e23
+aja_ml_2002_47.tasak.a041.sol	9	16	"võimaldab"	EVENT OCCURRENCE	e24
+aja_ml_2002_47.tasak.a041.sol	10	1	"on"	EVENT OCCURRENCE	e25
+aja_ml_2002_47.tasak.a041.sol	11	1	"sõnul"	EVENT REPORTING	e26
+aja_ml_2002_47.tasak.a041.sol	11	2	"võib"	EVENT MODAL	e27
+aja_ml_2002_47.tasak.a041.sol	11	4	"toimuda"	EVENT OCCURRENCE modality=võima	e28
+aja_ml_2002_47.tasak.a041.sol	12	2	"saab"	EVENT OCCURRENCE	e29
+aja_ml_2002_47.tasak.a041.sol	12	3	"küsida"	EVENT OCCURRENCE	e30
+aja_ml_2002_47.tasak.a041.sol	13	10	"saabub"	EVENT OCCURRENCE	e31
+aja_ml_2002_47.tasak.a041.sol	14	8	"toob"	EVENT I_ACTION	e32
+aja_ml_2002_47.tasak.a041.sol	14	12	"nimed"	EVENT OCCURRENCE	e33
+aja_ml_2002_47.tasak.a041.sol	14	14	"tellimisnumbrid"	EVENT OCCURRENCE	e34
+aja_ml_2002_47.tasak.a042.sol	1	7	"toovad"	EVENT I_ACTION	e1
+aja_ml_2002_47.tasak.a042.sol	1	14	"Interneti-ühenduse"	EVENT OCCURRENCE	e2
+aja_ml_2002_47.tasak.a042.sol	1	17	"võimaldab"	EVENT OCCURRENCE	e3
+aja_ml_2002_47.tasak.a042.sol	2	7	"sõnul"	EVENT REPORTING	e4
+aja_ml_2002_47.tasak.a042.sol	2	8	"on"	EVENT OCCURRENCE	e5
+aja_ml_2002_47.tasak.a042.sol	3	2	"tagatud"	EVENT OCCURRENCE	e6
+aja_ml_2002_47.tasak.a042.sol	3	9	"pakume"	EVENT OCCURRENCE	e7
+aja_ml_2002_47.tasak.a042.sol	3	20	"lisas"	EVENT REPORTING	e8
+aja_ml_2002_47.tasak.a042.sol	4	5	"maksa"	EVENT OCCURRENCE polarity=NEG	e9
+aja_ml_2002_47.tasak.a042.sol	4	16	"kaetud"	EVENT OCCURRENCE	e10
+aja_ml_2002_47.tasak.a042.sol	5	3	"on"	EVENT OCCURRENCE	e11
+aja_ml_2002_47.tasak.a042.sol	6	1	"peab"	EVENT MODAL	e12
+aja_ml_2002_47.tasak.a042.sol	6	4	"sõlmima"	EVENT OCCURRENCE modality=pidama	e13
+aja_ml_2002_47.tasak.a042.sol	6	10	"saab"	EVENT OCCURRENCE	e14
+aja_ml_2002_47.tasak.a042.sol	6	12	"valida"	EVENT OCCURRENCE	e15
+aja_ml_2002_47.tasak.a042.sol	6	15	"hakkab"	EVENT ASPECTUAL	e16
+aja_ml_2002_47.tasak.a042.sol	6	17	"saama"	EVENT I_STATE	e17
+aja_ml_2002_47.tasak.a042.sol	7	3	"on"	EVENT OCCURRENCE	e18
+aja_ml_2002_47.tasak.a042.sol	9	3	"sai"	EVENT OCCURRENCE	e19
+aja_ml_2002_47.tasak.a042.sol	10	2	"on"	EVENT OCCURRENCE	e20
+aja_ml_2002_47.tasak.a042.sol	11	2	"rajab"	EVENT OCCURRENCE	e21
+aja_ml_2002_47.tasak.a042.sol	11	13	"puudub"	EVENT OCCURRENCE	e22
+aja_ml_2002_47.tasak.a042.sol	12	6	"on"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a001.sol	0	2	"tekitanud"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a001.sol	0	5	"kava"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a001.sol	1	6	"rajataks"	EVENT I_ACTION conditional	e3
+aja_pm_2000_10_04.tasak.a001.sol	1	14	"tehnikakõrgkool"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a001.sol	2	2	"liidetaks"	EVENT I_ACTION	e5
+aja_pm_2000_10_04.tasak.a001.sol	2	5	"osa"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a001.sol	2	15	"pakutud"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a001.sol	3	1	"peaks"	EVENT MODAL	e8
+aja_pm_2000_10_04.tasak.a001.sol	3	2	"teostuma"	EVENT OCCURRENCE MODALITY=pidama	e9
+aja_pm_2000_10_04.tasak.a001.sol	5	5	"kalduvad"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a001.sol	5	14	"tõdes"	EVENT REPORTING	e11
+aja_pm_2000_10_04.tasak.a001.sol	5	26	"kuulub"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a001.sol	6	2	"on"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a001.sol	6	12	"muutub"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a001.sol	6	17	"õnnestub"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a001.sol	7	1	"Tuleks"	EVENT OCCURRENCE conditional	e16
+aja_pm_2000_10_04.tasak.a001.sol	7	7	"nentis"	EVENT REPORTING	e17
+aja_pm_2000_10_04.tasak.a001.sol	8	4	"peab"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a001.sol	8	11	"ideed"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a001.sol	9	3	"integreerumine"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a001.sol	9	4	"saab"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a001.sol	9	5	"anda"	EVENT I_ACTION	e22
+aja_pm_2000_10_04.tasak.a001.sol	9	11	"on"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a001.sol	10	1	"väitel"	EVENT REPORTING	e24
+aja_pm_2000_10_04.tasak.a001.sol	10	2	"on"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a001.sol	10	9	"katsed"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a001.sol	10	10	"ebaõnnestunud"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a001.sol	10	19	"jäänud"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a001.sol	11	3	"muudab"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a001.sol	11	6	"raskeks"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a001.sol	11	19	"seotud"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a001.sol	13	5	"väitel"	EVENT REPORTING	e32
+aja_pm_2000_10_04.tasak.a001.sol	13	6	"on"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a001.sol	14	1	"kinnitab"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a001.sol	15	4	"pooldavad"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a001.sol	15	9	"vastas"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a001.sol	16	3	"kuulu"	EVENT OCCURRENCE polarity "NEG"	e37
+aja_pm_2000_10_04.tasak.a001.sol	16	15	"kuuluvad"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a001.sol	17	1	"hinnangul"	EVENT REPORTING	e39
+aja_pm_2000_10_04.tasak.a001.sol	17	2	"mõjutab"	EVENT I_ACTION	e40
+aja_pm_2000_10_04.tasak.a001.sol	17	5	"otsuseid"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a001.sol	18	3	"kalduvad"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a001.sol	18	16	"märkis"	EVENT REPORTING	e43
+aja_pm_2000_10_04.tasak.a001.sol	18	20	"näib"	EVENT PERCEPTION	e44
+aja_pm_2000_10_04.tasak.a001.sol	18	29	"otsustatud"	EVENT OCCURRENCE	e45
+aja_pm_2000_10_04.tasak.a001.sol	19	3	"korraldab"	EVENT I_ACTION	e46
+aja_pm_2000_10_04.tasak.a001.sol	19	6	"arutelu"	EVENT OCCURRENCE	e47
+aja_pm_2000_10_04.tasak.a001.sol	19	11	"kutsutud"	EVENT OCCURRENCE	e48
+aja_pm_2000_10_04.tasak.a001.sol	20	12	"soovinud"	EVENT I_ACTION polarity "NEG"	e49
+aja_pm_2000_10_04.tasak.a001.sol	20	26	"kommenteerida"	EVENT OCCURRENCE	e50
+aja_pm_2000_10_04.tasak.a003.sol	0	4	"kustutavad"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a003.sol	0	10	"tuhandet"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a003.sol	0	18	"kahtlustab"	EVENT I_STATE	e3
+aja_pm_2000_10_04.tasak.a003.sol	0	19	"süütamist"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a003.sol	1	3	"asub"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a003.sol	1	9	"kohandas"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a003.sol	2	2	"meenutasid"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a003.sol	4	12	"hõõgus"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a003.sol	4	18	"lahvatasid"	EVENT I_ACTION	e9
+aja_pm_2000_10_04.tasak.a003.sol	4	19	"leegid"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a003.sol	5	1	"virvendas"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a003.sol	5	8	"tunda"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a003.sol	6	7	"ütles"	EVENT REPORTING	e13
+aja_pm_2000_10_04.tasak.a003.sol	6	13	"on"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a003.sol	7	1	"Võiksime"	EVENT MODAL	e15
+aja_pm_2000_10_04.tasak.a003.sol	7	5	"vett"	EVENT I_ACTION modality=võima conditional	e16
+aja_pm_2000_10_04.tasak.a003.sol	7	6	"uhada"	EVENT I_ACTION conditional	e17
+aja_pm_2000_10_04.tasak.a003.sol	7	10	"poleks"	EVENT OCCURRENCE polarity=NEG	e18
+aja_pm_2000_10_04.tasak.a003.sol	8	2	"suitseks"	EVENT OCCURRENCE conditional	e19
+aja_pm_2000_10_04.tasak.a003.sol	8	9	"lausus"	EVENT REPORTING	e20
+aja_pm_2000_10_04.tasak.a003.sol	9	1	"märkis"	EVENT REPORTING	e21
+aja_pm_2000_10_04.tasak.a003.sol	9	4	"briketihunnik"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a003.sol	9	5	"põleb"	EVENT I_ACTION	e23
+aja_pm_2000_10_04.tasak.a003.sol	9	12	"tuleb"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a003.sol	10	1	"kahandaski"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a003.sol	10	9	"lükkas"	EVENT I_ACTION	e26
+aja_pm_2000_10_04.tasak.a003.sol	10	13	"küttematerjali"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a003.sol	11	1	"tõusid"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a003.sol	12	1	"summutasid"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a003.sol	12	2	"leegi"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a003.sol	12	5	"jahutasid"	EVENT I_ACTION	e31
+aja_pm_2000_10_04.tasak.a003.sol	12	8	"traktorit"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a003.sol	13	4	"aurustus"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a003.sol	14	5	"tunnistas"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a003.sol	14	13	"summutanud"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a003.sol	14	17	"tuleb"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a003.sol	15	2	"käib"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a003.sol	15	9	"ütles"	EVENT REPORTING	e38
+aja_pm_2000_10_04.tasak.a003.sol	16	3	"on"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a003.sol	17	2	"ole"	EVENT OCCURRENCE polarity=NEG	e40
+aja_pm_2000_10_04.tasak.a003.sol	17	5	"kastavad"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a003.sol	18	2	"teha"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a003.sol	18	5	"on"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a003.sol	19	3	"tahtnud"	EVENT OCCURRENCE polarity=NEG	e44
+aja_pm_2000_10_04.tasak.a003.sol	19	8	"lõpeb"	EVENT ASPECTUAL	e45
+aja_pm_2000_10_04.tasak.a003.sol	20	13	"märkis"	EVENT REPORTING	e46
+aja_pm_2000_10_04.tasak.a003.sol	21	3	"oska"	EVENT OCCURRENCE polarity=NEG	e47
+aja_pm_2000_10_04.tasak.a003.sol	22	2	"hakkab"	EVENT ASPECTUAL	e48
+aja_pm_2000_10_04.tasak.a003.sol	22	3	"sadama"	EVENT OCCURRENCE	e49
+aja_pm_2000_10_04.tasak.a003.sol	22	5	"aitaks"	EVENT OCCURRENCE conditional	e50
+aja_pm_2000_10_04.tasak.a003.sol	22	11	"kallaks"	EVENT OCCURRENCE conditional	e51
+aja_pm_2000_10_04.tasak.a003.sol	23	2	"käis"	EVENT OCCURRENCE	e52
+aja_pm_2000_10_04.tasak.a003.sol	24	1	"teade"	EVENT OCCURRENCE	e53
+aja_pm_2000_10_04.tasak.a003.sol	24	3	"saabus"	EVENT I_ACTION	e54
+aja_pm_2000_10_04.tasak.a003.sol	25	4	"jõudis"	EVENT OCCURRENCE	e55
+aja_pm_2000_10_04.tasak.a003.sol	25	10	"langenud"	EVENT OCCURRENCE	e56
+aja_pm_2000_10_04.tasak.a003.sol	25	14	"sumbunud"	EVENT OCCURRENCE	e57
+aja_pm_2000_10_04.tasak.a003.sol	26	1	"pole"	EVENT OCCURRENCE polarity=NEG	e58
+aja_pm_2000_10_04.tasak.a003.sol	26	8	"asub"	EVENT OCCURRENCE	e59
+aja_pm_2000_10_04.tasak.a003.sol	27	0	"Vett"	EVENT OCCURRENCE	e60
+aja_pm_2000_10_04.tasak.a003.sol	27	1	"toovad"	EVENT I_ACTION	e61
+aja_pm_2000_10_04.tasak.a003.sol	29	6	"hindas"	EVENT REPORTING	e62
+aja_pm_2000_10_04.tasak.a003.sol	29	10	"toob"	EVENT I_ACTION	e63
+aja_pm_2000_10_04.tasak.a003.sol	29	12	"kahju"	EVENT OCCURRENCE	e64
+aja_pm_2000_10_04.tasak.a003.sol	30	2	"oli"	EVENT OCCURRENCE	e65
+aja_pm_2000_10_04.tasak.a003.sol	30	7	"oli"	EVENT OCCURRENCE	e66
+aja_pm_2000_10_04.tasak.a003.sol	30	18	"ütles"	EVENT REPORTING	e67
+aja_pm_2000_10_04.tasak.a003.sol	31	1	"märkis"	EVENT REPORTING	e68
+aja_pm_2000_10_04.tasak.a003.sol	31	5	"oli"	EVENT OCCURRENCE	e69
+aja_pm_2000_10_04.tasak.a003.sol	32	2	"oli"	EVENT OCCURRENCE	e70
+aja_pm_2000_10_04.tasak.a003.sol	32	6	"murdis"	EVENT OCCURRENCE	e71
+aja_pm_2000_10_04.tasak.a003.sol	32	10	"viskas"	EVENT OCCURRENCE	e72
+aja_pm_2000_10_04.tasak.a003.sol	32	15	"oletas"	EVENT OCCURRENCE	e73
+aja_pm_2000_10_04.tasak.a003.sol	33	4	"sütti"	EVENT OCCURRENCE polarity=NEG	e74
+aja_pm_2000_10_04.tasak.a003.sol	34	2	"lisas"	EVENT REPORTING	e75
+aja_pm_2000_10_04.tasak.a003.sol	34	7	"oleks"	EVENT OCCURRENCE conditional	e76
+aja_pm_2000_10_04.tasak.a003.sol	34	11	"läinud"	EVENT OCCURRENCE conditional	e77
+aja_pm_2000_10_04.tasak.a003.sol	35	2	"jääb"	EVENT OCCURRENCE	e78
+aja_pm_2000_10_04.tasak.a003.sol	35	7	"tõdes"	EVENT REPORTING	e79
+aja_pm_2000_10_04.tasak.a003.sol	36	8	"seisma"	EVENT OCCURRENCE	e80
+aja_pm_2000_10_04.tasak.a003.sol	36	9	"jää"	EVENT OCCURRENCE polarity=NEG	e81
+aja_pm_2000_10_04.tasak.a003.sol	37	1	"töötab"	EVENT OCCURRENCE	e82
+aja_pm_2000_10_04.tasak.a003.sol	37	8	"varustatud"	EVENT OCCURRENCE	e83
+aja_pm_2000_10_04.tasak.a003.sol	38	4	"teki"	EVENT OCCURRENCE polarity=NEG	e84
+aja_pm_2000_10_04.tasak.a003.sol	39	1	"lisas"	EVENT REPORTING	e85
+aja_pm_2000_10_04.tasak.a003.sol	39	6	"kannata"	EVENT OCCURRENCE polarity=NEG	e86
+aja_pm_2000_10_04.tasak.a003.sol	40	9	"moodustab"	EVENT I_ACTION	e87
+aja_pm_2000_10_04.tasak.a003.sol	40	10	"viiendiku"	EVENT OCCURRENCE	e88
+aja_pm_2000_10_04.tasak.a003.sol	41	2	"toodab"	EVENT I_ACTION	e89
+aja_pm_2000_10_04.tasak.a003.sol	41	4	"30"	EVENT OCCURRENCE	e90
+aja_pm_2000_10_04.tasak.a003.sol	41	11	"läheb"	EVENT OCCURRENCE	e91
+aja_pm_2000_10_04.tasak.a004.sol	0	2	"tunnistas"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a004.sol	0	11	"otsustanud"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a004.sol	1	6	"kinnitab"	EVENT I_ACTION	e3
+aja_pm_2000_10_04.tasak.a004.sol	1	7	"huvi"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a004.sol	2	9	"kinnitas"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a004.sol	2	14	"süveneb"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a004.sol	3	3	"sõltub"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a004.sol	3	7	"märkis"	EVENT REPORTING	e8
+aja_pm_2000_10_04.tasak.a004.sol	4	1	"Süveneme"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a004.sol	5	0	"Uurime"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a004.sol	5	6	"parandada"	EVENT I_ACTION	e11
+aja_pm_2000_10_04.tasak.a004.sol	5	7	"töötingimusi"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a004.sol	6	13	"pakutud"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a004.sol	6	15	"vastas"	EVENT REPORTING	e14
+aja_pm_2000_10_04.tasak.a004.sol	6	23	"on"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a004.sol	6	28	"oska"	EVENT OCCURRENCE polarity=NEG	e16
+aja_pm_2000_10_04.tasak.a004.sol	7	2	"tea"	EVENT OCCURRENCE polarity=NEG	e17
+aja_pm_2000_10_04.tasak.a004.sol	7	8	"oleme"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a004.sol	8	1	"kinnitas"	EVENT REPORTING	e19
+aja_pm_2000_10_04.tasak.a004.sol	8	7	"peaks"	EVENT MODAL	e20
+aja_pm_2000_10_04.tasak.a004.sol	8	9	"ostma"	EVENT OCCURRENCE modality=pidama	e21
+aja_pm_2000_10_04.tasak.a004.sol	8	11	"pole"	EVENT OCCURRENCE polarity=NEG	e22
+aja_pm_2000_10_04.tasak.a004.sol	8	26	"minema"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a004.sol	8	27	"minna"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a004.sol	9	3	"on"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a004.sol	9	7	"väitis"	EVENT REPORTING	e26
+aja_pm_2000_10_04.tasak.a004.sol	10	4	"lõppes"	EVENT ASPECTUAL	e27
+aja_pm_2000_10_04.tasak.a004.sol	10	7	"erastamine"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a004.sol	10	11	"laekunud"	EVENT OCCURRENCE polarity=NEG	e29
+aja_pm_2000_10_04.tasak.a004.sol	10	15	"saabus"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a004.sol	10	26	"põhjendasid"	EVENT I_ACTION	e31
+aja_pm_2000_10_04.tasak.a004.sol	10	28	"loobumist"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a004.sol	10	34	"näe"	EVENT PERCEPTION polarity=NEG	e33
+aja_pm_2000_10_04.tasak.a004.sol	11	4	"pole"	EVENT OCCURRENCE polarity=NEG	e34
+aja_pm_2000_10_04.tasak.a004.sol	11	12	"saanud"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a004.sol	11	15	"kommenteeris"	EVENT REPORTING	e36
+aja_pm_2000_10_04.tasak.a004.sol	11	20	"selgitas"	EVENT I_ACTION	e37
+aja_pm_2000_10_04.tasak.a004.sol	11	21	"seda"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a004.sol	11	29	"asus"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a004.sol	11	35	"vaatama"	EVENT PERCEPTION	e40
+aja_pm_2000_10_04.tasak.a004.sol	12	2	"kavatseb"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a004.sol	12	9	"kuulutab"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a004.sol	12	23	"arutatud"	EVENT OCCURRENCE polarity=NEG	e43
+aja_pm_2000_10_04.tasak.a004.sol	13	6	"kinnitanud"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a004.sol	13	11	"lase"	EVENT OCCURRENCE polarity=NEG	e45
+aja_pm_2000_10_04.tasak.a007.sol	0	6	"saab"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a007.sol	1	3	"on"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a007.sol	1	13	"elab-töötab"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a007.sol	2	4	"võtab"	EVENT I_ACTION	e4
+aja_pm_2000_10_04.tasak.a007.sol	2	7	"ühendust"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a007.sol	2	10	"kinnitas"	EVENT REPORTING	e6
+aja_pm_2000_10_04.tasak.a007.sol	3	1	"ühendab"	EVENT I_ACTION	e7
+aja_pm_2000_10_04.tasak.a007.sol	3	4	"digitaaljaama"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a007.sol	4	1	"saab"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a007.sol	5	3	"tee"	EVENT OCCURRENCE polarity=NEG	e10
+aja_pm_2000_10_04.tasak.a007.sol	5	11	"selgitas"	EVENT REPORTING	e11
+aja_pm_2000_10_04.tasak.a007.sol	6	2	"saavad"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a007.sol	6	10	"soovivad"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a007.sol	7	4	"on"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a007.sol	8	1	"on"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a007.sol	9	2	"on"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a007.sol	10	7	"liituda"	EVENT OCCURRENCE modality=saama	e17
+aja_pm_2000_10_04.tasak.a007.sol	10	8	"saab"	EVENT MODAL	e18
+aja_pm_2000_10_04.tasak.a007.sol	10	11	"osanud"	EVENT OCCURRENCE polarity=NEG	e19
+aja_pm_2000_10_04.tasak.a007.sol	11	2	"sõltub"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a007.sol	11	7	"on"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a007.sol	11	14	"kostis"	EVENT REPORTING	e22
+aja_pm_2000_10_04.tasak.a007.sol	12	4	"leiavad"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a007.sol	13	1	"lisas"	EVENT REPORTING	e24
+aja_pm_2000_10_04.tasak.a007.sol	13	9	"kaetud"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a007.sol	13	12	"on"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a007.sol	14	7	"saavad"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a007.sol	14	10	"oska"	EVENT OCCURRENCE polarity=NEG	e28
+aja_pm_2000_10_04.tasak.a007.sol	14	16	"nentis"	EVENT REPORTING	e29
+aja_pm_2000_10_04.tasak.a007.sol	15	3	"ehitab"	EVENT I_ACTION	e30
+aja_pm_2000_10_04.tasak.a007.sol	15	7	"jaamu"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a007.sol	16	1	"ehitas"	EVENT I_ACTION	e32
+aja_pm_2000_10_04.tasak.a007.sol	16	5	"digitaaljaama"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a007.sol	16	9	"kasutab"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a007.sol	17	1	"sai"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a007.sol	18	11	"pakub"	EVENT I_ACTION	e36
+aja_pm_2000_10_04.tasak.a007.sol	18	18	"võimalust"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a007.sol	19	2	"on"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a007.sol	20	2	"on"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a007.sol	21	1	"kasutab"	EVENT I_ACTION	e40
+aja_pm_2000_10_04.tasak.a007.sol	21	3	"teenuseid"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a009.sol	0	0	"Aidsipuhang"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a009.sol	0	2	"ehmatas"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a009.sol	0	10	"tekkis"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a009.sol	0	19	"polnud"	EVENT OCCURRENCE polarity "NEG"	e4
+aja_pm_2000_10_04.tasak.a009.sol	1	3	"olid"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a009.sol	1	9	"käivad"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a009.sol	1	12	"nentis"	EVENT REPORTING	e7
+aja_pm_2000_10_04.tasak.a009.sol	2	4	"oleks"	EVENT OCCURRENCE conditional	e8
+aja_pm_2000_10_04.tasak.a009.sol	2	6	"kulunud"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a009.sol	2	10	"lisas"	EVENT REPORTING	e10
+aja_pm_2000_10_04.tasak.a009.sol	3	7	"olnud"	EVENT OCCURRENCE polarity "NEG"	e11
+aja_pm_2000_10_04.tasak.a009.sol	4	7	"küsinud"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a009.sol	4	10	"saab teha"	EVENT multiword="true"	e13
+aja_pm_2000_10_04.tasak.a009.sol	4	12	"saab teha"	EVENT OCCURRENCE multiword="true"	e13
+aja_pm_2000_10_04.tasak.a009.sol	4	15	"ütles"	EVENT REPORTING	e15
+aja_pm_2000_10_04.tasak.a009.sol	5	2	"on"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a009.sol	5	8	"lisas"	EVENT REPORTING	e17
+aja_pm_2000_10_04.tasak.a009.sol	6	3	"käib"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a009.sol	7	4	"andnud"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a009.sol	7	12	"osutus"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a009.sol	7	16	"on"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a009.sol	7	19	"rahul"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a009.sol	8	4	"teen"	EVENT I_ACTION	e23
+aja_pm_2000_10_04.tasak.a009.sol	8	6	"kordusproovi"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a009.sol	8	9	"selgitas"	EVENT REPORTING	e25
+aja_pm_2000_10_04.tasak.a009.sol	9	2	"läheb"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a009.sol	9	9	"saab teha"	EVENT multiword="true"	e27
+aja_pm_2000_10_04.tasak.a009.sol	9	10	"saab teha"	EVENT I_ACTION multiword="true"	e27
+aja_pm_2000_10_04.tasak.a009.sol	9	13	"uuringuid"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a009.sol	10	1	"pole"	EVENT OCCURRENCE polarity "NEG"	e30
+aja_pm_2000_10_04.tasak.a009.sol	10	3	"võimalik"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a009.sol	10	8	"tuleb"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a009.sol	11	2	"on"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a009.sol	11	3	"kallis"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a009.sol	11	8	"on"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a009.sol	12	2	"võta"	EVENT OCCURRENCE polarity "NEG"	e36
+aja_pm_2000_10_04.tasak.a009.sol	12	8	"pärsivad"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a009.sol	13	2	"nõustas"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a009.sol	13	9	"sai"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a009.sol	14	3	"ole"	EVENT OCCURRENCE polarity "NEG"	e40
+aja_pm_2000_10_04.tasak.a009.sol	14	8	"valmis"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a009.sol	14	11	"leppida"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a009.sol	15	3	"on"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a009.sol	15	10	"lisas"	EVENT REPORTING	e44
+aja_pm_2000_10_04.tasak.a009.sol	16	1	"võib"	EVENT MODAL	e45
+aja_pm_2000_10_04.tasak.a009.sol	16	3	"jätkata"	EVENT OCCURRENCE MODALITY=võima	e46
+aja_pm_2000_10_04.tasak.a009.sol	16	11	"tuleb"	EVENT OCCURRENCE	e47
+aja_pm_2000_10_04.tasak.a009.sol	17	2	"ole"	EVENT OCCURRENCE polarity "NEG"	e48
+aja_pm_2000_10_04.tasak.a009.sol	17	8	"levib"	EVENT OCCURRENCE	e49
+aja_pm_2000_10_04.tasak.a009.sol	18	2	"usu"	EVENT OCCURRENCE	e50
+aja_pm_2000_10_04.tasak.a009.sol	18	9	"pole"	EVENT OCCURRENCE polarity "NEG"	e51
+aja_pm_2000_10_04.tasak.a009.sol	19	2	"pole sattunud"	EVENT multiword="true"	e52
+aja_pm_2000_10_04.tasak.a009.sol	19	5	"pole sattunud"	EVENT OCCURRENCE polarity "NEG" multiword="true"	e52
+aja_pm_2000_10_04.tasak.a009.sol	19	11	"nentis"	EVENT REPORTING	e54
+aja_pm_2000_10_04.tasak.a009.sol	20	3	"on"	EVENT OCCURRENCE	e55
+aja_pm_2000_10_04.tasak.a009.sol	21	3	"on"	EVENT OCCURRENCE	e56
+aja_pm_2000_10_04.tasak.a009.sol	22	1	"pakub"	EVENT I_ACTION	e57
+aja_pm_2000_10_04.tasak.a009.sol	22	4	"võimalust"	EVENT OCCURRENCE	e58
+aja_pm_2000_10_04.tasak.a009.sol	23	3	"karda"	EVENT I_ACTION polarity "NEG"	e59
+aja_pm_2000_10_04.tasak.a009.sol	23	5	"midagi"	EVENT OCCURRENCE	e60
+aja_pm_2000_10_04.tasak.a009.sol	23	8	"usuvad"	EVENT OCCURRENCE	e61
+aja_pm_2000_10_04.tasak.a009.sol	23	13	"saada"	EVENT UNK modality "võima"	e62
+aja_pm_2000_10_04.tasak.a009.sol	23	19	"tõdes"	EVENT REPORTING	e63
+aja_pm_2000_10_04.tasak.a009.sol	24	4	"surnud"	EVENT OCCURRENCE	e64
+aja_pm_2000_10_04.tasak.a009.sol	25	3	"hävitab"	EVENT I_ACTION	e65
+aja_pm_2000_10_04.tasak.a009.sol	25	5	"immuunsüsteemi"	EVENT OCCURRENCE	e66
+aja_pm_2000_10_04.tasak.a009.sol	25	8	"peaks"	EVENT MODAL	e67
+aja_pm_2000_10_04.tasak.a009.sol	25	15	"kaitsma"	EVENT UNK modality "pidama"	e68
+aja_pm_2000_10_04.tasak.a009.sol	26	1	"tutvustab"	EVENT I_ACTION	e69
+aja_pm_2000_10_04.tasak.a009.sol	26	5	"sümptomeid"	EVENT OCCURRENCE	e70
+aja_pm_2000_10_04.tasak.a010.sol	0	5	"kavatseb"	EVENT I_STATE	e1
+aja_pm_2000_10_04.tasak.a010.sol	0	9	"seigelda"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a010.sol	0	14	"otsib"	EVENT I_ACTION	e3
+aja_pm_2000_10_04.tasak.a010.sol	0	16	"reisikaaslasi"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a010.sol	1	7	"remondib"	EVENT I_ACTION	e5
+aja_pm_2000_10_04.tasak.a010.sol	1	9	"ehitisi"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a010.sol	1	11	"kirikutorne"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a010.sol	1	13	"korstnaid"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a010.sol	1	15	"soovib"	EVENT I_STATE	e9
+aja_pm_2000_10_04.tasak.a010.sol	1	18	"asuda"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a010.sol	1	22	"kulgeda"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a010.sol	2	4	"kulub"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a010.sol	2	8	"peavad"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a010.sol	3	2	"kavatseb"	EVENT I_ACTION	e14
+aja_pm_2000_10_04.tasak.a010.sol	3	6	"jõuda"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a010.sol	4	6	"saab"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a010.sol	4	11	"peavad"	EVENT MODAL	e17
+aja_pm_2000_10_04.tasak.a010.sol	4	14	"hoolitsema"	EVENT OCCURRENCE modality=pidama	e18
+aja_pm_2000_10_04.tasak.a010.sol	5	3	"vaatasin"	EVENT PERCEPTION	e19
+aja_pm_2000_10_04.tasak.a010.sol	5	8	"tundus"	EVENT PERCEPTION	e20
+aja_pm_2000_10_04.tasak.a010.sol	6	1	"on"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a010.sol	6	8	"ütleb"	EVENT REPORTING	e22
+aja_pm_2000_10_04.tasak.a010.sol	6	20	"remontis"	EVENT I_ACTION	e23
+aja_pm_2000_10_04.tasak.a010.sol	6	24	"soovib"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a010.sol	7	8	"saa"	EVENT OCCURRENCE polarity=NEG	e25
+aja_pm_2000_10_04.tasak.a010.sol	8	3	"usu"	EVENT OCCURRENCE polarity=NEG	e26
+aja_pm_2000_10_04.tasak.a010.sol	8	9	"sõidab"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a010.sol	8	16	"hoida"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a010.sol	8	19	"seab"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a010.sol	8	22	"säästuplaani"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a010.sol	9	3	"meresid"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a010.sol	9	4	"ületada"	EVENT I_ACTION	e32
+aja_pm_2000_10_04.tasak.a010.sol	9	6	"võib"	EVENT MODAL	e33
+aja_pm_2000_10_04.tasak.a010.sol	9	8	"värvida"	EVENT OCCURRENCE modality=võima	e34
+aja_pm_2000_10_04.tasak.a010.sol	10	4	"on"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a010.sol	10	15	"võib"	EVENT MODAL	e36
+aja_pm_2000_10_04.tasak.a010.sol	10	20	"proovida"	EVENT OCCURRENCE modality=võima	e37
+aja_pm_2000_10_04.tasak.a010.sol	10	25	"ütled"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a010.sol	10	28	"asub"	EVENT I_STATE	e39
+aja_pm_2000_10_04.tasak.a010.sol	10	29	"Tartu"	EVENT OCCURRENCE	e40
+aja_pm_2000_10_04.tasak.a010.sol	10	33	"maksan"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a010.sol	11	3	"soovib"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a010.sol	12	1	"Sobib"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a010.sol	12	7	"ronima"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a010.sol	12	9	"hakka"	EVENT OCCURRENCE polarity=NEG	e45
+aja_pm_2000_10_04.tasak.a010.sol	12	12	"täpsustab"	EVENT REPORTING	e46
+aja_pm_2000_10_04.tasak.a010.sol	13	3	"tuleb"	EVENT OCCURRENCE	e47
+aja_pm_2000_10_04.tasak.a010.sol	14	1	"räägib"	EVENT REPORTING	e48
+aja_pm_2000_10_04.tasak.a010.sol	14	7	"rügas"	EVENT OCCURRENCE	e49
+aja_pm_2000_10_04.tasak.a010.sol	15	3	"mõtlen"	EVENT OCCURRENCE	e50
+aja_pm_2000_10_04.tasak.a010.sol	15	9	"töötas"	EVENT OCCURRENCE	e51
+aja_pm_2000_10_04.tasak.a010.sol	16	2	"saa"	EVENT MODAL	e52
+aja_pm_2000_10_04.tasak.a010.sol	16	3	"olla"	EVENT OCCURRENCE modality=saama	e53
+aja_pm_2000_10_04.tasak.a010.sol	16	9	"põhjendab"	EVENT REPORTING	e54
+aja_pm_2000_10_04.tasak.a012.sol	0	1	"alustavad"	EVENT ASPECTUAL	e1
+aja_pm_2000_10_04.tasak.a012.sol	1	3	"jäänud"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a012.sol	2	3	"jäänud"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a012.sol	2	16	"toonud"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a012.sol	3	1	"pole"	EVENT OCCURRENCE polarity=NEG	e5
+aja_pm_2000_10_04.tasak.a012.sol	3	9	"leidub"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a012.sol	4	2	"sõbrakäe"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a012.sol	4	3	"ulatanud"	EVENT I_ACTION	e8
+aja_pm_2000_10_04.tasak.a012.sol	5	10	"jõudnud"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a012.sol	5	13	"esindavad"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a012.sol	6	3	"alustavad"	EVENT ASPECTUAL	e11
+aja_pm_2000_10_04.tasak.a012.sol	6	15	"on"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a012.sol	7	2	"jõutakse"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a012.sol	7	5	"tuleb"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a013.sol	0	5	"osales"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a013.sol	0	7	"36"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a013.sol	1	1	"kuulus"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a013.sol	1	7	"olid"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a013.sol	2	0	"Paremus"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a013.sol	2	1	"selgitati"	EVENT I_ACTION	e6
+aja_pm_2000_10_04.tasak.a013.sol	3	7	"saavutas"	EVENT I_ACTION	e7
+aja_pm_2000_10_04.tasak.a013.sol	3	8	"esikoha"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a013.sol	4	3	"kohta"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a013.sol	4	4	"jagasid"	EVENT I_ACTION	e10
+aja_pm_2000_10_04.tasak.a013.sol	5	3	"kogusid"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a013.sol	5	14	"oli"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a013.sol	6	10	"jagasid"	EVENT I_ACTION	e13
+aja_pm_2000_10_04.tasak.a013.sol	6	14	"kohta"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a013.sol	7	2	"oli"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a013.sol	8	1	"võistlesid"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a013.sol	9	5	"pälvis"	EVENT I_ACTION	e17
+aja_pm_2000_10_04.tasak.a013.sol	9	11	"esikoha"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a013.sol	10	4	"jagas"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a013.sol	10	24	"jagas"	EVENT I_ACTION	e20
+aja_pm_2000_10_04.tasak.a013.sol	10	26	"kohta"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a013.sol	11	3	"on"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a013.sol	12	1	"on"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a013.sol	12	3	"pidamata"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a013.sol	12	8	"meistrivõistlused"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a019.sol	0	3	"kinnitusel"	EVENT REPORTING	e1
+aja_pm_2000_10_04.tasak.a019.sol	0	4	"pole"	EVENT OCCURRENCE polarity=NEG	e2
+aja_pm_2000_10_04.tasak.a019.sol	0	12	"tegeldakse"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a019.sol	0	17	"minna"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a019.sol	1	3	"külmutatud"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a019.sol	1	11	"tõstetud"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a019.sol	1	20	"tõusnud"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a019.sol	2	5	"hakati"	EVENT ASPECTUAL	e8
+aja_pm_2000_10_04.tasak.a019.sol	2	6	"maksma"	EVENT I_STATE	e9
+aja_pm_2000_10_04.tasak.a019.sol	3	1	"maksis"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a019.sol	4	1	"saanuks"	EVENT OCCURRENCE CONDITIONAL	e11
+aja_pm_2000_10_04.tasak.a019.sol	4	2	"osta"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a019.sol	5	1	"saab"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a019.sol	5	8	"saavad"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a019.sol	5	11	"osta"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a019.sol	6	5	"langenud"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a019.sol	7	3	"lohutab"	EVENT REPORTING	e17
+aja_pm_2000_10_04.tasak.a019.sol	7	7	"aastaks"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a019.sol	7	8	"peaks"	EVENT MODAL	e19
+aja_pm_2000_10_04.tasak.a019.sol	7	11	"suurenema"	EVENT OCCURRENCE modality=pidama	e20
+aja_pm_2000_10_04.tasak.a019.sol	7	15	"muutub"	EVENT I_ACTION	e21
+aja_pm_2000_10_04.tasak.a019.sol	7	18	"pensionitõus"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a019.sol	8	8	"söönud"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a019.sol	9	2	"soovitati"	EVENT I_ACTION	e24
+aja_pm_2000_10_04.tasak.a019.sol	9	4	"oodata"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a019.sol	10	1	"on"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a019.sol	11	2	"sattus"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a019.sol	11	8	"peab"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a019.sol	12	0	"Võrdlesin"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a019.sol	12	5	"miinimumiga"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a019.sol	12	7	"Võib"	EVENT MODAL	e31
+aja_pm_2000_10_04.tasak.a019.sol	12	8	"öelda"	EVENT OCCURRENCE modality=võima	e32
+aja_pm_2000_10_04.tasak.a019.sol	12	15	"on"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a019.sol	13	11	"on"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a019.sol	14	2	"on"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a019.sol	15	1	"pole"	EVENT OCCURRENCE plarity=NEG	e36
+aja_pm_2000_10_04.tasak.a019.sol	15	8	"meeldi"	EVENT OCCURRENCE polarity=NEG	e37
+aja_pm_2000_10_04.tasak.a019.sol	15	17	"on"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a019.sol	15	22	"pole"	EVENT OCCURRENCE polarity=NEG	e39
+aja_pm_2000_10_04.tasak.a019.sol	15	28	"on"	EVENT OCCURRENCE	e40
+aja_pm_2000_10_04.tasak.a023.sol	0	7	"paluvad"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a023.sol	0	11	"kroone"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a023.sol	1	3	"pidid"	EVENT MODAL	e3
+aja_pm_2000_10_04.tasak.a023.sol	1	8	"leppima"	EVENT OCCURRENCE modality=pidama	e4
+aja_pm_2000_10_04.tasak.a023.sol	1	17	"suuda"	EVENT I_ACTION polarity=NEG	e5
+aja_pm_2000_10_04.tasak.a023.sol	1	19	"maksta"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a023.sol	2	4	"on"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a023.sol	2	14	"näevad"	EVENT PERCEPTION	e8
+aja_pm_2000_10_04.tasak.a023.sol	2	25	"õlekõrt"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a023.sol	2	34	"tõmbaks"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a023.sol	3	11	"on"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a023.sol	3	31	"kasvanud"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a023.sol	5	4	"tule"	EVENT OCCURRENCE polarity=NEG	e13
+aja_pm_2000_10_04.tasak.a023.sol	5	10	"sõnastas"	EVENT REPORTING	e14
+aja_pm_2000_10_04.tasak.a023.sol	6	13	"võtavad"	EVENT I_ACTION	e15
+aja_pm_2000_10_04.tasak.a023.sol	6	23	"70%"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a023.sol	7	2	"jäid"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a023.sol	7	13	"tööta"	EVENT OCCURRENCE polarity=NEG	e18
+aja_pm_2000_10_04.tasak.a023.sol	8	2	"pole"	EVENT OCCURRENCE polarity=NEG	e19
+aja_pm_2000_10_04.tasak.a023.sol	8	11	"saame"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a023.sol	8	19	"ütles"	EVENT REPORTING	e21
+aja_pm_2000_10_04.tasak.a023.sol	9	3	"istusid"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a023.sol	10	1	"faksib"	EVENT I_ACTION	e23
+aja_pm_2000_10_04.tasak.a023.sol	10	6	"murekirja"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a023.sol	10	24	"vonkleb"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a023.sol	11	1	"Vajame"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a023.sol	11	19	"avas"	EVENT REPORTING	e27
+aja_pm_2000_10_04.tasak.a023.sol	12	3	"on"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a023.sol	12	8	"kirjutas"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a023.sol	12	19	"jäi"	EVENT MODAL	e30
+aja_pm_2000_10_04.tasak.a023.sol	12	20	"uskuma"	EVENT OCCURRENCE modality=jääma	e31
+aja_pm_2000_10_04.tasak.a023.sol	13	6	"lubanud"	EVENT OCCURRENCE polarity=NEG	e32
+aja_pm_2000_10_04.tasak.a023.sol	13	12	"ütles"	EVENT REPORTING	e33
+aja_pm_2000_10_04.tasak.a023.sol	13	18	"tuleb"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a023.sol	13	27	"lubas"	EVENT I_ACTION	e35
+aja_pm_2000_10_04.tasak.a023.sol	13	28	"seda"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a023.sol	13	32	"selgitab"	EVENT REPORTING	e37
+aja_pm_2000_10_04.tasak.a023.sol	14	4	"paneb"	EVENT I_ACTION	e38
+aja_pm_2000_10_04.tasak.a023.sol	14	6	"diagnoosi"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a023.sol	15	7	"tõstab"	EVENT I_ACTION	e40
+aja_pm_2000_10_04.tasak.a023.sol	15	13	"käed"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a023.sol	15	20	"kehti"	EVENT OCCURRENCE polarity=NEG	e42
+aja_pm_2000_10_04.tasak.a023.sol	16	1	"paluvad"	EVENT I_ACTION	e43
+aja_pm_2000_10_04.tasak.a023.sol	16	2	"raha"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a023.sol	17	2	"peab"	EVENT MODAL	e45
+aja_pm_2000_10_04.tasak.a023.sol	17	3	"tunnistama"	EVENT OCCURRENCE modality=pidama	e46
+aja_pm_2000_10_04.tasak.a023.sol	17	8	"leidma"	EVENT OCCURRENCE modality=pidama	e47
+aja_pm_2000_10_04.tasak.a023.sol	17	13	"veendunud"	EVENT STATE	e48
+aja_pm_2000_10_04.tasak.a023.sol	18	3	"võime"	EVENT MODAL	e49
+aja_pm_2000_10_04.tasak.a023.sol	18	5	"panna"	EVENT OCCURRENCE modality=võima	e50
+aja_pm_2000_10_04.tasak.a023.sol	18	16	"oleks"	EVENT OCCURRENCE conditional	e51
+aja_pm_2000_10_04.tasak.a023.sol	19	3	"taha"	EVENT OCCURRENCE polarity=NEG	e52
+aja_pm_2000_10_04.tasak.a023.sol	20	3	"elab"	EVENT OCCURRENCE	e53
+aja_pm_2000_10_04.tasak.a023.sol	21	1	"maksis"	EVENT I_ACTION	e54
+aja_pm_2000_10_04.tasak.a023.sol	21	5	"17,5"	EVENT OCCURRENCE	e55
+aja_pm_2000_10_04.tasak.a023.sol	21	16	"suuda"	EVENT OCCURRENCE polarity=NEG	e56
+aja_pm_2000_10_04.tasak.a023.sol	22	5	"anna"	EVENT OCCURRENCE polarity=NEG	e57
+aja_pm_2000_10_04.tasak.a023.sol	22	10	"tea"	EVENT OCCURRENCE polarity=NEG	e58
+aja_pm_2000_10_04.tasak.a023.sol	22	13	"saab"	EVENT OCCURRENCE	e59
+aja_pm_2000_10_04.tasak.a023.sol	22	16	"kostab"	EVENT REPORTING	e60
+aja_pm_2000_10_04.tasak.a023.sol	23	6	"on"	EVENT OCCURRENCE	e61
+aja_pm_2000_10_04.tasak.a023.sol	23	11	"antakse"	EVENT OCCURRENCE	e62
+aja_pm_2000_10_04.tasak.a023.sol	23	13	"on"	EVENT OCCURRENCE	e63
+aja_pm_2000_10_04.tasak.a023.sol	23	20	"mõistab"	EVENT REPORTING	e64
+aja_pm_2000_10_04.tasak.a023.sol	24	3	"ennustab"	EVENT OCCURRENCE	e65
+aja_pm_2000_10_04.tasak.a023.sol	24	9	"on"	EVENT OCCURRENCE	e66
+aja_pm_2000_10_04.tasak.a023.sol	25	2	"tahab"	EVENT OCCURRENCE	e67
+aja_pm_2000_10_04.tasak.a023.sol	26	1	"postitab"	EVENT OCCURRENCE I_ACTION	e68
+aja_pm_2000_10_04.tasak.a023.sol	26	2	"palvekirja"	EVENT OCCURRENCE	e69
+aja_pm_2000_10_04.tasak.a023.sol	26	12	"küsib"	EVENT I_ACTION	e70
+aja_pm_2000_10_04.tasak.a023.sol	26	13	"170"	EVENT OCCURRENCE	e71
+aja_pm_2000_10_04.tasak.a023.sol	26	18	"sai"	EVENT OCCURRENCE	e72
+aja_pm_2000_10_04.tasak.a023.sol	27	0	"Loe"	EVENT I_ACTION IMPERATIVE	e73
+aja_pm_2000_10_04.tasak.a023.sol	27	2	"juhtkirja"	EVENT OCCURRENCE modality=pidama	e74
+aja_pm_2000_10_04.tasak.a031.sol	0	6	"on"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a031.sol	0	8	"lubatud"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a031.sol	1	4	"pea"	EVENT OCCURRENCE POLARITY=NEG	e3
+aja_pm_2000_10_04.tasak.a031.sol	1	7	"pidama"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a031.sol	1	11	"märgitakse"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a031.sol	2	1	"kaob"	EVENT ASPECTUAL	e6
+aja_pm_2000_10_04.tasak.a031.sol	3	0	"Trahvid"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a031.sol	4	3	"sõnul"	EVENT REPORTING	e8
+aja_pm_2000_10_04.tasak.a031.sol	4	4	"muudab"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a031.sol	4	13	"paneb"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a031.sol	4	21	"on"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a031.sol	4	28	"kasutaks"	EVENT OCCURRENCE POLARITY=NEG	e12
+aja_pm_2000_10_04.tasak.a031.sol	4	34	"on"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a031.sol	5	8	"on"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a031.sol	5	14	"on"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a031.sol	6	7	"nähtud"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a031.sol	6	19	"rääkis"	EVENT REPORTING	e17
+aja_pm_2000_10_04.tasak.a031.sol	7	1	"on"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a031.sol	7	3	"sõnul"	EVENT REPORTING	e19
+aja_pm_2000_10_04.tasak.a031.sol	7	12	"kontrollitakse"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a031.sol	7	20	"hirmuta"	EVENT OCCURRENCE POLARITY=NEG	e21
+aja_pm_2000_10_04.tasak.a031.sol	8	3	"võib"	EVENT MODAL	e22
+aja_pm_2000_10_04.tasak.a031.sol	8	7	"karistada"	EVENT OCCURRENCE MODALITY=VÕIMA	e23
+aja_pm_2000_10_04.tasak.a031.sol	8	19	"sunnib"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a031.sol	8	25	"lisas"	EVENT REPORTING	e25
+aja_pm_2000_10_04.tasak.a031.sol	9	0	"Kontroll"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a031.sol	9	1	"raskendatud"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a031.sol	10	5	"sõnul"	EVENT REPORTING	e28
+aja_pm_2000_10_04.tasak.a031.sol	10	6	"on"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a031.sol	10	8	"kütusekontrolli"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a031.sol	10	14	"puuduvad"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a031.sol	11	4	"teinud"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a031.sol	11	13	"märkis"	EVENT REPORTING	e33
+aja_pm_2000_10_04.tasak.a031.sol	12	1	"sõnul"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a031.sol	12	2	"maksab"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a031.sol	12	13	"teevad"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a031.sol	13	6	"oleks"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a031.sol	13	20	"läinud"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a031.sol	13	31	"pole"	EVENT OCCURRENCE POLARITY=neg	e39
+aja_pm_2000_10_04.tasak.a031.sol	13	34	"lausus"	EVENT REPORTING	e40
+aja_pm_2000_10_04.tasak.a031.sol	14	2	"on"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a031.sol	14	5	"võtmine"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a031.sol	14	12	"nõuavad"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a031.sol	15	1	"peetakse"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a034.sol	0	3	"viis"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a034.sol	0	14	"kerkinud"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a034.sol	1	1	"suurenemine"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a034.sol	1	3	"seotud"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a034.sol	1	6	"maaerastamisega"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a034.sol	2	5	"väljastatud"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a034.sol	2	15	"vähenenud"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a034.sol	3	6	"hinnangul"	EVENT REPORTING	e8
+aja_pm_2000_10_04.tasak.a034.sol	3	7	"väljastatakse"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a034.sol	3	16	"lõpeb"	EVENT ASPECTUAL	e10
+aja_pm_2000_10_04.tasak.a034.sol	3	18	"kasutustähtaeg"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a034.sol	4	4	"algusega"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a034.sol	4	6	"kahanenud"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a034.sol	4	14	"põhjustabki"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a034.sol	5	7	"on"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a034.sol	6	1	"sõnul"	EVENT REPORTING	e16
+aja_pm_2000_10_04.tasak.a034.sol	6	2	"jälgib"	EVENT PERCEPTION	e17
+aja_pm_2000_10_04.tasak.a034.sol	6	6	"hinnarallit"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a034.sol	6	8	"teeb"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a034.sol	8	1	"kinnitusel"	EVENT REPORTING	e20
+aja_pm_2000_10_04.tasak.a034.sol	8	2	"ostetakse"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a034.sol	9	2	"võib"	EVENT MODAL	e22
+aja_pm_2000_10_04.tasak.a034.sol	9	3	"tasuda"	EVENT OCCURRENCE MODALITY=VÕIMA	e23
+aja_pm_2000_10_04.tasak.a034.sol	10	2	"kaotavad"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a034.sol	10	10	"asuvad"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a034.sol	10	12	"ostma"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a034.sol	11	2	"peavad"	EVENT MODAL	e27
+aja_pm_2000_10_04.tasak.a034.sol	11	7	"maksma"	EVENT OCCURRENCE MODALITY=PIDAMA	e28
+aja_pm_2000_10_04.tasak.a034.sol	11	8	"laenu"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a034.sol	12	1	"sõnul"	EVENT REPORTING	e30
+aja_pm_2000_10_04.tasak.a034.sol	12	5	"olnud"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a034.sol	13	8	"püsinud"	EVENT OCCURRENCE POLARITY=NEG	e32
+aja_pm_2000_10_04.tasak.a034.sol	13	12	"rääkis"	EVENT REPORTING	e33
+aja_pm_2000_10_04.tasak.a034.sol	14	1	"kinnitusel"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a034.sol	14	2	"jätkub"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a034.sol	16	1	"kinnitas"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a034.sol	16	12	"langeb"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a034.sol	17	2	"peab"	EVENT MODAL	e38
+aja_pm_2000_10_04.tasak.a034.sol	17	3	"kinnitama"	EVENT OCCURRENCE MODALITY=PIDAMA	e39
+aja_pm_2000_10_04.tasak.a041.sol	0	1	"tegi"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a041.sol	0	15	"jäävad"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a041.sol	0	23	"pooldas"	EVENT I_ACTION	e3
+aja_pm_2000_10_04.tasak.a041.sol	0	26	"kesklinna"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a041.sol	1	2	"on"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a041.sol	1	3	"oluline"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a041.sol	1	6	"ütles"	EVENT REPORTING	e7
+aja_pm_2000_10_04.tasak.a041.sol	2	3	"on"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a041.sol	2	9	"asub"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a041.sol	2	15	"sai"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a041.sol	3	3	"on"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a041.sol	3	10	"kasvavad"	EVENT I_ACTION	e12
+aja_pm_2000_10_04.tasak.a041.sol	3	13	"ehituskulud"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a041.sol	4	4	"kujuneb"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a041.sol	4	13	"võib"	EVENT MODAL	e15
+aja_pm_2000_10_04.tasak.a041.sol	4	14	"kasvada"	EVENT OCCURRENCE modality=võima	e16
+aja_pm_2000_10_04.tasak.a041.sol	5	3	"esitas"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a041.sol	5	15	"valiti"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a041.sol	6	2	"olid"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a041.sol	6	27	"võtaks"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a041.sol	7	3	"kujunenuks"	EVENT OCCURRENCE CONDITIONAL	e21
+aja_pm_2000_10_04.tasak.a041.sol	8	1	"oleks"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a041.sol	8	8	"leida"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a041.sol	8	10	"tõdesid"	EVENT REPORTING	e24
+aja_pm_2000_10_04.tasak.a041.sol	9	4	"pole"	EVENT OCCURRENCE polarity "NEG"	e25
+aja_pm_2000_10_04.tasak.a041.sol	9	16	"jääb"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a041.sol	10	5	"pakkuma"	EVENT UNK MODALITY "pidama"	e27
+aja_pm_2000_10_04.tasak.a044.sol	0	7	"oli"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a044.sol	0	18	"jäi"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a044.sol	0	26	"saatis"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a044.sol	1	3	"ruttas"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a044.sol	2	2	"lennutas"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a044.sol	2	6	"lause"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a044.sol	2	14	"jätkub"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a044.sol	3	2	"süüdistas"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a044.sol	3	14	"tegusid"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a044.sol	4	3	"tekitatud"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a044.sol	4	13	"rikutud"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a044.sol	4	16	"sõnas"	EVENT REPORTING	e12
+aja_pm_2000_10_04.tasak.a044.sol	5	3	"sõnul"	EVENT REPORTING	e13
+aja_pm_2000_10_04.tasak.a044.sol	5	5	"välistatud"	EVENT OCCURRENCE POLARITY=NEG	e14
+aja_pm_2000_10_04.tasak.a044.sol	5	10	"võib"	EVENT MODAL	e15
+aja_pm_2000_10_04.tasak.a044.sol	5	14	"minna"	EVENT OCCURRENCE MODALITY=VÕIMA	e16
+aja_pm_2000_10_04.tasak.a044.sol	6	4	"nõustunud"	EVENT OCCURRENCE MODALITY=NEG	e17
+aja_pm_2000_10_04.tasak.a044.sol	6	10	"andis"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a044.sol	6	18	"hinnangu"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a044.sol	6	21	"selgitas"	EVENT REPORTING	e20
+aja_pm_2000_10_04.tasak.a044.sol	7	2	"üritas"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a044.sol	7	5	"pressida"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a044.sol	8	1	"süüdistati"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a044.sol	9	3	"peab"	EVENT MODAL	e24
+aja_pm_2000_10_04.tasak.a044.sol	9	5	"esitama"	EVENT OCCURRENCE MODALITY=PIDAMA	e25
+aja_pm_2000_10_04.tasak.a045.sol	0	4	"teeb"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a045.sol	0	7	"ettepaneku"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a045.sol	0	17	"ütles"	EVENT REPORTING	e3
+aja_pm_2000_10_04.tasak.a045.sol	1	1	"rääkis"	EVENT REPORTING	e4
+aja_pm_2000_10_04.tasak.a045.sol	1	10	"avaldas"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a045.sol	1	20	"teeb"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a045.sol	2	1	"väitel"	EVENT REPORTING	e7
+aja_pm_2000_10_04.tasak.a045.sol	2	2	"on"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a045.sol	3	4	"protesteerisid"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a045.sol	3	14	"ähvardab"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a045.sol	4	4	"kaalunud"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a045.sol	4	10	"leidnud"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a045.sol	5	12	"ütlesid"	EVENT REPORTING	e13
+aja_pm_2000_10_04.tasak.a045.sol	5	17	"tegeldakse"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a045.sol	5	21	"peaks"	EVENT MODAL	e15
+aja_pm_2000_10_04.tasak.a045.sol	5	24	"olema"	EVENT UNK MODALITY "pidama"	e16
+aja_pm_2000_10_04.tasak.a045.sol	6	2	"töötab"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a046.sol	0	2	"tuleb"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a046.sol	1	5	"avab"	EVENT I_ACTION	e2
+aja_pm_2000_10_04.tasak.a046.sol	1	8	"uksed"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a046.sol	1	16	"hakkab"	EVENT ASPECTUAL	e4
+aja_pm_2000_10_04.tasak.a046.sol	1	19	"olema"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a046.sol	2	12	"ütles"	EVENT REPORTING	e6
+aja_pm_2000_10_04.tasak.a046.sol	2	19	"saavad"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a046.sol	2	25	"mõeldud"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a046.sol	3	2	"jääb"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a046.sol	3	6	"saab"	EVENT ASPECTUAL	e10
+aja_pm_2000_10_04.tasak.a046.sol	3	10	"mängida"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a046.sol	3	18	"avatud"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a046.sol	4	1	"pääsevad"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a046.sol	4	9	"on"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a046.sol	5	1	"märkis"	EVENT REPORTING	e15
+aja_pm_2000_10_04.tasak.a046.sol	5	9	"maksab"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a046.sol	6	7	"nähtud"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a046.sol	6	13	"olgem"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a046.sol	6	17	"on"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a046.sol	6	26	"lisas"	EVENT REPORTING	e20
+aja_pm_2000_10_04.tasak.a046.sol	7	3	"on"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a046.sol	7	10	"tuleb"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a046.sol	8	1	"sõnul"	EVENT REPORTING	e23
+aja_pm_2000_10_04.tasak.a046.sol	8	2	"on"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a046.sol	8	10	"tekkis"	EVENT I_ACTION	e25
+aja_pm_2000_10_04.tasak.a046.sol	8	12	"idee"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a046.sol	9	3	"mahu"	EVENT OCCURRENCE polarity=NEG	e27
+aja_pm_2000_10_04.tasak.a046.sol	9	10	"on"	EVENT I_STATE	e28
+aja_pm_2000_10_04.tasak.a046.sol	9	12	"ohtlik"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a046.sol	9	16	"on"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a046.sol	9	23	"rääkis"	EVENT REPORTING	e31
+aja_pm_2000_10_04.tasak.a046.sol	10	2	"olid"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a046.sol	11	1	"sõnul"	EVENT REPORTING	e33
+aja_pm_2000_10_04.tasak.a046.sol	11	14	"pannud"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a046.sol	12	2	"pakub"	EVENT I_ACTION	e35
+aja_pm_2000_10_04.tasak.a046.sol	12	5	"võimalust"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a046.sol	13	3	"saab"	EVENT MODAL	e37
+aja_pm_2000_10_04.tasak.a046.sol	13	7	"alasid"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a046.sol	13	8	"harrastada"	EVENT I_ACTION modality=saama	e39
+aja_pm_2000_10_04.tasak.a046.sol	13	11	"lisas"	EVENT REPORTING	e40
+aja_pm_2000_10_04.tasak.a046.sol	14	1	"käivad"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a046.sol	14	10	"on"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a046.sol	14	17	"hakatakse"	EVENT ASPECTUAL	e43
+aja_pm_2000_10_04.tasak.a046.sol	14	19	"jääd"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a046.sol	14	20	"tegema"	EVENT I_ACTION	e45
+aja_pm_2000_10_04.tasak.a046.sol	15	1	"sõnul"	EVENT REPORTING	e46
+aja_pm_2000_10_04.tasak.a046.sol	15	2	"saab"	EVENT MODAL	e47
+aja_pm_2000_10_04.tasak.a046.sol	15	5	"pidada"	EVENT OCCURRENCE modality=saama	e48
+aja_pm_2000_10_04.tasak.a046.sol	15	10	"hakkavad"	EVENT ASPECTUAL	e49
+aja_pm_2000_10_04.tasak.a046.sol	16	1	"ütlusel"	EVENT REPORTING	e50
+aja_pm_2000_10_04.tasak.a046.sol	16	2	"veavad"	EVENT I_ACTION	e51
+aja_pm_2000_10_04.tasak.a046.sol	16	9	"projekti"	EVENT OCCURRENCE	e52
+aja_pm_2000_10_04.tasak.a046.sol	16	14	"sai"	EVENT OCCURRENCE	e53
+aja_pm_2000_10_04.tasak.a046.sol	17	6	"võtsid"	EVENT I_ACTION	e54
+aja_pm_2000_10_04.tasak.a046.sol	17	8	"pangalaenu"	EVENT OCCURRENCE	e55
+aja_pm_2000_10_04.tasak.a046.sol	18	1	"märkis"	EVENT REPORTING	e56
+aja_pm_2000_10_04.tasak.a046.sol	18	5	"saab"	EVENT MODAL	e57
+aja_pm_2000_10_04.tasak.a046.sol	18	9	"laiendada"	EVENT OCCURRENCE	e58
+aja_pm_2000_10_04.tasak.a046.sol	18	12	"rajada"	EVENT I_ACTION	e59
+aja_pm_2000_10_04.tasak.a046.sol	18	18	"jääväljakuid"	EVENT OCCURRENCE	e60
+aja_pm_2000_10_04.tasak.a047.sol	0	9	"Suur"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a047.sol	0	10	"Tõll"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a047.sol	0	11	"võib"	EVENT MODAL	e3
+aja_pm_2000_10_04.tasak.a047.sol	0	16	"jõuda"	EVENT OCCURRENCE modality=võima	e4
+aja_pm_2000_10_04.tasak.a047.sol	0	27	"kokkulepe"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a047.sol	0	34	"saab"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a047.sol	0	35	"sõlmitud"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a047.sol	1	5	"ütles"	EVENT REPORTING	e8
+aja_pm_2000_10_04.tasak.a047.sol	1	20	"täpsustanud"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a047.sol	2	2	"on"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a047.sol	2	12	"tulnud"	EVENT OCCURRENCE plarity=NEG	e11
+aja_pm_2000_10_04.tasak.a047.sol	2	15	"sõnas"	EVENT REPORTING	e12
+aja_pm_2000_10_04.tasak.a047.sol	3	2	"lisas"	EVENT REPORTING	e13
+aja_pm_2000_10_04.tasak.a047.sol	3	11	"leppinud"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a047.sol	3	19	"saa"	EVENT OCCURRENCE polarity=NEG	e15
+aja_pm_2000_10_04.tasak.a047.sol	3	23	"tegema"	EVENT I_STATE	e16
+aja_pm_2000_10_04.tasak.a047.sol	3	24	"hakata"	EVENT ASPECTUAL	e17
+aja_pm_2000_10_04.tasak.a047.sol	3	31	"pole"	EVENT OCCURRENCE polarity=NEG	e18
+aja_pm_2000_10_04.tasak.a047.sol	4	3	"saame"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a047.sol	4	4	"sõlmida"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a047.sol	4	10	"selgitas"	EVENT REPORTING	e21
+aja_pm_2000_10_04.tasak.a047.sol	5	6	"veninud"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a047.sol	5	8	"viibinud"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a047.sol	5	12	"arvasime"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a047.sol	5	15	"saame"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a047.sol	5	29	"keerab"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a047.sol	5	31	"tuleb"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a047.sol	6	1	"sõnul"	EVENT REPORTING	e28
+aja_pm_2000_10_04.tasak.a047.sol	6	2	"valmistab"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a047.sol	6	4	"muret"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a047.sol	6	16	"pääse"	EVENT OCCURRENCE polarity=NEG	e31
+aja_pm_2000_10_04.tasak.a047.sol	7	3	"taha"	EVENT OCCURRENCE polarity=NEG	e32
+aja_pm_2000_10_04.tasak.a047.sol	7	10	"saab"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a047.sol	7	21	"lausus"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a047.sol	8	2	"loodan"	EVENT I_STATE	e35
+aja_pm_2000_10_04.tasak.a047.sol	8	8	"saab"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a047.sol	8	11	"lahendatud"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a047.sol	9	1	"käis"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a047.sol	9	4	"idee"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a047.sol	9	14	"seisaksid"	EVENT OCCURRENCE	e40
+aja_pm_2000_10_04.tasak.a050.sol	0	1	"loodab"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a050.sol	0	6	"näitab"	EVENT PERCEPTION	e2
+aja_pm_2000_10_04.tasak.a050.sol	1	4	"kohtub"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a050.sol	2	6	"luhtunud"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a050.sol	3	1	"läksid"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a050.sol	3	18	"leppisid"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a050.sol	4	2	"pidanud"	EVENT OCCURRENCE polarity "NEG"	e7
+aja_pm_2000_10_04.tasak.a050.sol	5	9	"sõlmisid"	EVENT I_ACTION	e8
+aja_pm_2000_10_04.tasak.a050.sol	5	13	"kokkuleppe"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a050.sol	5	18	"võtavad"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a050.sol	5	26	"viib"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a050.sol	6	8	"maeti"	EVENT I_ACTION	e12
+aja_pm_2000_10_04.tasak.a050.sol	6	13	"noorukit"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a050.sol	6	15	"algasid"	EVENT PERCEPTION	e14
+aja_pm_2000_10_04.tasak.a050.sol	7	3	"sai"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a050.sol	8	3	"võtnud"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a050.sol	9	10	"puhkesid"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a050.sol	9	14	"saanud"	EVENT OCCURRENCE	e18
+aja_pm_2000_10_04.tasak.a050.sol	10	4	"haavatud"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a050.sol	11	3	"sekkunud"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a050.sol	11	9	"vestles"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a050.sol	12	1	"rõhutas"	EVENT REPORTING	e22
+aja_pm_2000_10_04.tasak.a050.sol	12	6	"võib"	EVENT MODAL	e23
+aja_pm_2000_10_04.tasak.a050.sol	12	9	"teenida"	EVENT OCCURRENCE MODAL "võima"	e24
+aja_pm_2000_10_04.tasak.a050.sol	12	14	"kinnitades"	EVENT REPORTING	e25
+aja_pm_2000_10_04.tasak.a050.sol	12	22	"on"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a050.sol	13	10	"meelestatud"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a050.sol	14	6	"lubab"	EVENT I_ACTION	e28
+aja_pm_2000_10_04.tasak.a050.sol	14	7	"ennustada"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a050.sol	14	17	"jõua"	EVENT OCCURRENCE polarity "NEG"	e30
+aja_pm_2000_10_04.tasak.a050.sol	15	3	"ole"	EVENT OCCURRENCE polarity "NEG"	e31
+aja_pm_2000_10_04.tasak.a050.sol	15	9	"ütles"	EVENT REPORTING	e32
+aja_pm_2000_10_04.tasak.a050.sol	16	3	"on"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a050.sol	16	11	"sõnas"	EVENT REPORTING	e34
+aja_pm_2000_10_04.tasak.a050.sol	17	2	"olid"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a050.sol	18	2	"avab"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a050.sol	20	2	"soovivad"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a050.sol	20	8	"asuks"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a050.sol	20	9	"uurima"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a050.sol	20	16	"võtaks"	EVENT OCCURRENCE	e40
+aja_pm_2000_10_04.tasak.a050.sol	20	24	"mõistetakse"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a050.sol	21	7	"pidanud"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a050.sol	21	17	"suudetud"	EVENT OCCURRENCE polarity "NEG"	e43
+aja_pm_2000_10_04.tasak.a050.sol	21	23	"tuleks"	EVENT OCCURRENCE conditional	e44
+aja_pm_2000_10_04.tasak.a050.sol	22	3	"sõnul"	EVENT REPORTING	e45
+aja_pm_2000_10_04.tasak.a050.sol	22	4	"olid"	EVENT OCCURRENCE	e46
+aja_pm_2000_10_04.tasak.a050.sol	22	13	"on"	EVENT OCCURRENCE	e47
+aja_pm_2000_10_04.tasak.a051.sol	0	4	"alustas"	EVENT ASPECTUAL	e1
+aja_pm_2000_10_04.tasak.a051.sol	0	6	"India-visiiti"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a051.sol	0	9	"loodab"	EVENT I_STATE	e3
+aja_pm_2000_10_04.tasak.a051.sol	1	1	"kavatseb"	EVENT I_STATE	e4
+aja_pm_2000_10_04.tasak.a051.sol	1	6	"kirjutada"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a051.sol	1	13	"reguleerivad"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a051.sol	1	17	"koostööd"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a051.sol	2	4	"hinnanud"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a051.sol	2	7	"lepingut"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a051.sol	3	1	"Läbirääkimised"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a051.sol	3	8	"tõestanud"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a051.sol	3	20	"ütles"	EVENT REPORTING	e12
+aja_pm_2000_10_04.tasak.a051.sol	3	22	"pressikonverentsil"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a051.sol	3	36	"andnud"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a051.sol	4	5	"pööranud"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a051.sol	5	2	"nentis"	EVENT REPORTING	e16
+aja_pm_2000_10_04.tasak.a051.sol	5	6	"läks"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a051.sol	6	1	"peaks"	EVENT MODAL	e18
+aja_pm_2000_10_04.tasak.a051.sol	6	5	"saama"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a051.sol	6	7	"kirjutatud"	EVENT OCCURRENCE MODALITY=PIDAMA	e20
+aja_pm_2000_10_04.tasak.a051.sol	6	13	"ostab"	EVENT I_ACTION	e21
+aja_pm_2000_10_04.tasak.a051.sol	6	15	"124"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a051.sol	6	19	"ehitab"	EVENT I_ACTION	e23
+aja_pm_2000_10_04.tasak.a051.sol	6	23	"186."	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a051.sol	7	2	"peaks"	EVENT MODAL	e25
+aja_pm_2000_10_04.tasak.a051.sol	7	3	"olema"	EVENT OCCURRENCE MODALITY=PIDAMA	e26
+aja_pm_2000_10_04.tasak.a051.sol	8	5	"loodab"	EVENT I_STATE	e27
+aja_pm_2000_10_04.tasak.a051.sol	8	9	"müüa"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a051.sol	9	1	"peaks"	EVENT MODAL	e29
+aja_pm_2000_10_04.tasak.a051.sol	9	4	"tooma"	EVENT OCCURRENCE MODALITY=PIDAMA	e30
+aja_pm_2000_10_04.tasak.a051.sol	10	4	"käsitlenud"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a051.sol	10	6	"suhteid"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a051.sol	10	11	"nentinud"	EVENT REPORTING	e33
+aja_pm_2000_10_04.tasak.a051.sol	10	15	"on"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a051.sol	10	20	"ristsõnamõistatus"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a051.sol	11	4	"püüdnud"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a051.sol	11	12	"oleks"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a051.sol	12	4	"tekkinud"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a051.sol	12	21	"on"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a051.sol	13	1	"on"	EVENT OCCURRENCE	e40
+aja_pm_2000_10_04.tasak.a051.sol	13	8	"suudab"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a051.sol	14	3	"saanud"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a051.sol	14	11	"jõudnud"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a051.sol	14	17	"muutub"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a051.sol	14	21	"valvab"	EVENT OCCURRENCE	e45
+aja_pm_2000_10_04.tasak.a051.sol	15	3	"oleks"	EVENT OCCURRENCE	e46
+aja_pm_2000_10_04.tasak.a054.sol	0	2	"jätkab"	EVENT I_ACTION	e1
+aja_pm_2000_10_04.tasak.a054.sol	0	7	"kutsumist"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a054.sol	0	11	"sundida"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a054.sol	1	5	"ütles"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a054.sol	1	13	"pole"	EVENT OCCURRENCE polarity "NEG"	e5
+aja_pm_2000_10_04.tasak.a054.sol	2	3	"saanud"	EVENT OCCURRENCE polarity "NEG"	e6
+aja_pm_2000_10_04.tasak.a054.sol	2	14	"on"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a054.sol	3	1	"pole"	EVENT OCCURRENCE polarity "NEG"	e8
+aja_pm_2000_10_04.tasak.a054.sol	3	10	"võitis"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a054.sol	4	1	"hoiatas"	EVENT REPORTING	e10
+aja_pm_2000_10_04.tasak.a054.sol	4	6	"laguneb"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a054.sol	4	10	"tuleb"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a054.sol	5	5	"ütles"	EVENT REPORTING	e13
+aja_pm_2000_10_04.tasak.a054.sol	5	10	"näitas"	EVENT PERCEPTION	e14
+aja_pm_2000_10_04.tasak.a054.sol	5	15	"palub"	EVENT I_ACTION	e15
+aja_pm_2000_10_04.tasak.a054.sol	5	16	"abi"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a054.sol	5	21	"terroriseeris"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a054.sol	6	2	"pidas"	EVENT I_ACTION	e18
+aja_pm_2000_10_04.tasak.a054.sol	6	9	"kõne"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a054.sol	6	12	"ütles"	EVENT REPORTING	e20
+aja_pm_2000_10_04.tasak.a054.sol	7	5	"olnud"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a054.sol	7	14	"avaldab"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a054.sol	7	16	"mõju"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a054.sol	7	19	"ähvardab"	EVENT OCCURRENCE	e24
+aja_pm_2000_10_04.tasak.a054.sol	8	1	"teataski"	EVENT REPORTING	e25
+aja_pm_2000_10_04.tasak.a054.sol	8	7	"alustanud"	EVENT ASPECTUAL	e26
+aja_pm_2000_10_04.tasak.a054.sol	9	5	"teatel"	EVENT REPORTING	e27
+aja_pm_2000_10_04.tasak.a054.sol	9	6	"tulevad"	EVENT OCCURRENCE	e28
+aja_pm_2000_10_04.tasak.a054.sol	9	12	"põhjustas"	EVENT I_ACTION	e29
+aja_pm_2000_10_04.tasak.a054.sol	9	16	"streik"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a054.sol	10	1	"jätkusid"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a054.sol	11	2	"andmetel"	EVENT REPORTING	e32
+aja_pm_2000_10_04.tasak.a054.sol	11	3	"arreteeris"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a054.sol	11	12	"sai"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a054.sol	11	13	"vigastada"	EVENT OCCURRENCE	e35
+aja_pm_2000_10_04.tasak.a054.sol	11	17	"üritas"	EVENT I_ACTION	e36
+aja_pm_2000_10_04.tasak.a054.sol	11	18	"eemaldada"	EVENT OCCURRENCE	e37
+aja_pm_2000_10_04.tasak.a054.sol	12	1	"arreteeris"	EVENT OCCURRENCE	e38
+aja_pm_2000_10_04.tasak.a054.sol	13	1	"kutsus"	EVENT OCCURRENCE	e39
+aja_pm_2000_10_04.tasak.a054.sol	14	1	"kavandab"	EVENT I_ACTION	e40
+aja_pm_2000_10_04.tasak.a054.sol	14	4	"meeleavaldusi"	EVENT OCCURRENCE	e41
+aja_pm_2000_10_04.tasak.a054.sol	14	8	"loodavad"	EVENT OCCURRENCE	e42
+aja_pm_2000_10_04.tasak.a054.sol	15	5	"on"	EVENT OCCURRENCE	e43
+aja_pm_2000_10_04.tasak.a054.sol	16	2	"hoiatanud"	EVENT OCCURRENCE	e44
+aja_pm_2000_10_04.tasak.a054.sol	16	7	"ähvardavad"	EVENT OCCURRENCE	e45
+aja_pm_2000_10_04.tasak.a054.sol	17	1	"ütles"	EVENT REPORTING	e46
+aja_pm_2000_10_04.tasak.a054.sol	17	7	"teatel"	EVENT REPORTING	e47
+aja_pm_2000_10_04.tasak.a054.sol	17	11	"tunnustab"	EVENT I_ACTION	e48
+aja_pm_2000_10_04.tasak.a054.sol	17	12	"valimistulemusi"	EVENT OCCURRENCE	e49
+aja_pm_2000_10_04.tasak.a054.sol	18	2	"külastanud"	EVENT OCCURRENCE	e50
+aja_pm_2000_10_04.tasak.a054.sol	18	7	"kutsus"	EVENT OCCURRENCE	e51
+aja_pm_2000_10_04.tasak.a054.sol	19	1	"streigib"	EVENT OCCURRENCE	e52
+aja_pm_2000_10_04.tasak.a054.sol	20	2	"vihjas"	EVENT REPORTING	e53
+aja_pm_2000_10_04.tasak.a054.sol	20	9	"hakkavad"	EVENT OCCURRENCE	e54
+aja_pm_2000_10_04.tasak.a054.sol	21	4	"on"	EVENT OCCURRENCE	e55
+aja_pm_2000_10_04.tasak.a054.sol	21	6	"teatel"	EVENT REPORTING	e56
+aja_pm_2000_10_04.tasak.a054.sol	21	7	"pakkunud"	EVENT OCCURRENCE	e57
+aja_pm_2000_10_04.tasak.a054.sol	21	17	"saanud"	EVENT OCCURRENCE	e58
+aja_pm_2000_10_04.tasak.a054.sol	22	1	"ütles"	EVENT REPORTING	e59
+aja_pm_2000_10_04.tasak.a054.sol	22	5	"on"	EVENT OCCURRENCE	e60
+aja_pm_2000_10_04.tasak.a054.sol	22	11	"saab"	EVENT OCCURRENCE	e61
+aja_pm_2000_10_04.tasak.a054.sol	23	1	"on"	EVENT OCCURRENCE	e62
+aja_pm_2000_10_04.tasak.a054.sol	23	7	"öelnud"	EVENT OCCURRENCE	e63
+aja_pm_2000_10_04.tasak.a054.sol	23	10	"on"	EVENT OCCURRENCE	e64
+aja_pm_2000_10_04.tasak.a054.sol	23	13	"veendunud"	EVENT I_STATE	e65
+aja_pm_2000_10_04.tasak.a054.sol	24	9	"võib"	EVENT MODAL	e66
+aja_pm_2000_10_04.tasak.a054.sol	24	12	"paluda"	EVENT UNK MODALITY "võima"	e67
+aja_pm_2000_10_04.tasak.a054.sol	25	1	"ettepaneku"	EVENT OCCURRENCE	e68
+aja_pm_2000_10_04.tasak.a054.sol	25	2	"tegi"	EVENT I_ACTION	e69
+aja_pm_2000_10_04.tasak.a055.sol	0	3	"alanud"	EVENT ASPECTUAL	e1
+aja_pm_2000_10_04.tasak.a055.sol	0	6	"parteikonverentsil"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a055.sol	0	7	"on"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a055.sol	0	10	"tõstetud"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a055.sol	1	5	"rõhutas"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a055.sol	1	15	"suurendaks"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a055.sol	2	5	"ütles"	EVENT I_ACTION	e7
+aja_pm_2000_10_04.tasak.a055.sol	2	15	"julgustatud"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a055.sol	2	25	"ole"	EVENT OCCURRENCE polarity "NEG"	e9
+aja_pm_2000_10_04.tasak.a055.sol	2	30	"on"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a055.sol	2	31	"unustanud"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a055.sol	3	5	"olnud"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a055.sol	4	1	"on"	EVENT OCCURRENCE	e13
+aja_pm_2000_10_04.tasak.a055.sol	4	8	"eelistab"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a055.sol	4	15	"üritavad"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a055.sol	5	1	"tugevdab"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a056.sol	0	6	"Pealtnägija"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a056.sol	2	11	"paljastas"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a056.sol	3	3	"pettuse"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a056.sol	3	5	"peab"	EVENT MODAL	e4
+aja_pm_2000_10_04.tasak.a056.sol	3	7	"vahetama"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a056.sol	4	4	"selgub"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a056.sol	4	13	"saanud"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a056.sol	5	5	"kirjeldab"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a056.sol	5	10	"vargust"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a056.sol	7	2	"on"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a058.sol	0	3	"suutnud"	EVENT OCCURRENCE	e1
+aja_pm_2000_10_04.tasak.a058.sol	1	3	"kipub"	EVENT OCCURRENCE	e2
+aja_pm_2000_10_04.tasak.a058.sol	1	12	"muutunud"	EVENT OCCURRENCE	e3
+aja_pm_2000_10_04.tasak.a058.sol	2	3	"olid"	EVENT OCCURRENCE	e4
+aja_pm_2000_10_04.tasak.a058.sol	2	8	"sai"	EVENT OCCURRENCE	e5
+aja_pm_2000_10_04.tasak.a058.sol	3	2	"jäi"	EVENT OCCURRENCE	e6
+aja_pm_2000_10_04.tasak.a058.sol	4	1	"sai"	EVENT OCCURRENCE	e7
+aja_pm_2000_10_04.tasak.a058.sol	4	9	"osales"	EVENT OCCURRENCE	e8
+aja_pm_2000_10_04.tasak.a058.sol	4	17	"demonstratsioonides"	EVENT OCCURRENCE	e9
+aja_pm_2000_10_04.tasak.a058.sol	5	2	"oli"	EVENT OCCURRENCE	e10
+aja_pm_2000_10_04.tasak.a058.sol	6	1	"tudeeris"	EVENT OCCURRENCE	e11
+aja_pm_2000_10_04.tasak.a058.sol	7	1	"leidis"	EVENT OCCURRENCE	e12
+aja_pm_2000_10_04.tasak.a058.sol	8	2	"algas"	EVENT ASPECTUAL	e13
+aja_pm_2000_10_04.tasak.a058.sol	9	1	"tulid"	EVENT OCCURRENCE	e14
+aja_pm_2000_10_04.tasak.a058.sol	9	6	"saabus"	EVENT OCCURRENCE	e15
+aja_pm_2000_10_04.tasak.a058.sol	10	1	"tõusis"	EVENT OCCURRENCE	e16
+aja_pm_2000_10_04.tasak.a058.sol	11	2	"riietuvad"	EVENT OCCURRENCE	e17
+aja_pm_2000_10_04.tasak.a058.sol	12	9	"kandideeris"	EVENT I_ACTION	e18
+aja_pm_2000_10_04.tasak.a058.sol	12	13	"Oscarile"	EVENT OCCURRENCE	e19
+aja_pm_2000_10_04.tasak.a058.sol	13	2	"saanud"	EVENT OCCURRENCE	e20
+aja_pm_2000_10_04.tasak.a058.sol	13	11	"pakkusid"	EVENT OCCURRENCE	e21
+aja_pm_2000_10_04.tasak.a058.sol	14	4	"seotud"	EVENT OCCURRENCE	e22
+aja_pm_2000_10_04.tasak.a058.sol	14	11	"järgnes"	EVENT OCCURRENCE	e23
+aja_pm_2000_10_04.tasak.a058.sol	15	0	"Sündis"	EVENT I_ACTION	e24
+aja_pm_2000_10_04.tasak.a058.sol	15	1	"tütar"	EVENT OCCURRENCE	e25
+aja_pm_2000_10_04.tasak.a058.sol	15	5	"oli"	EVENT OCCURRENCE	e26
+aja_pm_2000_10_04.tasak.a058.sol	16	2	"kõrgpunkt"	EVENT OCCURRENCE	e27
+aja_pm_2000_10_04.tasak.a058.sol	16	3	"saabus"	EVENT ASPECTUAL	e28
+aja_pm_2000_10_04.tasak.a058.sol	16	12	"mängisid"	EVENT OCCURRENCE	e29
+aja_pm_2000_10_04.tasak.a058.sol	17	2	"jätkusid"	EVENT OCCURRENCE	e30
+aja_pm_2000_10_04.tasak.a058.sol	18	2	"jagas"	EVENT OCCURRENCE	e31
+aja_pm_2000_10_04.tasak.a058.sol	18	10	"vahetas"	EVENT OCCURRENCE	e32
+aja_pm_2000_10_04.tasak.a058.sol	19	1	"elab"	EVENT OCCURRENCE	e33
+aja_pm_2000_10_04.tasak.a058.sol	19	7	"on"	EVENT OCCURRENCE	e34
+aja_pm_2000_10_04.tasak.a058.sol	20	1	"kandideeris"	EVENT I_ACTION	e35
+aja_pm_2000_10_04.tasak.a058.sol	20	2	"Oscarile"	EVENT OCCURRENCE	e36
+aja_pm_2000_10_04.tasak.a058.sol	21	1	"tuli"	EVENT OCCURRENCE	e37
+aja_sloleht_2007_12_17.tasak.a001.sol	0	2	"tuleb"	EVENT OCCURRENCE imperative	e1
+aja_sloleht_2007_12_17.tasak.a001.sol	0	11	"kuluks"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a001.sol	0	18	"teatas"	EVENT REPORTING	e3
+aja_sloleht_2007_12_17.tasak.a001.sol	1	2	"karistatakse"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a001.sol	2	3	"võib"	EVENT MODAL	e5
+aja_sloleht_2007_12_17.tasak.a001.sol	2	8	"käia"	EVENT OCCURRENCE modality=võima	e6
+aja_sloleht_2007_12_17.tasak.a001.sol	3	2	"peame"	EVENT MODAL	e7
+aja_sloleht_2007_12_17.tasak.a001.sol	3	3	"saavutama"	EVENT OCCURRENCE modality=pidama	e8
+aja_sloleht_2007_12_17.tasak.a001.sol	3	12	"arutleb"	EVENT REPORTING	e9
+aja_sloleht_2007_12_17.tasak.a001.sol	3	17	"tasub"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a001.sol	3	23	"kulub"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a001.sol	4	3	"pole"	EVENT OCCURRENCE polarity=NEG	e12
+aja_sloleht_2007_12_17.tasak.a001.sol	5	1	"arvates"	EVENT REPORTING	e13
+aja_sloleht_2007_12_17.tasak.a001.sol	5	2	"tuleb"	EVENT OCCURRENCE impetarive	e14
+aja_sloleht_2007_12_17.tasak.a001.sol	5	12	"vähendada"	EVENT I_ACTION	e15
+aja_sloleht_2007_12_17.tasak.a001.sol	5	13	"küttekulu"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a001.sol	6	1	"peab"	EVENT MODAL	e17
+aja_sloleht_2007_12_17.tasak.a001.sol	6	4	"piisama"	EVENT OCCURRENCE modality=pidama	e18
+aja_sloleht_2007_12_17.tasak.a001.sol	7	4	"panustanud"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a001.sol	8	1	"puudutab"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a001.sol	9	1	"loodavad"	EVENT I_STATE	e21
+aja_sloleht_2007_12_17.tasak.a001.sol	9	8	"elavneb"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a001.sol	9	13	"on"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a001.sol	9	20	"tulebki"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a001.sol	9	30	"rahuldada"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a002.sol	0	4	"kinnitab"	EVENT REPORTING	e1
+aja_sloleht_2007_12_17.tasak.a002.sol	0	11	"mõistnud"	EVENT OCCURRENCE polarity=NEG	e2
+aja_sloleht_2007_12_17.tasak.a002.sol	0	15	"loobivad"	EVENT I_ACTION	e3
+aja_sloleht_2007_12_17.tasak.a002.sol	0	19	"jootraha"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a002.sol	1	2	"on"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a002.sol	1	7	"jätavad"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a002.sol	1	16	"maksab"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a002.sol	1	22	"kõneles"	EVENT REPORTING	e8
+aja_sloleht_2007_12_17.tasak.a002.sol	1	30	"tõusnud"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a002.sol	2	1	"on"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a002.sol	3	1	"kinnitusel"	EVENT REPORTING	e11
+aja_sloleht_2007_12_17.tasak.a002.sol	3	2	"oli"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a002.sol	4	2	"mahtunuks"	EVENT OCCURRENCE conditional	e13
+aja_sloleht_2007_12_17.tasak.a002.sol	5	1	"arvates"	EVENT REPORTING	e14
+aja_sloleht_2007_12_17.tasak.a002.sol	5	2	"on"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a002.sol	5	17	"tõusnud"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a003.sol	0	4	"oli"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a003.sol	0	11	"teatas"	EVENT REPORTING	e2
+aja_sloleht_2007_12_17.tasak.a003.sol	0	15	"abiellu"	EVENT OCCURRENCE polarity=NEG	e3
+aja_sloleht_2007_12_17.tasak.a003.sol	0	19	"otsis"	EVENT I_ACTION	e4
+aja_sloleht_2007_12_17.tasak.a003.sol	0	23	"lohutust"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a003.sol	0	26	"armastust"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a003.sol	0	29	"kinnitas"	EVENT REPORTING	e7
+aja_sloleht_2007_12_17.tasak.a003.sol	1	2	"armastas"	EVENT I_STATE	e8
+aja_sloleht_2007_12_17.tasak.a003.sol	1	9	"lootis"	EVENT I_STATE	e9
+aja_sloleht_2007_12_17.tasak.a003.sol	1	13	"on"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a003.sol	1	18	"kinnitas"	EVENT REPORTING	e11
+aja_sloleht_2007_12_17.tasak.a003.sol	2	14	"rääkinud"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a003.sol	3	1	"mõistsin"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a003.sol	3	5	"igatseb"	EVENT I_STATE	e14
+aja_sloleht_2007_12_17.tasak.a003.sol	3	7	"meest"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a003.sol	4	1	"polnud"	EVENT OCCURRENCE polarity=NEG	e16
+aja_sloleht_2007_12_17.tasak.a003.sol	4	8	"ütleb"	EVENT REPORTING	e17
+aja_sloleht_2007_12_17.tasak.a003.sol	5	1	"oli"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a003.sol	6	2	"jäi"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a003.sol	6	9	"otsustas"	EVENT I_ACTION	e20
+aja_sloleht_2007_12_17.tasak.a003.sol	6	13	"teha"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a003.sol	7	2	"ilmusid"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a003.sol	7	9	"oli"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a003.sol	7	11	"ehmunud"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a003.sol	7	16	"ütles"	EVENT REPORTING	e25
+aja_sloleht_2007_12_17.tasak.a003.sol	7	22	"võta"	EVENT OCCURRENCE polarity=NEG	e26
+aja_sloleht_2007_12_17.tasak.a003.sol	8	3	"oli"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a003.sol	9	2	"kirjutab"	EVENT REPORTING	e28
+aja_sloleht_2007_12_17.tasak.a003.sol	9	7	"lõpetas"	EVENT ASPECTUAL	e29
+aja_sloleht_2007_12_17.tasak.a003.sol	9	8	"suhted"	EVENT OCCURRENCE	e30
+aja_sloleht_2007_12_17.tasak.a003.sol	9	24	"olnuks"	EVENT OCCURRENCE conditional	e31
+aja_sloleht_2007_12_17.tasak.a003.sol	9	27	"võimatu"	EVENT OCCURRENCE	e32
+aja_sloleht_2007_12_17.tasak.a003.sol	10	2	"võtaksin"	EVENT OCCURRENCE	e33
+aja_sloleht_2007_12_17.tasak.a003.sol	10	7	"lahutaksime"	EVENT OCCURRENCE	e34
+aja_sloleht_2007_12_17.tasak.a003.sol	10	17	"öelnud"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a003.sol	11	1	"oleme"	EVENT OCCURRENCE	e36
+aja_sloleht_2007_12_17.tasak.a003.sol	11	6	"võiksid"	EVENT MODAL	e37
+aja_sloleht_2007_12_17.tasak.a003.sol	11	7	"olla"	EVENT OCCURRENCE modality=võima	e38
+aja_sloleht_2007_12_17.tasak.a003.sol	12	1	"on"	EVENT OCCURRENCE	e39
+aja_sloleht_2007_12_17.tasak.a003.sol	13	5	"algas"	EVENT ASPECTUAL	e40
+aja_sloleht_2007_12_17.tasak.a003.sol	14	1	"viibisid"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a003.sol	15	3	"varjas"	EVENT I_ACTION	e42
+aja_sloleht_2007_12_17.tasak.a003.sol	15	5	"suhet"	EVENT OCCURRENCE	e43
+aja_sloleht_2007_12_17.tasak.a003.sol	15	17	"oli"	EVENT OCCURRENCE	e44
+aja_sloleht_2007_12_17.tasak.a003.sol	16	3	"lahkus"	EVENT ASPECTUAL	e45
+aja_sloleht_2007_12_17.tasak.a003.sol	17	2	"rääkis"	EVENT REPORTING	e46
+aja_sloleht_2007_12_17.tasak.a003.sol	17	7	"oli"	EVENT OCCURRENCE	e47
+aja_sloleht_2007_12_17.tasak.a003.sol	18	2	"mõtles"	EVENT I_STATE	e48
+aja_sloleht_2007_12_17.tasak.a003.sol	18	3	"paluda"	EVENT OCCURRENCE	e49
+aja_sloleht_2007_12_17.tasak.a003.sol	18	8	"loobus"	EVENT I_ACTION	e50
+aja_sloleht_2007_12_17.tasak.a003.sol	18	13	"teadis"	EVENT OCCURRENCE	e51
+aja_sloleht_2007_12_17.tasak.a003.sol	18	23	"saa"	EVENT MODAL	e52
+aja_sloleht_2007_12_17.tasak.a003.sol	18	24	"olla"	EVENT OCCURRENCE modality=saama	e53
+aja_sloleht_2007_12_17.tasak.a003.sol	18	28	"ütles"	EVENT REPORTING	e54
+aja_sloleht_2007_12_17.tasak.a003.sol	19	2	"abiellus"	EVENT I_ACTION	e55
+aja_sloleht_2007_12_17.tasak.a003.sol	20	2	"jutu"	EVENT OCCURRENCE	e56
+aja_sloleht_2007_12_17.tasak.a003.sol	20	4	"pareeris"	EVENT I_ACTION	e57
+aja_sloleht_2007_12_17.tasak.a003.sol	20	12	"ütles"	EVENT REPORTING	e58
+aja_sloleht_2007_12_17.tasak.a003.sol	20	20	"armunud"	EVENT OCCURRENCE	e59
+aja_sloleht_2007_12_17.tasak.a003.sol	20	23	"on"	EVENT OCCURRENCE	e60
+aja_sloleht_2007_12_17.tasak.a003.sol	20	28	"oli"	EVENT OCCURRENCE	e61
+aja_sloleht_2007_12_17.tasak.a003.sol	21	2	"polnud"	EVENT OCCURRENCE polarity=NEG	e62
+aja_sloleht_2007_12_17.tasak.a003.sol	23	11	"kinnitanud"	EVENT OCCURRENCE	e63
+aja_sloleht_2007_12_17.tasak.a003.sol	23	18	"maganud"	EVENT OCCURRENCE polarity=NEG	e64
+aja_sloleht_2007_12_17.tasak.a003.sol	24	2	"kõneldakse"	EVENT REPORTING	e65
+aja_sloleht_2007_12_17.tasak.a003.sol	24	12	"sai"	EVENT OCCURRENCE	e66
+aja_sloleht_2007_12_17.tasak.a003.sol	24	15	"ootas"	EVENT OCCURRENCE	e67
+aja_sloleht_2007_12_17.tasak.a003.sol	25	1	"küsisin"	EVENT I_ACTION	e68
+aja_sloleht_2007_12_17.tasak.a003.sol	25	2	"seda"	EVENT OCCURRENCE	e69
+aja_sloleht_2007_12_17.tasak.a003.sol	25	10	"naeris"	EVENT OCCURRENCE	e70
+aja_sloleht_2007_12_17.tasak.a003.sol	25	14	"ütles"	EVENT REPORTING	e71
+aja_sloleht_2007_12_17.tasak.a003.sol	25	19	"on"	EVENT OCCURRENCE	e72
+aja_sloleht_2007_12_17.tasak.a003.sol	25	24	"olen"	EVENT OCCURRENCE	e73
+aja_sloleht_2007_12_17.tasak.a003.sol	26	2	"maganud"	EVENT OCCURRENCE polarity=NEG	e74
+aja_sloleht_2007_12_17.tasak.a003.sol	26	6	"ütles"	EVENT REPORTING	e75
+aja_sloleht_2007_12_17.tasak.a003.sol	27	15	"nõudnud"	EVENT I_ACTION	e76
+aja_sloleht_2007_12_17.tasak.a003.sol	27	17	"kirjad"	EVENT OCCURRENCE	e77
+aja_sloleht_2007_12_17.tasak.a004.sol	0	1	"andis"	EVENT I_ACTION	e1
+aja_sloleht_2007_12_17.tasak.a004.sol	0	2	"tunnistusi"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a004.sol	0	8	"oli"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a004.sol	1	1	"ütles"	EVENT REPORTING	e4
+aja_sloleht_2007_12_17.tasak.a004.sol	1	4	"kuulis"	EVENT ASPECTUAL	e5
+aja_sloleht_2007_12_17.tasak.a004.sol	1	14	"uskus"	EVENT I_STATE	e6
+aja_sloleht_2007_12_17.tasak.a004.sol	1	18	"kutsutakse"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a004.sol	2	2	"lükkas"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a004.sol	2	7	"ütles"	EVENT REPORTING	e9
+aja_sloleht_2007_12_17.tasak.a004.sol	2	11	"peab"	EVENT MODAL	e10
+aja_sloleht_2007_12_17.tasak.a004.sol	2	12	"jääma"	EVENT OCCURRENCE modality=pidama	e11
+aja_sloleht_2007_12_17.tasak.a004.sol	2	15	"sõida"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a004.sol	3	3	"ilmus"	EVENT I_ACTION	e13
+aja_sloleht_2007_12_17.tasak.a004.sol	3	6	"foto"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a004.sol	3	12	"suudlevad"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a004.sol	4	1	"soovitas"	EVENT I_ACTION	e16
+aja_sloleht_2007_12_17.tasak.a004.sol	4	3	"unustada"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a004.sol	4	6	"kurdab"	EVENT REPORTING	e18
+aja_sloleht_2007_12_17.tasak.a004.sol	5	5	"kinkinud"	EVENT I_ACTION	e19
+aja_sloleht_2007_12_17.tasak.a004.sol	5	9	"kihlasõrmuse"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a004.sol	5	22	"kinkis"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a004.sol	6	0	"Pärisin"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a004.sol	6	5	"tahab"	EVENT I_ACTION	e23
+aja_sloleht_2007_12_17.tasak.a004.sol	6	7	"lõpetada"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a004.sol	7	0	"Küsisin"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a004.sol	7	6	"lõppenud"	EVENT OCCURRENCE	e26
+aja_sloleht_2007_12_17.tasak.a004.sol	8	1	"keerutas"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a004.sol	9	2	"saa"	EVENT OCCURRENCE polarity=NEG	e28
+aja_sloleht_2007_12_17.tasak.a004.sol	9	5	"rääkida"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a004.sol	9	10	"vihjanud"	EVENT OCCURRENCE polarity=NEG	e30
+aja_sloleht_2007_12_17.tasak.a004.sol	10	2	"maksnud"	EVENT I_ACTION	e31
+aja_sloleht_2007_12_17.tasak.a004.sol	10	4	"2000"	EVENT OCCURRENCE	e32
+aja_sloleht_2007_12_17.tasak.a004.sol	10	13	"ostnud"	EVENT I_ACTION	e33
+aja_sloleht_2007_12_17.tasak.a004.sol	10	19	"maja"	EVENT OCCURRENCE	e34
+aja_sloleht_2007_12_17.tasak.a004.sol	10	25	"loobuks"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a004.sol	10	29	"pühenduks"	EVENT OCCURRENCE	e36
+aja_sloleht_2007_12_17.tasak.a009.sol	1	1	"ole"	EVENT OCCURRENCE pularity=NEG	e1
+aja_sloleht_2007_12_17.tasak.a009.sol	1	10	"finaali"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a009.sol	1	11	"jõudsid"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a009.sol	1	22	"võidu"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a009.sol	1	23	"võttis"	EVENT I_ACTION	e5
+aja_sloleht_2007_12_17.tasak.a009.sol	2	7	"jäänud"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a009.sol	2	11	"alistati"	EVENT ASPECTUAL	e7
+aja_sloleht_2007_12_17.tasak.a009.sol	3	3	"näinud"	EVENT PERCEPTION	e8
+aja_sloleht_2007_12_17.tasak.a009.sol	4	1	"Nägime"	EVENT PERCEPTION	e9
+aja_sloleht_2007_12_17.tasak.a009.sol	4	7	"võivad"	EVENT MODAL	e10
+aja_sloleht_2007_12_17.tasak.a009.sol	4	8	"tulla"	EVENT OCCURRENCE MODALITY=VõIMA	e11
+aja_sloleht_2007_12_17.tasak.a009.sol	4	13	"ütles"	EVENT REPORTING	e12
+aja_sloleht_2007_12_17.tasak.a009.sol	5	4	"olnud"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a009.sol	6	2	"oligi"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a009.sol	6	4	"raske"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a009.sol	6	9	"pidas"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a009.sol	7	0	"Finaalis"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a009.sol	7	1	"andis"	EVENT I_ACTION	e18
+aja_sloleht_2007_12_17.tasak.a009.sol	7	10	"22"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a009.sol	7	13	"võites"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a009.sol	7	19	"mängus"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a009.sol	8	2	"pääses"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a009.sol	8	7	"hoidis"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a009.sol	9	2	"pääses"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a009.sol	9	13	"võtsid"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a009.sol	9	17	"läksid"	EVENT OCCURRENCE	e26
+aja_sloleht_2007_12_17.tasak.a009.sol	9	25	"hoidis"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a009.sol	10	2	"saime"	EVENT OCCURRENCE	e28
+aja_sloleht_2007_12_17.tasak.a009.sol	10	10	"tuli"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a009.sol	10	18	"oli"	EVENT OCCURRENCE	e30
+aja_sloleht_2007_12_17.tasak.a009.sol	10	19	"keeruline"	EVENT OCCURRENCE	e31
+aja_sloleht_2007_12_17.tasak.a009.sol	10	22	"tõdes"	EVENT REPORTING	e32
+aja_sloleht_2007_12_17.tasak.a009.sol	11	3	"lähevad"	EVENT OCCURRENCE	e33
+aja_sloleht_2007_12_17.tasak.a009.sol	11	12	"määra"	EVENT OCCURRENCE POLARITY=NEG	e34
+aja_sloleht_2007_12_17.tasak.a009.sol	12	1	"ütles"	EVENT REPORTING	e35
+aja_sloleht_2007_12_17.tasak.a009.sol	12	9	"väsitas"	EVENT OCCURRENCE	e36
+aja_sloleht_2007_12_17.tasak.a009.sol	13	5	"polnud"	EVENT OCCURRENCE POLARITY=NEG	e37
+aja_sloleht_2007_12_17.tasak.a009.sol	14	2	"nuriseda"	EVENT OCCURRENCE MODALITY=SAAMA	e38
+aja_sloleht_2007_12_17.tasak.a009.sol	14	3	"saa"	EVENT MODAL	e39
+aja_sloleht_2007_12_17.tasak.a009.sol	15	0	"Olgem"	EVENT OCCURRENCE IMPERATIVE	e40
+aja_sloleht_2007_12_17.tasak.a009.sol	15	8	"jõudsimegi"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a009.sol	15	11	"lausus"	EVENT REPORTING	e42
+aja_sloleht_2007_12_17.tasak.a009.sol	16	1	"tõi"	EVENT OCCURRENCE	e43
+aja_sloleht_2007_12_17.tasak.a009.sol	17	3	"kippus"	EVENT OCCURRENCE	e44
+aja_sloleht_2007_12_17.tasak.a009.sol	17	10	"on"	EVENT OCCURRENCE	e45
+aja_sloleht_2007_12_17.tasak.a009.sol	17	13	"pole"	EVENT OCCURRENCE POLARITY=NEG	e46
+aja_sloleht_2007_12_17.tasak.a009.sol	17	19	"muheles"	EVENT REPORTING	e47
+aja_sloleht_2007_12_17.tasak.a009.sol	18	2	"ootab"	EVENT OCCURRENCE	e48
+aja_sloleht_2007_12_17.tasak.a009.sol	18	11	"saab"	EVENT MODAL	e49
+aja_sloleht_2007_12_17.tasak.a009.sol	18	12	"pidada"	EVENT OCCURRENCE MODALITY=PIDAMA	e50
+aja_sloleht_2007_12_17.tasak.a009.sol	18	19	"algas"	EVENT ASPECTUAL	e51
+aja_sloleht_2007_12_17.tasak.a009.sol	18	20	"jõulupuhkus"	EVENT STATE	e52
+aja_sloleht_2007_12_17.tasak.a009.sol	19	1	"pääsevad"	EVENT OCCURRENCE	e53
+aja_sloleht_2007_12_17.tasak.a009.sol	19	6	"peab"	EVENT MODAL	e54
+aja_sloleht_2007_12_17.tasak.a009.sol	19	8	"otsustama"	EVENT OCCURRENCE MODALITY=PIDAMA	e55
+aja_sloleht_2007_12_17.tasak.a009.sol	19	16	"palutakse"	EVENT OCCURRENCE QUOATATIVE	e56
+aja_sloleht_2007_12_17.tasak.a010.sol	1	3	"said"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a010.sol	2	2	"jäi"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a010.sol	3	2	"oli"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a010.sol	4	7	"pääses"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a010.sol	5	2	"jäi"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a010.sol	5	6	"alustas"	EVENT ASPECTUAL	e6
+aja_sloleht_2007_12_17.tasak.a010.sol	6	5	"tegi"	EVENT I_ACTION	e7
+aja_sloleht_2007_12_17.tasak.a010.sol	6	8	"vaheltlõike"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a010.sol	6	11	"järgnes"	EVENT I_ACTION	e9
+aja_sloleht_2007_12_17.tasak.a010.sol	6	14	"viga"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a010.sol	7	1	"tabas"	EVENT I_ACTION	e11
+aja_sloleht_2007_12_17.tasak.a010.sol	7	3	"vabaviske"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a010.sol	7	7	"kolmepunktiviske"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a010.sol	8	3	"võitnud"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a010.sol	8	16	"kaotanud"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a012.sol	0	3	"vaata"	EVENT PERCEPTION polarity "NEG"	e1
+aja_sloleht_2007_12_17.tasak.a012.sol	0	10	"väheneb"	EVENT I_ACTION	e2
+aja_sloleht_2007_12_17.tasak.a012.sol	0	14	"toonus"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a012.sol	0	17	"kumerdub"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a012.sol	0	20	"võlvub"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a012.sol	1	1	"kannatad"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a012.sol	1	7	"pead"	EVENT MODAL	e7
+aja_sloleht_2007_12_17.tasak.a012.sol	1	8	"treenima"	EVENT OCCURRENCE modality=pidama	e8
+aja_sloleht_2007_12_17.tasak.a012.sol	1	13	"venitama"	EVENT OCCURRENCE modality=pidama	e9
+aja_sloleht_2007_12_17.tasak.a012.sol	2	3	"on"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a012.sol	2	6	"venitamine"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a012.sol	3	0	"Tee"	EVENT OCCURRENCE imperative	e12
+aja_sloleht_2007_12_17.tasak.a012.sol	3	10	"tööta"	EVENT OCCURRENCE polarity "NEG"	e13
+aja_sloleht_2007_12_17.tasak.a012.sol	4	0	"Järgi"	EVENT OCCURRENCE imperative	e14
+aja_sloleht_2007_12_17.tasak.a012.sol	5	4	"langeb"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a012.sol	5	13	"võid"	EVENT MODAL	e16
+aja_sloleht_2007_12_17.tasak.a012.sol	5	17	"teha"	EVENT OCCURRENCE modality=võima	e17
+aja_sloleht_2007_12_17.tasak.a012.sol	6	2	"on"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a015.sol	0	3	"kerkis"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a015.sol	0	17	"noppiski"	EVENT I_ACTION	e2
+aja_sloleht_2007_12_17.tasak.a015.sol	0	18	"esikoha"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a015.sol	1	1	"punktisumma"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a015.sol	1	5	"kogus"	EVENT I_ACTION	e5
+aja_sloleht_2007_12_17.tasak.a015.sol	2	2	"harjutab"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a015.sol	2	6	"on"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a015.sol	2	10	"treenib"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a015.sol	3	1	"on"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a015.sol	3	10	"tunnustas"	EVENT REPORTING	e10
+aja_sloleht_2007_12_17.tasak.a015.sol	4	1	"võtsid"	EVENT ASPECTUAL	e11
+aja_sloleht_2007_12_17.tasak.a015.sol	4	3	"koha"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a016.sol	1	2	"alistas"	EVENT ASPECTUAL	e1
+aja_sloleht_2007_12_17.tasak.a016.sol	1	29	"tõusis"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a016.sol	2	1	"võitis"	EVENT OCCURRENCE|ASPECTUAL	e3
+aja_sloleht_2007_12_17.tasak.a016.sol	2	10	"alustasid"	EVENT ASPECTUAL	e4
+aja_sloleht_2007_12_17.tasak.a016.sol	3	3	"oli"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a016.sol	3	5	"viik"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a016.sol	3	12	"tegi"	EVENT I_ACTION	e7
+aja_sloleht_2007_12_17.tasak.a016.sol	3	15	"spurdi"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a017.sol	0	2	"peavad"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a017.sol	1	9	"olid"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a017.sol	1	16	"oli"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a017.sol	2	8	"jälgisid"	EVENT I_ACTION	e4
+aja_sloleht_2007_12_17.tasak.a017.sol	2	16	"inimest"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a017.sol	3	3	"oli"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a017.sol	4	3	"kaitseb"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a017.sol	4	16	"on"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a017.sol	4	24	"nendib"	EVENT REPORTING	e9
+aja_sloleht_2007_12_17.tasak.a017.sol	5	1	"sõnul"	EVENT REPORTING	e10
+aja_sloleht_2007_12_17.tasak.a017.sol	5	2	"on"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a017.sol	5	11	"kasvab"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a017.sol	6	2	"keskendutakse"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a017.sol	6	9	"jäävad"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a017.sol	7	1	"pole"	EVENT OCCURRENCE polarity "NEG"	e15
+aja_sloleht_2007_12_17.tasak.a017.sol	7	8	"pole"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a017.sol	7	9	"tarvis"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a017.sol	7	17	"on"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a017.sol	7	19	"kasulik"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a019.sol	0	17	"võib"	EVENT MODAL	e1
+aja_sloleht_2007_12_17.tasak.a019.sol	0	20	"hakata"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a019.sol	1	4	"sõnul"	EVENT REPORTING	e3
+aja_sloleht_2007_12_17.tasak.a019.sol	1	5	"on"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a019.sol	1	15	"lepitud"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a019.sol	1	19	"treenib"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a019.sol	1	26	"otsustatakse"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a019.sol	1	30	"sõlmitakse"	EVENT I_ACTION	e8
+aja_sloleht_2007_12_17.tasak.a019.sol	1	33	"leping"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a019.sol	2	3	"pole"	EVENT OCCURRENCE polarity=NEG	e10
+aja_sloleht_2007_12_17.tasak.a019.sol	2	6	"tundub"	EVENT PERCEPTION	e11
+aja_sloleht_2007_12_17.tasak.a019.sol	2	10	"hakkab"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a019.sol	2	12	"treenima"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a019.sol	2	18	"mängima"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a019.sol	3	2	"pole"	EVENT OCCURRENCE polarity=NEG	e15
+aja_sloleht_2007_12_17.tasak.a019.sol	4	0	"Vaatame"	EVENT PERCEPTION	e16
+aja_sloleht_2007_12_17.tasak.a019.sol	4	3	"on"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a020.sol	1	2	"võitis"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a020.sol	1	9	"alistas"	EVENT ASPECTUAL	e2
+aja_sloleht_2007_12_17.tasak.a020.sol	2	4	"alistas"	EVENT ASPECTUAL	e3
+aja_sloleht_2007_12_17.tasak.a020.sol	2	11	"sõidus"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a020.sol	2	14	"võitis"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a020.sol	3	1	"sõit"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a020.sol	3	2	"oli"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a020.sol	3	8	"läbis"	EVENT I_ACTION	e8
+aja_sloleht_2007_12_17.tasak.a020.sol	3	9	"lõpuringi"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a020.sol	4	6	"kuulus"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a020.sol	5	1	"alistas"	EVENT ASPECTUAL	e11
+aja_sloleht_2007_12_17.tasak.a022.sol	0	0	"Seisa"	EVENT OCCURRENCE imperative	e1
+aja_sloleht_2007_12_17.tasak.a022.sol	1	2	"peab"	EVENT MODAL	e2
+aja_sloleht_2007_12_17.tasak.a022.sol	1	3	"olema"	EVENT UNK modality=pidama	e3
+aja_sloleht_2007_12_17.tasak.a022.sol	1	7	"kantud"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a022.sol	2	1	"pole tõstetud"	EVENT multiword="true"	e5
+aja_sloleht_2007_12_17.tasak.a022.sol	2	3	"pole tõstetud"	EVENT OCCURRENCE polarity "NEG" multiword="true"	e5
+aja_sloleht_2007_12_17.tasak.a022.sol	3	2	"aitab"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a022.sol	4	3	"kasuta"	EVENT OCCURRENCE imperative	e8
+aja_sloleht_2007_12_17.tasak.a022.sol	5	1	"tuleb"	EVENT UNK imperative	e9
+aja_sloleht_2007_12_17.tasak.a022.sol	6	2	"vähendab"	EVENT I_ACTION	e10
+aja_sloleht_2007_12_17.tasak.a022.sol	6	4	"ulatust"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a022.sol	6	6	"paneb"	EVENT I_ACTION	e12
+aja_sloleht_2007_12_17.tasak.a022.sol	6	9	"tõmbuma"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a022.sol	7	1	"istud"	EVENT OCCURRENCE conditional	e14
+aja_sloleht_2007_12_17.tasak.a022.sol	7	6	"pea"	EVENT OCCURRENCE imperative	e15
+aja_sloleht_2007_12_17.tasak.a022.sol	8	0	"Tõmba"	EVENT OCCURRENCE imperative	e16
+aja_sloleht_2007_12_17.tasak.a022.sol	9	0	"Tõsta"	EVENT OCCURRENCE imperative	e17
+aja_sloleht_2007_12_17.tasak.a022.sol	9	5	"selgroog"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a022.sol	9	6	"oleks"	EVENT OCCURRENCE conditional	e19
+aja_sloleht_2007_12_17.tasak.a022.sol	9	11	"jookseks"	EVENT OCCURRENCE conditional	e20
+aja_sloleht_2007_12_17.tasak.a023.sol	1	2	"käsipallikarika"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a023.sol	1	3	"võttis"	EVENT I_ACTION	e2
+aja_sloleht_2007_12_17.tasak.a023.sol	1	13	"korduskohtumises"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a023.sol	1	21	"koduväljakumängu"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a023.sol	1	26	"võitnud"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a023.sol	2	0	"Finaalmängud"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a023.sol	2	2	"meenutanud"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a023.sol	2	10	"purustas"	EVENT ASPECTUAL	e8
+aja_sloleht_2007_12_17.tasak.a023.sol	2	13	"numbritega"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a023.sol	2	19	"puudusid"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a023.sol	3	1	"Selgitasin"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a023.sol	3	9	"hakka"	EVENT OCCURRENCE POLARITY=NEG	e12
+aja_sloleht_2007_12_17.tasak.a023.sol	3	12	"hoidma"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a023.sol	3	15	"läheme"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a023.sol	3	19	"rääkis"	EVENT REPORTING	e15
+aja_sloleht_2007_12_17.tasak.a023.sol	4	5	"pääsesime"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a023.sol	4	7	"arvati"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a023.sol	4	12	"on"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a023.sol	5	1	"viskas"	EVENT I_ACTION	e19
+aja_sloleht_2007_12_17.tasak.a023.sol	5	3	"kuus"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a023.sol	5	7	"juhtis"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a023.sol	6	2	"löödi"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a023.sol	6	7	"oli"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a023.sol	6	13	"lausus"	EVENT REPORTING	e24
+aja_sloleht_2007_12_17.tasak.a023.sol	7	1	"Oli"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a023.sol	7	9	"tunnistas"	EVENT REPORTING	e26
+aja_sloleht_2007_12_17.tasak.a023.sol	8	0	"Võime"	EVENT MODAL	e27
+aja_sloleht_2007_12_17.tasak.a023.sol	8	3	"olla"	EVENT OCCURRENCE	e28
+aja_sloleht_2007_12_17.tasak.a023.sol	8	9	"jäävad"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a023.sol	8	13	"võida"	EVENT OCCURRENCE POLARITY=NEG	e30
+aja_sloleht_2007_12_17.tasak.a023.sol	9	3	"tundus"	EVENT PERCEPTION	e31
+aja_sloleht_2007_12_17.tasak.a023.sol	9	11	"saa"	EVENT OCCURRENCE POLARITY=NEG	e32
+aja_sloleht_2007_12_17.tasak.a023.sol	9	15	"tõestas"	EVENT OCCURRENCE	e33
+aja_sloleht_2007_12_17.tasak.a023.sol	9	19	"saavad"	EVENT OCCURRENCE	e34
+aja_sloleht_2007_12_17.tasak.a023.sol	10	2	"olid"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a023.sol	11	1	"jäi"	EVENT OCCURRENCE	e36
+aja_sloleht_2007_12_17.tasak.a023.sol	12	2	"viskasid"	EVENT I_ACTION	e37
+aja_sloleht_2007_12_17.tasak.a023.sol	12	3	"neli"	EVENT OCCURRENCE	e38
+aja_sloleht_2007_12_17.tasak.a023.sol	12	18	"tabas"	EVENT OCCURRENCE	e39
+aja_sloleht_2007_12_17.tasak.a023.sol	13	6	"võitis"	EVENT ASPECTUAL	e40
+aja_sloleht_2007_12_17.tasak.a023.sol	13	7	"karika"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a023.sol	14	2	"teagi"	EVENT OCCURRENCE POLARITY=NEG	e42
+aja_sloleht_2007_12_17.tasak.a023.sol	14	7	"hoidma"	EVENT OCCURRENCE	e43
+aja_sloleht_2007_12_17.tasak.a023.sol	14	8	"hakkame"	EVENT OCCURRENCE	e44
+aja_sloleht_2007_12_17.tasak.a023.sol	14	11	"tunnistas"	EVENT REPORTING	e45
+aja_sloleht_2007_12_17.tasak.a023.sol	14	19	"oli"	EVENT OCCURRENCE	e46
+aja_sloleht_2007_12_17.tasak.a023.sol	15	1	"pean"	EVENT MODAL	e47
+aja_sloleht_2007_12_17.tasak.a023.sol	15	5	"pistma"	EVENT OCCURRENCE MODALITY=NEG	e48
+aja_sloleht_2007_12_17.tasak.a032.sol	1	2	"võitis"	EVENT I_ACTION	e1
+aja_sloleht_2007_12_17.tasak.a032.sol	1	6	"karika"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a032.sol	1	9	"alistas"	EVENT ASPECTUAL	e3
+aja_sloleht_2007_12_17.tasak.a032.sol	6	2	"hiilgas"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a032.sol	6	7	"kuulutatakse"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a032.sol	7	1	"lõi"	EVENT I_ACTION	e6
+aja_sloleht_2007_12_17.tasak.a032.sol	7	2	"värava"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a032.sol	7	4	"andis"	EVENT I_ACTION	e8
+aja_sloleht_2007_12_17.tasak.a032.sol	7	6	"kaks"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a032.sol	8	3	"oli"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a032.sol	8	10	"puudus"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a032.sol	9	4	"sain"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a032.sol	9	9	"hoida"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a032.sol	9	12	"ütles"	EVENT REPORTING	e14
+aja_sloleht_2007_12_17.tasak.a032.sol	9	17	"tulnud"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a033.sol	0	3	"lõpetas"	EVENT ASPECTUAL	e1
+aja_sloleht_2007_12_17.tasak.a033.sol	0	9	"poolfinaali"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a033.sol	0	15	"pääses"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a033.sol	0	21	"finaali"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a033.sol	0	24	"andis"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a033.sol	1	1	"oli"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a033.sol	2	3	"tea"	EVENT OCCURRENCE polarity "NEG"	e7
+aja_sloleht_2007_12_17.tasak.a033.sol	2	7	"loobus"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a033.sol	2	10	"kuulsin"	EVENT PERCEPTION	e9
+aja_sloleht_2007_12_17.tasak.a033.sol	2	19	"tegin"	EVENT I_ACTION	e10
+aja_sloleht_2007_12_17.tasak.a033.sol	2	22	"rääkis"	EVENT REPORTING	e11
+aja_sloleht_2007_12_17.tasak.a033.sol	3	0	"Muutsime"	EVENT I_ACTION	e12
+aja_sloleht_2007_12_17.tasak.a033.sol	3	10	"tundnud"	EVENT PERCEPTION polarity "NEG"	e13
+aja_sloleht_2007_12_17.tasak.a033.sol	4	1	"olin"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a033.sol	5	4	"võinuks"	EVENT OCCURRENCE MODAL	e15
+aja_sloleht_2007_12_17.tasak.a033.sol	5	6	"olla"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a033.sol	6	1	"läks"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a033.sol	6	13	"vastanud"	EVENT OCCURRENCE polarity "NEG"	e18
+aja_sloleht_2007_12_17.tasak.a033.sol	7	1	"jäi"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a033.sol	8	4	"oli"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a033.sol	8	9	"pääsesin"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a033.sol	8	12	"arutles"	EVENT REPORTING	e22
+aja_sloleht_2007_12_17.tasak.a033.sol	9	5	"on"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a033.sol	10	2	"võinuks"	EVENT MODAL	e24
+aja_sloleht_2007_12_17.tasak.a033.sol	10	4	"tulla"	EVENT OCCURRENCE modality= võima	e25
+aja_sloleht_2007_12_17.tasak.a033.sol	10	11	"teinud"	EVENT I_ACTION polarity "NEG"	e26
+aja_sloleht_2007_12_17.tasak.a033.sol	10	20	"mõjutanuks"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a033.sol	11	5	"õnnestunud"	EVENT OCCURRENCE polarity "NEG"	e28
+aja_sloleht_2007_12_17.tasak.a033.sol	11	11	"kehitas"	EVENT I_ACTION	e29
+aja_sloleht_2007_12_17.tasak.a033.sol	11	12	"õlgu"	EVENT OCCURRENCE	e30
+aja_sloleht_2007_12_17.tasak.a033.sol	11	17	"teab"	EVENT OCCURRENCE	e31
+aja_sloleht_2007_12_17.tasak.a033.sol	11	23	"mõtleb"	EVENT OCCURRENCE	e32
+aja_sloleht_2007_12_17.tasak.a033.sol	12	2	"tea"	EVENT OCCURRENCE polarity "NEG"	e33
+aja_sloleht_2007_12_17.tasak.a033.sol	13	3	"andis"	EVENT I_ACTION	e34
+aja_sloleht_2007_12_17.tasak.a033.sol	13	5	"kohad"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a033.sol	13	9	"võinuks"	EVENT MODAL	e36
+aja_sloleht_2007_12_17.tasak.a033.sol	13	12	"olla"	EVENT OCCURRENCE modality=võima	e37
+aja_sloleht_2007_12_17.tasak.a033.sol	13	15	"tähendas"	EVENT REPORTING	e38
+aja_sloleht_2007_12_17.tasak.a033.sol	14	2	"ajanud"	EVENT OCCURRENCE polarity "NEG"	e39
+aja_sloleht_2007_12_17.tasak.a033.sol	14	8	"unistanud"	EVENT OCCURRENCE polarity "NEG"	e40
+aja_sloleht_2007_12_17.tasak.a033.sol	15	2	"õpin"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a033.sol	15	10	"tulen"	EVENT OCCURRENCE	e42
+aja_sloleht_2007_12_17.tasak.a033.sol	16	0	"Tean"	EVENT OCCURRENCE	e43
+aja_sloleht_2007_12_17.tasak.a033.sol	16	4	"on"	EVENT OCCURRENCE	e44
+aja_sloleht_2007_12_17.tasak.a033.sol	17	3	"lisas"	EVENT REPORTING	e45
+aja_sloleht_2007_12_17.tasak.a033.sol	17	9	"oli"	EVENT OCCURRENCE	e46
+aja_sloleht_2007_12_17.tasak.a033.sol	18	2	"tundsin"	EVENT PERCEPTION	e47
+aja_sloleht_2007_12_17.tasak.a033.sol	18	13	"pole"	EVENT OCCURRENCE polarity "NEG"	e48
+aja_sloleht_2007_12_17.tasak.a033.sol	19	1	"üritab"	EVENT I_STATE	e49
+aja_sloleht_2007_12_17.tasak.a033.sol	19	4	"kindlustada"	EVENT OCCURRENCE	e50
+aja_sloleht_2007_12_17.tasak.a033.sol	20	8	"üritab"	EVENT I_STATE	e51
+aja_sloleht_2007_12_17.tasak.a033.sol	20	11	"kindlustada"	EVENT OCCURRENCE	e52
+aja_sloleht_2007_12_17.tasak.a033.sol	21	1	"on täidetud"	EVENT OCCURRENCE multiword="true"	e53
+aja_sloleht_2007_12_17.tasak.a033.sol	21	5	"on täidetud"	EVENT multiword="true"	e53
+aja_sloleht_2007_12_17.tasak.a033.sol	21	11	"tuleb"	EVENT OCCURRENCE	e55
+aja_sloleht_2007_12_17.tasak.a033.sol	22	3	"võiks"	EVENT MODAL	e56
+aja_sloleht_2007_12_17.tasak.a033.sol	22	8	"ujunud"	EVENT OCCURRENCE	e57
+aja_sloleht_2007_12_17.tasak.a033.sol	22	13	"olla"	EVENT OCCURRENCE modality=võima	e58
+aja_sloleht_2007_12_17.tasak.a033.sol	22	18	"räägib"	EVENT REPORTING	e59
+aja_sloleht_2007_12_17.tasak.a033.sol	22	22	"kulub"	EVENT OCCURRENCE	e60
+aja_sloleht_2007_12_17.tasak.a033.sol	22	27	"läheb"	EVENT OCCURRENCE	e61
+aja_sloleht_2007_12_17.tasak.a033.sol	23	1	"tuleb"	EVENT OCCURRENCE	e62
+aja_sloleht_2007_12_17.tasak.a033.sol	24	1	"oleks"	EVENT OCCURRENCE modality	e63
+aja_sloleht_2007_12_17.tasak.a033.sol	25	1	"Näis"	EVENT PERCEPTION	e64
+aja_sloleht_2007_12_17.tasak.a033.sol	25	7	"suudab"	EVENT OCCURRENCE	e65
+aja_sloleht_2007_12_17.tasak.a033.sol	25	10	"sõnas"	EVENT REPORTING	e66
+aja_sloleht_2007_12_17.tasak.a033.sol	26	2	"raske"	EVENT OCCURRENCE	e67
+aja_sloleht_2007_12_17.tasak.a033.sol	26	7	"on"	EVENT OCCURRENCE	e68
+aja_sloleht_2007_12_17.tasak.a033.sol	27	2	"ütles"	EVENT REPORTING	e69
+aja_sloleht_2007_12_17.tasak.a033.sol	27	14	"uju"	EVENT OCCURRENCE polartity "NEG"	e70
+aja_sloleht_2007_12_17.tasak.a033.sol	27	16	"tuleb"	EVENT OCCURRENCE	e71
+aja_sloleht_2007_12_17.tasak.a033.sol	28	11	"lisab"	EVENT REPORTING	e72
+aja_sloleht_2007_12_17.tasak.a033.sol	28	16	"pole"	EVENT OCCURRENCE polarity "NEG"	e73
+aja_sloleht_2007_12_17.tasak.a033.sol	29	1	"istume"	EVENT OCCURRENCE	e74
+aja_sloleht_2007_12_17.tasak.a033.sol	29	8	"teeme"	EVENT I_ACTION	e75
+aja_sloleht_2007_12_17.tasak.a033.sol	29	13	"muudatused"	EVENT OCCURRENCE	e76
+aja_sloleht_2007_12_17.tasak.a033.sol	30	2	"pole"	EVENT OCCURRENCE polarity "NEG"	e77
+aja_sloleht_2007_12_17.tasak.a037.sol	0	1	"Eestimaa"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a037.sol	0	2	"uhkus"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a037.sol	0	4	"on"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a037.sol	0	8	"koostööprojekt"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a037.sol	0	12	"tänatakse"	EVENT I_ACTION	e5
+aja_sloleht_2007_12_17.tasak.a037.sol	0	17	"inimesi"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a037.sol	0	21	"teinud"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a037.sol	0	29	"oodanud"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a037.sol	1	1	"korraldati"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a037.sol	2	1	"kutsuti"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a037.sol	2	13	"valis"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a037.sol	3	2	"kuulub"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a037.sol	4	1	"Eestimaa"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a037.sol	4	2	"uhkus"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a037.sol	6	2	"on"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a037.sol	6	6	"õpilane"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a037.sol	6	9	"korraldas"	EVENT I_ACTION	e17
+aja_sloleht_2007_12_17.tasak.a037.sol	6	13	"rahakogumiskampaania"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a037.sol	6	17	"anti"	EVENT I_ACTION	e19
+aja_sloleht_2007_12_17.tasak.a037.sol	6	21	"3000"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a037.sol	7	2	"elasid"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a037.sol	7	11	"korraldasid"	EVENT I_ACTION	e22
+aja_sloleht_2007_12_17.tasak.a037.sol	7	14	"heategevuslaatasid"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a037.sol	9	10	"korraldanud"	EVENT I_ACTION	e24
+aja_sloleht_2007_12_17.tasak.a037.sol	9	15	"ujumiskursusi"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a037.sol	10	1	"paraolümpiamängudel"	EVENT OCCURRENCE	e26
+aja_sloleht_2007_12_17.tasak.a037.sol	10	6	"võistlustel"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a037.sol	10	11	"on"	EVENT OCCURRENCE	e28
+aja_sloleht_2007_12_17.tasak.a037.sol	12	12	"tõid"	EVENT I_ACTION	e29
+aja_sloleht_2007_12_17.tasak.a037.sol	12	13	"kolm"	EVENT OCCURRENCE	e30
+aja_sloleht_2007_12_17.tasak.a037.sol	14	4	"on"	EVENT OCCURRENCE	e31
+aja_sloleht_2007_12_17.tasak.a037.sol	15	5	"tegelnud"	EVENT OCCURRENCE	e32
+aja_sloleht_2007_12_17.tasak.a037.sol	15	9	"toonud"	EVENT OCCURRENCE	e33
+aja_sloleht_2007_12_17.tasak.a037.sol	15	15	"korraldanud"	EVENT OCCURRENCE	e34
+aja_sloleht_2007_12_17.tasak.a037.sol	17	5	"päästis"	EVENT I_ACTION	e35
+aja_sloleht_2007_12_17.tasak.a037.sol	17	8	"elu"	EVENT OCCURRENCE	e36
+aja_sloleht_2007_12_17.tasak.a037.sol	18	9	"kukkus"	EVENT OCCURRENCE	e37
+aja_sloleht_2007_12_17.tasak.a037.sol	18	24	"uppunud"	EVENT OCCURRENCE	e38
+aja_sloleht_2007_12_17.tasak.a037.sol	20	5	"juhib"	EVENT I_ACTION	e39
+aja_sloleht_2007_12_17.tasak.a037.sol	20	10	"seltsi"	EVENT OCCURRENCE	e40
+aja_sloleht_2007_12_17.tasak.a037.sol	20	12	"võitleb"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a037.sol	21	3	"korraldanud"	EVENT I_ACTION	e42
+aja_sloleht_2007_12_17.tasak.a037.sol	21	10	"Jõulupäike"	EVENT OCCURRENCE	e43
+aja_sloleht_2007_12_17.tasak.a037.sol	21	15	"esinevad"	EVENT OCCURRENCE	e44
+aja_sloleht_2007_12_17.tasak.a037.sol	23	5	"päästis"	EVENT I_ACTION	e45
+aja_sloleht_2007_12_17.tasak.a037.sol	23	11	"elu"	EVENT OCCURRENCE	e46
+aja_sloleht_2007_12_17.tasak.a037.sol	24	3	"tabas"	EVENT OCCURRENCE	e47
+aja_sloleht_2007_12_17.tasak.a037.sol	24	8	"epilepsiahoog"	EVENT OCCURRENCE	e48
+aja_sloleht_2007_12_17.tasak.a037.sol	25	1	"kaotas"	EVENT OCCURRENCE	e49
+aja_sloleht_2007_12_17.tasak.a037.sol	25	4	"kukkus"	EVENT OCCURRENCE	e50
+aja_sloleht_2007_12_17.tasak.a037.sol	25	6	"veeres"	EVENT OCCURRENCE	e51
+aja_sloleht_2007_12_17.tasak.a037.sol	26	1	"oli"	EVENT OCCURRENCE	e52
+aja_sloleht_2007_12_17.tasak.a037.sol	26	6	"tõmbas"	EVENT OCCURRENCE	e53
+aja_sloleht_2007_12_17.tasak.a037.sol	26	11	"puhastas"	EVENT OCCURRENCE	e54
+aja_sloleht_2007_12_17.tasak.a037.sol	28	5	"päästis"	EVENT I_ACTION	e55
+aja_sloleht_2007_12_17.tasak.a037.sol	28	12	"inimese"	EVENT OCCURRENCE	e56
+aja_sloleht_2007_12_17.tasak.a037.sol	29	13	"tõi"	EVENT OCCURRENCE	e57
+aja_sloleht_2007_12_17.tasak.a037.sol	29	15	"lahvatas"	EVENT OCCURRENCE	e58
+aja_sloleht_2007_12_17.tasak.a037.sol	31	2	"on"	EVENT OCCURRENCE	e59
+aja_sloleht_2007_12_17.tasak.a037.sol	31	8	"eestvedaja"	EVENT OCCURRENCE	e60
+aja_sloleht_2007_12_17.tasak.a037.sol	31	11	"toetaja"	EVENT OCCURRENCE	e61
+aja_sloleht_2007_12_17.tasak.a037.sol	32	4	"kasvab"	EVENT OCCURRENCE	e62
+aja_sloleht_2007_12_17.tasak.a037.sol	33	1	"aitab"	EVENT OCCURRENCE	e63
+aja_sloleht_2007_12_17.tasak.a037.sol	34	1	"on"	EVENT OCCURRENCE	e64
+aja_sloleht_2007_12_17.tasak.a037.sol	34	5	"tuntud"	EVENT OCCURRENCE	e65
+aja_sloleht_2007_12_17.tasak.a037.sol	34	11	"aitab"	EVENT OCCURRENCE	e66
+aja_sloleht_2007_12_17.tasak.a040.sol	0	4	"suutis"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a040.sol	0	25	"võiski"	EVENT MODAL	e2
+aja_sloleht_2007_12_17.tasak.a040.sol	0	30	"unistada"	EVENT OCCURRENCE modality=võima	e3
+aja_sloleht_2007_12_17.tasak.a040.sol	0	44	"pani"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a040.sol	1	2	"on"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a040.sol	2	2	"tahab"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a040.sol	2	8	"toriseb"	EVENT REPORTING	e7
+aja_sloleht_2007_12_17.tasak.a040.sol	3	1	"koguneb"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a040.sol	3	3	"Valge"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a040.sol	3	4	"gospeli"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a040.sol	3	6	"jõulukontserdile"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a040.sol	4	5	"pidanud"	EVENT MODAL	e12
+aja_sloleht_2007_12_17.tasak.a040.sol	4	7	"tulema"	EVENT OCCURRENCE MODALITY=pidama	e13
+aja_sloleht_2007_12_17.tasak.a040.sol	4	14	"on"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a040.sol	4	37	"tekita"	EVENT OCCURRENCE polarity=NEG	e15
+aja_sloleht_2007_12_17.tasak.a040.sol	5	5	"karga"	EVENT OCCURRENCE polarity=NEG	e16
+aja_sloleht_2007_12_17.tasak.a040.sol	6	1	"võiksid"	EVENT MODAL conditional	e17
+aja_sloleht_2007_12_17.tasak.a040.sol	6	5	"tantsida"	EVENT OCCURRENCE MODALITY=võima	e18
+aja_sloleht_2007_12_17.tasak.a040.sol	6	7	"julgustab"	EVENT REPORTING	e19
+aja_sloleht_2007_12_17.tasak.a040.sol	7	1	"jäävad"	EVENT OCCURRENCE	e20
+aja_sloleht_2007_12_17.tasak.a040.sol	7	7	"aita"	EVENT OCCURRENCE polarity=NEG	e21
+aja_sloleht_2007_12_17.tasak.a040.sol	7	21	"elab"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a040.sol	8	12	"suuda"	EVENT OCCURRENCE polarity=NEG	e23
+aja_sloleht_2007_12_17.tasak.a040.sol	8	19	"plaksutatakse"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a040.sol	9	1	"rohkem"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a040.sol	9	4	"teenib"	EVENT I_ACTION	e26
+aja_sloleht_2007_12_17.tasak.a040.sol	10	12	"paneb"	EVENT I_ACTION	e27
+aja_sloleht_2007_12_17.tasak.a040.sol	10	15	"kiljuma"	EVENT OCCURRENCE	e28
+aja_sloleht_2007_12_17.tasak.a040.sol	11	2	"suudab"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a040.sol	11	30	"võibki"	EVENT MODAL	e30
+aja_sloleht_2007_12_17.tasak.a040.sol	11	37	"unistada"	EVENT OCCURRENCE MODALITY=võima	e31
+aja_sloleht_2007_12_17.tasak.a040.sol	12	1	"on"	EVENT OCCURRENCE	e32
+aja_sloleht_2007_12_17.tasak.a040.sol	13	6	"paku"	EVENT OCCURRENCE polarity=NEG	e33
+aja_sloleht_2007_12_17.tasak.a040.sol	14	5	"esitab"	EVENT I_ACTION	e34
+aja_sloleht_2007_12_17.tasak.a040.sol	14	25	"sõnumit"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a040.sol	14	30	"leiab"	EVENT I_ACTION	e36
+aja_sloleht_2007_12_17.tasak.a040.sol	14	34	"midagi"	EVENT OCCURRENCE	e37
+aja_sloleht_2007_12_17.tasak.a040.sol	15	1	"eelistab"	EVENT OCCURRENCE	e38
+aja_sloleht_2007_12_17.tasak.a040.sol	16	4	"tuuritab"	EVENT OCCURRENCE	e39
+aja_sloleht_2007_12_17.tasak.a040.sol	17	1	"oli"	EVENT OCCURRENCE	e40
+aja_sloleht_2007_12_17.tasak.a040.sol	17	8	"esinetakse"	EVENT OCCURRENCE	e41
+aja_sloleht_2007_12_17.tasak.a043.sol	0	14	"andis"	EVENT I_ACTION	e1
+aja_sloleht_2007_12_17.tasak.a043.sol	0	23	"tänuauhinnad"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a043.sol	1	13	"pälvisid"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a043.sol	2	6	"eraldab"	EVENT I_ACTION	e4
+aja_sloleht_2007_12_17.tasak.a043.sol	2	14	"4"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a044.sol	0	3	"tahavad"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a044.sol	1	8	"on"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a044.sol	1	18	"jääks"	EVENT OCCURRENCE	e3
+aja_sloleht_2007_12_17.tasak.a044.sol	2	2	"on"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a044.sol	3	2	"on"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a044.sol	3	14	"võiks"	EVENT MODAL	e6
+aja_sloleht_2007_12_17.tasak.a044.sol	3	17	"jätkata"	EVENT OCCURRENCE modality=võima	e7
+aja_sloleht_2007_12_17.tasak.a044.sol	4	1	"on"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a044.sol	4	14	"juhib"	EVENT I_ACTION	e9
+aja_sloleht_2007_12_17.tasak.a044.sol	4	16	"tähelepanu"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a044.sol	5	7	"häbistanud"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a044.sol	6	3	"oli"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a044.sol	6	13	"peaks"	EVENT MODAL	e13
+aja_sloleht_2007_12_17.tasak.a044.sol	6	15	"kaotama"	EVENT OCCURRENCE modality=pidama	e14
+aja_sloleht_2007_12_17.tasak.a044.sol	6	17	"läheb"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a044.sol	7	1	"oli"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a044.sol	8	0	"Tule"	EVENT OCCURRENCE imperative	e17
+aja_sloleht_2007_12_17.tasak.a044.sol	9	2	"tahavad"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a044.sol	9	11	"loodavad"	EVENT I_STATE	e19
+aja_sloleht_2007_12_17.tasak.a044.sol	9	15	"esitab"	EVENT I_ACTION	e20
+aja_sloleht_2007_12_17.tasak.a044.sol	9	18	"kandidatuuri"	EVENT OCCURRENCE	e21
+aja_sloleht_2007_12_17.tasak.a044.sol	10	2	"pole"	EVENT OCCURRENCE polarity=NEG	e22
+aja_sloleht_2007_12_17.tasak.a044.sol	10	8	"õnnestub"	EVENT OCCURRENCE	e23
+aja_sloleht_2007_12_17.tasak.a044.sol	11	1	"on"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a044.sol	11	14	"õhku"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a044.sol	11	15	"puhastanud"	EVENT I_ACTION	e26
+aja_sloleht_2007_12_17.tasak.a044.sol	11	17	"korrastanud"	EVENT I_ACTION	e27
+aja_sloleht_2007_12_17.tasak.a044.sol	12	3	"tõestab"	EVENT OCCURRENCE	e28
+aja_sloleht_2007_12_17.tasak.a044.sol	12	7	"on"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a046.sol	0	2	"võttis"	EVENT I_ACTION	e1
+aja_sloleht_2007_12_17.tasak.a046.sol	0	4	"otsuse"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a046.sol	0	8	"võib"	EVENT MODAL	e3
+aja_sloleht_2007_12_17.tasak.a046.sol	0	14	"panna"	EVENT OCCURRENCE modality=võima	e4
+aja_sloleht_2007_12_17.tasak.a046.sol	1	0	"Näib"	EVENT PERCEPTION	e5
+aja_sloleht_2007_12_17.tasak.a046.sol	1	4	"on"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a046.sol	1	15	"saab"	EVENT ASPECTUAL	e7
+aja_sloleht_2007_12_17.tasak.a046.sol	1	16	"valvata"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a046.sol	1	23	"tasu"	EVENT OCCURRENCE polarity=NEG	e9
+aja_sloleht_2007_12_17.tasak.a046.sol	2	2	"külvati"	EVENT I_ACTION	e10
+aja_sloleht_2007_12_17.tasak.a046.sol	2	3	"devalveerimispaanikat"	EVENT OCCURRENCE	e11
+aja_sloleht_2007_12_17.tasak.a046.sol	2	8	"ole"	EVENT OCCURRENCE polarity=NEG	e12
+aja_sloleht_2007_12_17.tasak.a046.sol	3	1	"purustasid"	EVENT I_ACTION	e13
+aja_sloleht_2007_12_17.tasak.a046.sol	3	8	"südame"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a046.sol	3	13	"pole"	EVENT OCCURRENCE polarity=NEG	e15
+aja_sloleht_2007_12_17.tasak.a046.sol	4	2	"pääses"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a046.sol	4	6	"veetis"	EVENT OCCURRENCE	e17
+aja_sloleht_2007_12_17.tasak.a046.sol	4	8	"veedab"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a046.sol	5	5	"suhtu"	EVENT OCCURRENCE poalrity=NEG	e19
+aja_sloleht_2007_12_17.tasak.a046.sol	6	1	"võiksime"	EVENT MODAL	e20
+aja_sloleht_2007_12_17.tasak.a046.sol	6	6	"hoida"	EVENT OCCURRENCE modality=võima	e21
+aja_sloleht_2007_12_17.tasak.a051.sol	0	3	"tabas"	EVENT OCCURRENCE	e1
+aja_sloleht_2007_12_17.tasak.a051.sol	0	5	"mobiiliarvet"	EVENT OCCURRENCE	e2
+aja_sloleht_2007_12_17.tasak.a051.sol	0	11	"väitel"	EVENT REPORTING	e3
+aja_sloleht_2007_12_17.tasak.a051.sol	0	14	"kõnelnud"	EVENT OCCURRENCE	e4
+aja_sloleht_2007_12_17.tasak.a051.sol	1	1	"arve"	EVENT OCCURRENCE	e5
+aja_sloleht_2007_12_17.tasak.a051.sol	1	3	"tekkinud"	EVENT OCCURRENCE	e6
+aja_sloleht_2007_12_17.tasak.a051.sol	2	2	"arvanud"	EVENT OCCURRENCE	e7
+aja_sloleht_2007_12_17.tasak.a051.sol	2	5	"saab"	EVENT OCCURRENCE	e8
+aja_sloleht_2007_12_17.tasak.a051.sol	2	8	"kasutada"	EVENT OCCURRENCE	e9
+aja_sloleht_2007_12_17.tasak.a051.sol	2	17	"surfata"	EVENT OCCURRENCE	e10
+aja_sloleht_2007_12_17.tasak.a051.sol	3	4	"laadis"	EVENT I_ACTION	e11
+aja_sloleht_2007_12_17.tasak.a051.sol	3	11	"mängufilme"	EVENT OCCURRENCE	e12
+aja_sloleht_2007_12_17.tasak.a051.sol	3	15	"faile"	EVENT OCCURRENCE	e13
+aja_sloleht_2007_12_17.tasak.a051.sol	4	2	"ületas"	EVENT OCCURRENCE	e14
+aja_sloleht_2007_12_17.tasak.a051.sol	4	10	"tiksutas"	EVENT OCCURRENCE	e15
+aja_sloleht_2007_12_17.tasak.a051.sol	5	10	"lamenti"	EVENT OCCURRENCE	e16
+aja_sloleht_2007_12_17.tasak.a051.sol	5	11	"lõi"	EVENT I_ACTION	e17
+aja_sloleht_2007_12_17.tasak.a051.sol	5	13	"tuli"	EVENT OCCURRENCE	e18
+aja_sloleht_2007_12_17.tasak.a051.sol	5	19	"vähendas"	EVENT OCCURRENCE	e19
+aja_sloleht_2007_12_17.tasak.a051.sol	6	2	"pole"	EVENT OCCURRENCE polarity=NEG	e20
+aja_sloleht_2007_12_17.tasak.a051.sol	6	7	"kavatseb"	EVENT I_STATE	e21
+aja_sloleht_2007_12_17.tasak.a051.sol	6	9	"vaidlustada"	EVENT OCCURRENCE	e22
+aja_sloleht_2007_12_17.tasak.a051.sol	7	4	"ütles"	EVENT REPORTING	e23
+aja_sloleht_2007_12_17.tasak.a051.sol	7	10	"pidas"	EVENT OCCURRENCE	e24
+aja_sloleht_2007_12_17.tasak.a051.sol	8	3	"olnud"	EVENT OCCURRENCE	e25
+aja_sloleht_2007_12_17.tasak.a051.sol	8	13	"võttis"	EVENT I_ACTION	e26
+aja_sloleht_2007_12_17.tasak.a051.sol	8	15	"ühendust"	EVENT OCCURRENCE	e27
+aja_sloleht_2007_12_17.tasak.a051.sol	8	17	"kurtis"	EVENT I_ACTION	e28
+aja_sloleht_2007_12_17.tasak.a051.sol	8	19	"muret"	EVENT OCCURRENCE	e29
+aja_sloleht_2007_12_17.tasak.a051.sol	9	11	"laadinud"	EVENT OCCURRENCE	e30
+aja_sloleht_2007_12_17.tasak.a051.sol	9	15	"kasvanud"	EVENT OCCURRENCE	e31
+aja_sloleht_2007_12_17.tasak.a051.sol	10	1	"sõnul"	EVENT REPORTING	e32
+aja_sloleht_2007_12_17.tasak.a051.sol	10	11	"saatvat"	EVENT OCCURRENCE QUATATIVE	e33
+aja_sloleht_2007_12_17.tasak.a051.sol	10	21	"on"	EVENT OCCURRENCE	e34
+aja_sloleht_2007_12_17.tasak.a051.sol	11	5	"lülitatud"	EVENT OCCURRENCE	e35
+aja_sloleht_2007_12_17.tasak.a051.sol	11	16	"kurtis"	EVENT REPORTING	e36
+aja_sloleht_2007_12_17.tasak.a051.sol	12	1	"on"	EVENT OCCURRENCE	e37
+aja_sloleht_2007_12_17.tasak.a051.sol	12	8	"võtnud"	EVENT OCCURRENCE	e38
+aja_sloleht_2007_12_17.tasak.a051.sol	13	3	"kinnitas"	EVENT REPORTING	e39
+aja_sloleht_2007_12_17.tasak.a051.sol	13	7	"on"	EVENT OCCURRENCE	e40
+aja_sloleht_2007_12_17.tasak.a051.sol	13	18	"maksnuks"	EVENT OCCURRENCE CONDITIONAL	e41
+aja_sloleht_2007_12_17.tasak.a051.sol	13	27	"kasutanuks"	EVENT OCCURRENCE CONDITIONAL	e42
