@@ -23,7 +23,7 @@
  TLINK annotations. The creation process of the corpus, along with the 
  evaluation of consistency of annotation is described in (Orasmaa, 2014a) 
  and (Orasmaa, 2014b).
-
+ 
 =================================
   In breif: Temporal annotation 
 =================================
@@ -274,7 +274,16 @@
                  BEFORE-OR-OVERLAP -- doubts between preceding and overlap;
                  OVERLAP-OR-AFTER -- doubts between succeeding and overlap;
                  VAGUE -- unclear temporal relation;
-     
+
+
+==============================
+   IAA experiments   
+==============================
+  The directory "exp_iaa" contains scripts for the inter-annotator agreement 
+ experiments first reported in (Orasmaa, 2014a) and (Orasmaa, 2014b). See 
+ "exp_iaa/readme.txt" for more details.
+
+
 ==============================
   Related publications
 ==============================
