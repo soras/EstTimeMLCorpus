@@ -126,7 +126,7 @@ def recordEventAnnotationAgreementsOnFile(fileName, annotators, eventAnnotations
         eveA = eventAnnotationsByIds[a][fileName] if fileName in eventAnnotationsByIds[a] else {}
         eveB = eventAnnotationsByIds[b][fileName] if fileName in eventAnnotationsByIds[b] else {}
         (res, pairName) = \
-            ia_agreements.compAnnotationAttribsFscore("EVENT", a, b, eveA, eveB, totalCounter)
+            ia_agreements.compAnnotationAttribsFscore("EVENT", a, b, eveA, eveB, totalCounter, countOnlyAligned = True)
         for k in res.keys():
             if (k not in allRes):
                allRes[k] = dict()

@@ -10,6 +10,7 @@
 import re
 
 import sol_format_tools
+import dependency_trees
 
 # =========================================================================
 #    Various useful utils

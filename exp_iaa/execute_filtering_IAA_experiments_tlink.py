@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 #
-#    Executes EVENT filtering experiments using the Python's 
+#    Executes TLINK filtering experiments using the Python's 
 #   script "find_combined_annotation_agreements.py" and outputs
 #   results to the file 'outputFile';
 #
@@ -63,6 +63,21 @@ experiments = [ ["2a", "0. kuulub ainult predikaati (baasjuht)"],
                 ["4b", "b. predikaati kuuluvad sündmused, millele EI allu ykski ajaväljend;"],
                 ]
 
+                
+#  ===================================================
+#    TLINK models with non-intersecting layers,
+#      reported in thesis)
+#  ===================================================
+experiments = [ ["0a", "00. Ilma filtreerimiseta;"],
+
+                ["2a", "0. kuulub ainult predikaati (baasjuht)"],
+
+                ["3a", 'a. ainult lihtminevik'],
+                ["3l", 'd. ainult olevik'],
+                
+                ["4a", "a. predikaati kuuluvad sündmused, millele alluvad ajaväljendid;"],
+                ["4b", "b. predikaati kuuluvad sündmused, millele EI allu ykski ajaväljend;"],
+                ]
 
 # Fetches text snippets containing specific keywords from the file content (lines);
 # Groups the snippets by filtering methods;
@@ -122,6 +137,12 @@ if len(sys.argv) > 1 and os.path.isdir(sys.argv[1]):
     filterFileAndPrintSpecificSnippets(resultLines, experiments, "counts-for-TLINK-base")
     print ()
     
+    print (("="*30))
+    print ("  TLINK relType agreement results (Accuracies) ")
+    print (("="*30))
+    filterFileAndPrintSpecificSnippets(resultLines, experiments, "short-accs-for-TLINK-base")
+    print ()
+
     print (("="*30))
     print ("  TLINK relType agreement results (Chance corrected) ")
     print (("="*30))

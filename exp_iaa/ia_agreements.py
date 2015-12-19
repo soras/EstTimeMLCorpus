@@ -321,11 +321,7 @@ def evaluateMainAttribsFscore(entityName, ann_sug, ann_ref, mapping_sug_to_ref, 
            Recall    = correct / all_in_ref       
            Precision = correct / all_suggestions  
            F-score   = ( 2 * precision * recall ) / (precision + recall)
-        NB! Also penalizes for unmatching annotations: 
-        if a suggestion has no alignment with some reference, suggestion's attributes are considered 
-        redundant (thus lowering the precision);
-        if a reference has no alignment with some suggestion, reference's attributes are considered 
-        missing (thus lowering the recall);
+        Evaluates attributes only on annotations that have been successfully aligned;
         Assumes that UNK in the place of attribute has a special meaning - missing attribute;
     '''
     correct     = dict()
@@ -422,6 +418,7 @@ def compAnnotationAttribsFscore(entityName, annotator_sug, annotator_ref, annota
         evaluateMainAttribsFscore(entityName, annotationsByID_sug, annotationsByID_ref, mapping_sug_to_ref, mapping_ref_to_sug) \
         if countOnlyAligned else \
         evaluateMainAttribsFscoreStrict(entityName, annotationsByID_sug, annotationsByID_ref, mapping_sug_to_ref, mapping_ref_to_sug)
+
     results = dict()
     if (len(correct.keys()) > 0):
         for k in correct.keys():
@@ -632,7 +629,7 @@ def record_tlinks_matches(allRelations, layer, rel_merging, counter, fileToAnnot
 
 def printAggregateResults(counter, details = False, judge = None, findGroupAvgs = False):
     '''  Calculates aggregate results for entity (EVENT, TIMEX) annotation agreement,
-         and outputs these results to the stdin.
+         and outputs these results to the stdout.
          Uses the counts from counter;
     '''
     results = counter.getCounts()
@@ -750,10 +747,11 @@ def printAggregateResults(counter, details = False, judge = None, findGroupAvgs 
 
     # Seej2rel teised atribuudid
     for evalPhase in sorted(results.keys()):
-        if (not re.match("^.*-extent$", evalPhase)):
+        if (not re.match("^.*-extent$", evalPhase) and not re.match("^.+-acc-.+$", evalPhase)):
             groupScores = []
             judgeScoreReached = False
             for pair in counter.getSortedPairs(evalPhase, judge):
+                # Precision, Recall, F1-score
                 correct = counter.getCount(evalPhase, pair, "correct")
                 all_in_ref = counter.getCount(evalPhase, pair, "all_in_ref")
                 all_in_sug = counter.getCount(evalPhase, pair, "all_in_sug")
@@ -809,7 +807,7 @@ def getSubListOfNumbers(list, startIndex, endIndex ):
 def aggregateAndPrintFilteringResults(counter, filterKey, judge = None, onlyTlinkBase = True, \
                                                                         addCohensKappa = True):
     '''  Calculates aggregate results for EVENT annotation agreement,
-         and TLINK annotation agreements, and outputs these results to the stdin.
+         and TLINK annotation agreements, and outputs these results to the stdout.
          Uses the counts from counter;
     '''
     results = counter.getCounts()

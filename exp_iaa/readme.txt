@@ -60,8 +60,14 @@
  D) The script "find_combined_annotation_agreements.py" can be used to 
     execute a single experiment, alternatively to executing sets of 
     experiments in B and C; 
-    E.g. Experiment '2a' (keep only EVENTs that are part of the predicate 
-    of a clause) can be executed with the following command:
+
+    E.g. Experiment '0a' (do not apply any EVENT filtering) can be executed 
+    with the following command:
+    
+        python  find_combined_annotation_agreements.py  ..\corpus  0a
+    
+    And the experiment '2a' (keep only EVENTs that are part of the predicate 
+    of a clause) can be executed in following way:
     
         python  find_combined_annotation_agreements.py  ..\corpus  2a
     
