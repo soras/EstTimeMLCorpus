@@ -1177,6 +1177,36 @@ def aggregateAndPrintFilteringResults(counter, filterKey, judge = None, onlyTlin
     print (snippetStr)
     print()
 
+    #
+    #  Output:   detailed counts of VAGUE relations
+    # 
+    print ( (" "*7)+'Details on distributions of vague relations: ' )
+    allTlinkLayers = ["event_timex", "event_dct", "main_events", "event_event"]
+    for i in range( len(allTlinkLayers) ):
+        tlinkLayer = allTlinkLayers[i]
+        print ( (" "*7)+"--- "+tlinkLayer+" ---" )
+        evalPhase = 'tlink-'+tlinkLayer+'-vague-dist'
+        startIndex = i*3
+        endIndex   = i*3 + 2
+        layerVAGUE = allTLINKvagueRelCount[startIndex : (endIndex+1)]
+        layerAll   = allTLINKcounts[startIndex : (endIndex+1)]
+        for p in range(len(allPairsSorted)):
+            pair = allPairsSorted[ p ]
+            if 'j' not in pair:
+                #
+                # 1st way for total: over all pairs and layers:
+                #
+                #totalTLINKRelations = numberOfAllUsedRelations
+                #
+                # 2nd way for total: over all layers of given pair
+                #
+                totalTLINKRelations = sum([ allTLINKcounts[j*3+p] for j in range( len(allTlinkLayers) ) ])
+                percentage = layerVAGUE[p] * 100.0 / totalTLINKRelations
+                out_string = (" "*7)+pair+"  "+evalPhase+" "+\
+                              "   VAGUE: "+str(layerVAGUE[p])+\
+                              "   "+'{:.3}'.format( percentage )+"% "
+                print(out_string)
+    print()
     
     focusOnLayer = "base"
     print (("="*46))
