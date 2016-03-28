@@ -8,8 +8,8 @@
   This corpus consists of 80 Estonian newspaper articles (approx. 22,000 
  word tokens) with manually corrected morphological and dependency 
  syntactic annotations, and with manually added temporal semantic 
- annotations. This corpus is a subcorpus of Dependency Treebank of Estonian
- ( http://www.cl.ut.ee/korpused/soltuvuskorpus/ ).
+ annotations. This corpus is a subcorpus of Estonian Dependency Treebank
+ ( https://github.com/EstSyntax/EDT ).
 
   Dependency syntactic annotations are based on manually corrected output 
  of syntactic analyser of Estonian (more detailed Estonian descriptions
@@ -27,41 +27,52 @@
 =================================
   In breif: Temporal annotation 
 =================================
+ Temporal semantic annotation consists of following layers:
 
- In this corpus, temporal relation annotations (TLINK annotations)
- are separated into 4 layers: 
+    EVENTs -- event-denoting expressions, such as verbs (e.g. 'v√µitis'
+              (won), 'p√§√§stis' (saved) ) and nominals (e.g. 'pussitamine' 
+              (stabbing), 'kihlus' (betrothal) );
+    TIMEXes - time-referring expressions, such as date expressions
+              (e.g. '21. juunil' (on June 20)) and duration expressions 
+              (e.g. 'viis aastat' (five years));
+    TLINKs -- temporal relations (such as SIMULTANEOUS, BEFORE, AFTER) 
+              that hold between events, and between events and temporal 
+              expressions;
+
+ Temporal relation annotations (TLINK annotations) are further separated 
+ into 4 layers:
 
    1) Relations between EVENTs and TIMEXes (TLINK-event-timex);
       E.g.
-         [P¸hap‰eva varahommikul] [kutsuti] politsei Riia m‰ele.
+         [P√ºhap√§eva varahommikul] [kutsuti] politsei Riia m√§ele.
          '[On Sunday morning], police was [called] to Riia Hill.'
          
-         EVENT [kutsuti]    IS_INCLUDED    TIMEX [P¸hap‰eva varahommikul]
+         EVENT [kutsuti]    IS_INCLUDED    TIMEX [P√ºhap√§eva varahommikul]
 
    2) Relations between EVENTs and document creation time (TLINK-event-DCT);
       E.g.
-         Eestisse kavatseb reisimees [naasta] tuleva aasta m‰rtsis.
+         Eestisse kavatseb reisimees [naasta] tuleva aasta m√§rtsis.
          'The traveler plans [to return] to Estonia in March next year.'
          
          EVENT [naasta]     AFTER          DCT
 
    3) Relations between main EVENTs of two consecutive sentences (TLINK-main-events);
       E.g.
-        (1) P¸hap‰eva varahommikul [kutsuti] politsei Riia m‰ele.
+        (1) P√ºhap√§eva varahommikul [kutsuti] politsei Riia m√§ele.
             'On Sunday morning, police was [called] to Riia Hill.'
-        (2) Seal oli ¸helt noorelt mehelt ‰ra [vıetud] nahktagi ja k‰ekell.
+        (2) Seal oli √ºhelt noorelt mehelt √§ra [v√µetud] nahktagi ja k√§ekell.
             'There, a young man had been [robbed] from his leather jacket and 
              wristwatch.'
              
-         EVENT [kutsuti]    AFTER          EVENT [vıetud]
+         EVENT [kutsuti]    AFTER          EVENT [v√µetud]
            
    4) Relations between EVENTs in the same sentence (TLINK-event-event);
       E.g.
-         Bussijuht [p‰‰stis] tee ‰‰res pılevasse autosse lıksu [j‰‰nud] inimese.
+         Bussijuht [p√§√§stis] tee √§√§res p√µlevasse autosse l√µksu [j√§√§nud] inimese.
          'A bus driver [saved] a person who was [trapped] in a burning car alongside 
           the road.'
 
-         EVENT [p‰‰stis]    AFTER          EVENT [j‰‰nud]
+         EVENT [p√§√§stis]    AFTER          EVENT [j√§√§nud]
          
   Following TLINK relation types are used: BEFORE, BEFORE-OR-OVERLAP,
  SIMULTANEOUS, IS_INCLUDED, INCLUDES, OVERLAP-OR-AFTER, AFTER, IDENTITY, 
@@ -295,7 +306,7 @@
     on Language Resources and Evaluation (LREC'14).
 
  *) S.Orasmaa (2014b). How Availability of Explicit Temporal Cues Affects 
-    Manual Temporal Relation Annotation. Human Language Technologies ñ The Baltic 
+    Manual Temporal Relation Annotation. Human Language Technologies - The Baltic 
     Perspective (215 - 218). IOS Press.
 
   Note that the corpus statistics discussed in these articles can be different 
