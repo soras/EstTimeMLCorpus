@@ -64,40 +64,91 @@ class AggregateCounter:
 # ============================================================
 # ============================================================
 
-def findAnnotationMappings( annotationsByID_sug, annotationsByID_ref, discardMultiple = False ):
-    ''' Finds token-wise alignments between two sets of annotations;
-        If discardMultiple==True, then only first annotation is kept in case of multiple annotations;
-        otherwise one-to-many mappings are allowed.
+def findAnnotationMappings( annotationsByID_sug, annotationsByID_ref, multipleStrategy = None, keepMappingsUnique=True ):
+    ''' Finds token-wise alignments between two sets of annotations (SUG - suggested annotations, 
+        and REF - reference annotations);
+        Parameters *multipleStrategy* and *keepMappingsUnique* guide, how one-to-many and 
+        many-to-many mappings are handled. For instance, in case of the SUG-to-REF mapping:
+            *) If multipleStrategy == None, then one-to-many / many-to-one mappings are allowed: 
+                                      each SUG is allowed to be mapped to multiple REF-s;
+            *) If multipleStrategy == 'first', then one-to-one mappings are forced:
+                                      each SUG is mapped to exactly one REF, picking the first 
+                                      one;
+            *) If multipleStrategy == 'largest', then one-to-one mappings are forced:
+                                      each SUG is mapped to exactly one REF, picking the one 
+                                      with the largest overlap;
+            *) If keepMappingsUnique == True, then one-to-one mappings are forced:
+                                      each REF can be mapped to exactly one SUG;
+                                      (otherwise, a REF can be mapped to multiple SUGs, even 
+                                      if multipleStrategy != None );
+        Returns two mappings: a mapping from SUG-to-REF, and a mapping from REF-to-SUG;
     '''
+    multipleStrategy = multipleStrategy.lower() if multipleStrategy else None
     # Create mappings (token-vise-alignments) between two sets of annotations
     mapping_sug_to_ref = dict()
     mapping_ref_to_sug = dict()
+    used_refs = dict()
+    used_sugs = dict()
     for sugID in sorted(annotationsByID_sug.keys()):
         phrase_sug = annotationsByID_sug[sugID]
+        tokens_sug = set([ token[1] for token in phrase_sug ])
         mapping_sug_to_ref[sugID] = []
+        biggest_overlap = 0
         for refID in sorted(annotationsByID_ref.keys()):
+            if refID in used_refs and keepMappingsUnique:
+                continue
             phrase_ref = annotationsByID_ref[refID]
+            tokens_ref = set([ token[1] for token in phrase_ref ])
             for [sentenceID_a, wordID_a, expression_a, annotation_a] in phrase_sug:
                 for [sentenceID_b, wordID_b, expression_b, annotation_b] in phrase_ref:
                     if sentenceID_a == sentenceID_b and wordID_a == wordID_b and \
                        refID not in mapping_sug_to_ref[sugID]:
-                        if not discardMultiple:
+                        if multipleStrategy == None:
+                            # create one-to-many
                             mapping_sug_to_ref[sugID].append( refID )
-                        elif discardMultiple and len(mapping_sug_to_ref[sugID])==0:
+                        elif multipleStrategy == 'first' and len(mapping_sug_to_ref[sugID])==0:
+                            # create one-to-one: pick the first
                             mapping_sug_to_ref[sugID].append( refID )
+                            used_refs[refID] = 1
+                        elif multipleStrategy == 'largest':
+                            # create one-to-one: pick the largest overlap
+                            if len(tokens_sug.intersection(tokens_ref)) > biggest_overlap:
+                                biggest_overlap = len(tokens_sug.intersection(tokens_ref))
+                                if not mapping_sug_to_ref[sugID]:
+                                    mapping_sug_to_ref[sugID].append( refID )
+                                else: 
+                                    mapping_sug_to_ref[sugID][0] = refID
+                                used_refs[refID] = 1
     for refID in sorted(annotationsByID_ref.keys()):
         phrase_ref = annotationsByID_ref[refID]
+        tokens_ref = set([ token[1] for token in phrase_ref ])
         mapping_ref_to_sug[refID] = []
+        biggest_overlap = 0
         for sugID in sorted(annotationsByID_sug.keys()):
+            if sugID in used_sugs and keepMappingsUnique:
+                continue
             phrase_sug = annotationsByID_sug[sugID]
+            tokens_sug = set([ token[1] for token in phrase_sug ])
             for [sentenceID_a, wordID_a, expression_a, annotation_a] in phrase_sug:
                 for [sentenceID_b, wordID_b, expression_b, annotation_b] in phrase_ref:
                     if sentenceID_a == sentenceID_b and wordID_a == wordID_b and \
                        sugID not in mapping_ref_to_sug[refID]:
-                        if not discardMultiple:
+                        if multipleStrategy == None:
+                            # create one-to-many
                             mapping_ref_to_sug[refID].append( sugID )
-                        elif discardMultiple and len(mapping_ref_to_sug[refID])==0:
+                        elif multipleStrategy == 'first' and len(mapping_ref_to_sug[sugID])==0:
+                            # create one-to-one: pick the first
                             mapping_ref_to_sug[refID].append( sugID )
+                            used_sugs[ sugID ] = 1
+                        elif multipleStrategy == 'largest':
+                            # create one-to-one: pick the largest overlap
+                            if len(tokens_sug.intersection(tokens_ref)) > biggest_overlap:
+                                biggest_overlap = len(tokens_sug.intersection(tokens_ref))
+                                if not mapping_ref_to_sug[refID]:
+                                    mapping_ref_to_sug[refID].append( sugID )
+                                else: 
+                                    mapping_ref_to_sug[refID][0] = sugID
+                                used_sugs[ sugID ] = 1
     return (mapping_sug_to_ref, mapping_ref_to_sug)
 
 
@@ -121,28 +172,53 @@ def debugDisplayMappings(aKey, bKey, annotationsByID_sug, annotationsByID_ref, m
     print()
 
 
-def evaluateEntityExtent(ann_sug, ann_ref, mapping_sug_to_ref, mapping_ref_to_sug):
+def evaluateEntityExtent(ann_sug, ann_ref, mapping_sug_to_ref, mapping_ref_to_sug, oneBestMatch=True):
     ''' Based on given alignments, finds the agreement on entity extent (token coverage).
         Calculates:
           Recall    = correct / all_in_ref       
           Precision = correct / all_suggestions  
           F-score   = ( 2 * precision * recall ) / (precision + recall)
+        If oneBestMatch=True, each sug_annotation is aligned with one ref_annotation with the largest
+        token overlap in the extent;
     '''
     correct    = 0
     all_in_ref = 0
     all_in_sug = 0
-    for sug_id in ann_sug.keys():
-        tokens_sug = set([ phrase[1] for phrase in ann_sug[sug_id] ])
-        all_in_sug += len(tokens_sug)
-        if sug_id in mapping_sug_to_ref:
-            for ref_id in mapping_sug_to_ref[sug_id]:
-                # Find, how many of the tokens are matching
-                tokens_ref = set([ phrase[1] for phrase in ann_ref[ref_id] ])
-                common = len(tokens_sug.intersection(tokens_ref))
-                correct += common
-    for ref_id in ann_ref.keys():
-        tokens_ref = set([ phrase[1] for phrase in ann_ref[ref_id] ])
-        all_in_ref += len(tokens_ref)
+    if oneBestMatch:
+        for sug_id in ann_sug.keys():
+            tokens_sug = set([ phrase[1] for phrase in ann_sug[sug_id] ])
+            # Find one best match
+            biggest_overlap = 0
+            best_match      = None
+            if sug_id in mapping_sug_to_ref:
+                for ref_id in sorted( mapping_sug_to_ref[sug_id] ):
+                    # Find, how many of the tokens are matching
+                    tokens_ref = set([ phrase[1] for phrase in ann_ref[ref_id] ])
+                    common     = len(tokens_sug.intersection(tokens_ref))
+                    if common > biggest_overlap:
+                        biggest_overlap = common
+                        best_match = ref_id
+            all_in_sug += 1
+            if best_match:
+                # relaxed: only one token overlap is required for the match
+                correct += 1  
+        for ref_id in ann_ref.keys():
+            all_in_ref += 1
+    else:
+        #  The old way of calculating: total overlap of the tokens,
+        #  note: mistakenly discards exact phrase boundaries
+        for sug_id in ann_sug.keys():
+            tokens_sug = set([ phrase[1] for phrase in ann_sug[sug_id] ])
+            all_in_sug += len(tokens_sug)
+            if sug_id in mapping_sug_to_ref:
+                for ref_id in mapping_sug_to_ref[sug_id]:
+                    # Find, how many of the tokens are matching
+                    tokens_ref = set([ phrase[1] for phrase in ann_ref[ref_id] ])
+                    common = len(tokens_sug.intersection(tokens_ref))
+                    correct += common
+        for ref_id in ann_ref.keys():
+            tokens_ref = set([ phrase[1] for phrase in ann_ref[ref_id] ])
+            all_in_ref += len(tokens_ref)
     if all_in_ref > 0:
        rec  = correct / all_in_ref
     else:
@@ -158,14 +234,14 @@ def evaluateEntityExtent(ann_sug, ann_ref, mapping_sug_to_ref, mapping_ref_to_su
     return (correct, all_in_ref, all_in_sug, rec, prec, fscore)
 
 
-def compAnnotationExtents(entityName, annotator_sug, annotator_ref, annotationsByID_sug, annotationsByID_ref, counter, discardMultiAlignments = True ):
+def compAnnotationExtents(entityName, annotator_sug, annotator_ref, annotationsByID_sug, annotationsByID_ref, counter, multipleStrategy = 'largest' ):
     ''' Aligns annotations of two annotators, calculates inter-annotator agreements on
         annotation extents, and returns formatted results;
     '''
     pair = annotator_sug+" vs "+annotator_ref
     # Create mappings between two sets of annotations
     # (suggested annotations and reference annotations)
-    (mapping_sug_to_ref, mapping_ref_to_sug) = findAnnotationMappings(annotationsByID_sug, annotationsByID_ref, discardMultiAlignments )
+    (mapping_sug_to_ref, mapping_ref_to_sug) = findAnnotationMappings(annotationsByID_sug, annotationsByID_ref, multipleStrategy )
     #debugDisplayMappings(annotator_sug, annotator_ref, annotationsByID_sug, annotationsByID_ref, mapping_sug_to_ref, mapping_ref_to_sug)
     # Find extent agreements: 
     (correct, all_in_ref, all_in_sug, rec, prec, fscore) = \
@@ -316,62 +392,135 @@ def evaluateMainAttribsFscoreStrict(entityName, ann_sug, ann_ref, mapping_sug_to
     return (correct, all_in_ref, all_in_sug, rec, prec, fscore)
 
 
-def evaluateMainAttribsFscore(entityName, ann_sug, ann_ref, mapping_sug_to_ref, mapping_ref_to_sug):
+def evaluateMainAttribsFscore(entityName, ann_sug, ann_ref, mapping_sug_to_ref, mapping_ref_to_sug, oneBestMatch=True):
     ''' Evaluates main attribute annotations calculating F-scores:
            Recall    = correct / all_in_ref       
            Precision = correct / all_suggestions  
            F-score   = ( 2 * precision * recall ) / (precision + recall)
         Evaluates attributes only on annotations that have been successfully aligned;
         Assumes that UNK in the place of attribute has a special meaning - missing attribute;
+        
+        If oneBestMatch=True, each sug_annotation is aligned with one ref_annotation with the largest
+        token overlap in the extent;
     '''
     correct     = dict()
     all_in_ref  = dict()
     all_in_sug  = dict()
-    matched_ref = dict()
-    for sugID in sorted(ann_sug.keys()):
-        # Count only annotations that have been successfully aligned
-        if (sugID in mapping_sug_to_ref):
-            headerFound1 = False
-            for [sentenceID_a, wordID_a, expression_a, annotation_a] in ann_sug[sugID]:
-                if isEntityHeader(annotation_a):
-                    headerFound1 = True
-                    attribs1 = getEntityAttribs(entityName, annotation_a)
-                    # Record initial counts of attributes
-                    if (attribs1 and entityName == "EVENT"):
-                        if (attribs1 != "UNK"):
-                            incCount(all_in_sug, 'class')
-                    if (attribs1 and entityName == "TIMEX"):
-                        if (attribs1[0] != "UNK"):
-                            incCount(all_in_sug, 'type')
-                        if (attribs1[1] != "UNK"):
-                            incCount(all_in_sug, 'value')
-                    matchFound = False
-                    for refID in mapping_sug_to_ref[sugID]:
-                        headerFound2 = False
-                        for [sentenceID_b, wordID_b, expression_b, annotation_b] in ann_ref[refID]:
-                            if isEntityHeader(annotation_b) and refID not in matched_ref:
-                                headerFound2 = True
-                                attribs2 = getEntityAttribs(entityName, annotation_b)
-                                if (attribs2 and entityName == "EVENT"):
-                                    if (attribs2 != "UNK"):
-                                        incCount(all_in_ref, 'class')
-                                    if (attribs2 != "UNK" and attribs1 == attribs2):
-                                        incCount(correct, 'class')
-                                if (attribs2 and entityName == "TIMEX"):
-                                    if (attribs2[0] != "UNK"):
-                                        incCount(all_in_ref, 'type')
-                                    if (attribs2[0] != "UNK" and attribs1[0] == attribs2[0]):
-                                        incCount(correct, 'type')
-                                    if (attribs2[1] != "UNK"):
-                                        incCount(all_in_ref, 'value')
-                                    if (attribs2[1] != "UNK" and attribs1[1] == attribs2[1]):
-                                        incCount(correct, 'value')
-                                # Remember that this reference has been counted already ...
-                                matched_ref[refID] = True
-                                matchFound = True
-                                break
-                    if matchFound:
-                        break
+    if oneBestMatch:
+        #  Align each suggested annotation with exactly one reference annotation, picking the
+        # annotation with the largest extent
+        for sugID in sorted(ann_sug.keys()):
+            # Count only annotations that have been successfully aligned
+            if (sugID in mapping_sug_to_ref and len(mapping_sug_to_ref[sugID]) > 0):
+                # 1) Find one best match / alignment
+                tokens_sug = set([ phrase[1] for phrase in ann_sug[sugID] ])
+                biggest_overlap = 0
+                best_match      = None
+                for refID in sorted( mapping_sug_to_ref[sugID] ):
+                    # Find, how many of the tokens are matching
+                    tokens_ref = set([ phrase[1] for phrase in ann_ref[refID] ])
+                    common = len(tokens_sug.intersection(tokens_ref))
+                    if common > biggest_overlap:
+                        biggest_overlap = common
+                        best_match = refID
+                if not best_match:
+                    raise Exception('(!) Unexpectedly, the best match was not found for: '+str(ann_sug[sugID]))
+                
+                # 2) Find headers of both annotations 
+                header_annotation_sug = None
+                header_annotation_ref = None
+                for [sentenceID_a, wordID_a, expression_a, annotation_a] in ann_sug[sugID]:
+                    if isEntityHeader(annotation_a):
+                        header_annotation_sug = annotation_a
+                for [sentenceID_b, wordID_b, expression_b, annotation_b] in ann_ref[best_match]:
+                    if isEntityHeader(annotation_b):
+                        header_annotation_ref = annotation_b
+                if not header_annotation_sug:
+                    raise Exception('(!) Unexpectedly, header annotation not found for: '+str(ann_sug[sugID]))
+                if not header_annotation_ref:
+                    raise Exception('(!) Unexpectedly, header annotation not found for: '+str(ann_ref[best_match]))
+
+                #print('aligning: '+str(ann_sug[sugID]))
+                #print('   alignment: '+str(ann_ref[best_match]))
+                
+                # 3) Record counts / matches
+                attribs1 = getEntityAttribs(entityName, header_annotation_sug)
+                # Record initial counts of attributes
+                if (attribs1 and entityName == "EVENT"):
+                    if (attribs1 != "UNK"):
+                        incCount(all_in_sug, 'class')
+                if (attribs1 and entityName == "TIMEX"):
+                    if (attribs1[0] != "UNK"):
+                        incCount(all_in_sug, 'type')
+                    if (attribs1[1] != "UNK"):
+                        incCount(all_in_sug, 'value')
+                attribs2 = getEntityAttribs(entityName, header_annotation_ref)
+                if (attribs2 and entityName == "EVENT"):
+                    if (attribs2 != "UNK"):
+                        incCount(all_in_ref, 'class')
+                    if (attribs2 != "UNK" and attribs1 == attribs2):
+                        incCount(correct, 'class')
+                if (attribs2 and entityName == "TIMEX"):
+                    if (attribs2[0] != "UNK"):
+                        incCount(all_in_ref, 'type')
+                    if (attribs2[0] != "UNK" and attribs1[0] == attribs2[0]):
+                        incCount(correct, 'type')
+                    if (attribs2[1] != "UNK"):
+                        incCount(all_in_ref, 'value')
+                    if (attribs2[1] != "UNK" and attribs1[1] == attribs2[1]):
+                        incCount(correct, 'value')
+    else:
+        #   The old / flawed way of calculating: one sug can be aligned to multiple refs,
+        #  which seems to result in suprious counting, e.g. suggested annotations are 
+        #  counted even if they have no mappings to references ...
+        matched_ref = dict()
+        for sugID in sorted(ann_sug.keys()):
+            # Count only annotations that have been successfully aligned
+            if (sugID in mapping_sug_to_ref):  # <-- Problem! mapping_sug_to_ref[sugID] can be empty ...
+                headerFound1 = False
+                for [sentenceID_a, wordID_a, expression_a, annotation_a] in ann_sug[sugID]:
+                    if isEntityHeader(annotation_a):
+                        #print('aligning: '+str(ann_sug[sugID]))
+                        headerFound1 = True
+                        attribs1 = getEntityAttribs(entityName, annotation_a)
+                        # Record initial counts of attributes
+                        if (attribs1 and entityName == "EVENT"):
+                            if (attribs1 != "UNK"):
+                                incCount(all_in_sug, 'class')
+                        if (attribs1 and entityName == "TIMEX"):
+                            if (attribs1[0] != "UNK"):
+                                incCount(all_in_sug, 'type')
+                            if (attribs1[1] != "UNK"):
+                                incCount(all_in_sug, 'value')
+                        matchFound = False
+                        for refID in mapping_sug_to_ref[sugID]:
+                            headerFound2 = False
+                            for [sentenceID_b, wordID_b, expression_b, annotation_b] in ann_ref[refID]:
+                                if isEntityHeader(annotation_b) and refID not in matched_ref:
+                                    headerFound2 = True
+                                    attribs2 = getEntityAttribs(entityName, annotation_b)
+                                    #print('   alignment: '+str(ann_ref[refID]))
+                                    if (attribs2 and entityName == "EVENT"):
+                                        if (attribs2 != "UNK"):
+                                            incCount(all_in_ref, 'class')
+                                        if (attribs2 != "UNK" and attribs1 == attribs2):
+                                            incCount(correct, 'class')
+                                    if (attribs2 and entityName == "TIMEX"):
+                                        if (attribs2[0] != "UNK"):
+                                            incCount(all_in_ref, 'type')
+                                        if (attribs2[0] != "UNK" and attribs1[0] == attribs2[0]):
+                                            incCount(correct, 'type')
+                                        if (attribs2[1] != "UNK"):
+                                            incCount(all_in_ref, 'value')
+                                        if (attribs2[1] != "UNK" and attribs1[1] == attribs2[1]):
+                                            incCount(correct, 'value')
+                                    # Remember that this reference has been counted already ...
+                                    matched_ref[refID] = True
+                                    matchFound = True
+                                    break
+                        if matchFound:
+                            break
+
     rec    = dict()
     prec   = dict()
     fscore = dict()
@@ -400,7 +549,7 @@ def evaluateMainAttribsFscore(entityName, ann_sug, ann_ref, mapping_sug_to_ref, 
     return (correct, all_in_ref, all_in_sug, rec, prec, fscore)
 
 
-def compAnnotationAttribsFscore(entityName, annotator_sug, annotator_ref, annotationsByID_sug, annotationsByID_ref, counter, discardMultiAlignments = True, countOnlyAligned = False ):
+def compAnnotationAttribsFscore(entityName, annotator_sug, annotator_ref, annotationsByID_sug, annotationsByID_ref, counter, multipleStrategy = 'largest', countOnlyAligned = False ):
     ''' Aligns annotations of two annotators, calculates inter-annotator agreements on
         attributes, and returns formatted results;
         If countOnlyAligned == True, then agreements are only calculated on aligned 
@@ -411,7 +560,7 @@ def compAnnotationAttribsFscore(entityName, annotator_sug, annotator_ref, annota
     pair = annotator_sug+" vs "+annotator_ref
     # Create mappings between two sets of annotations 
     # (suggested annotations and reference annotations)
-    (mapping_sug_to_ref, mapping_ref_to_sug) = findAnnotationMappings(annotationsByID_sug, annotationsByID_ref)
+    (mapping_sug_to_ref, mapping_ref_to_sug) = findAnnotationMappings(annotationsByID_sug, annotationsByID_ref, multipleStrategy)
     #debugDisplayMappings(annotations_sug, annotations_ref, mapping_sug_to_ref, mapping_ref_to_sug)
     
     (correct, all_in_ref, all_in_sug, rec, prec, fscore) = \

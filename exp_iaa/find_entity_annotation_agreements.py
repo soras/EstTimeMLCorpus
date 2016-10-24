@@ -41,7 +41,7 @@ def calcEntityAnnotationAgreementsOnFile(fileName, annotators, eventAnnotationsB
         eveA = eventAnnotationsByIds[a][fileName] if fileName in eventAnnotationsByIds[a] else {}
         eveB = eventAnnotationsByIds[b][fileName] if fileName in eventAnnotationsByIds[b] else {}
         (res, pairName) = \
-            ia_agreements.compAnnotationExtents("EVENT", a, b, eveA, eveB, totalCounter)
+            ia_agreements.compAnnotationExtents("EVENT", a, b, eveA, eveB, totalCounter, multipleStrategy = 'largest')
         for k in res.keys():
             if (k not in allRes):
                allRes[k] = dict()
@@ -49,7 +49,7 @@ def calcEntityAnnotationAgreementsOnFile(fileName, annotators, eventAnnotationsB
         tmxA = tmxAnnotationsByIds[a][fileName] if fileName in tmxAnnotationsByIds[a] else {}
         tmxB = tmxAnnotationsByIds[b][fileName] if fileName in tmxAnnotationsByIds[b] else {}
         (res, pairName) = \
-            ia_agreements.compAnnotationExtents("TIMEX", a, b, tmxA, tmxB, totalCounter)
+            ia_agreements.compAnnotationExtents("TIMEX", a, b, tmxA, tmxB, totalCounter, multipleStrategy = 'largest')
         for k in res.keys():
             if (k not in allRes):
                allRes[k] = dict()
@@ -66,7 +66,7 @@ def calcEntityAnnotationAgreementsOnFile(fileName, annotators, eventAnnotationsB
         eveA = eventAnnotationsByIds[a][fileName] if fileName in eventAnnotationsByIds[a] else {}
         eveB = eventAnnotationsByIds[b][fileName] if fileName in eventAnnotationsByIds[b] else {}
         (res, pairName) = \
-            ia_agreements.compAnnotationAttribsFscore("EVENT", a, b, eveA, eveB, totalCounter, countOnlyAligned = True)
+            ia_agreements.compAnnotationAttribsFscore("EVENT", a, b, eveA, eveB, totalCounter, multipleStrategy = 'largest', countOnlyAligned = True)
         for k in res.keys():
             if (k not in allRes):
                allRes[k] = dict()
@@ -74,7 +74,7 @@ def calcEntityAnnotationAgreementsOnFile(fileName, annotators, eventAnnotationsB
         tmxA = tmxAnnotationsByIds[a][fileName] if fileName in tmxAnnotationsByIds[a] else {}
         tmxB = tmxAnnotationsByIds[b][fileName] if fileName in tmxAnnotationsByIds[b] else {}
         (res, pairName) = \
-            ia_agreements.compAnnotationAttribsFscore("TIMEX", a, b, tmxA, tmxB, totalCounter, countOnlyAligned = True)
+            ia_agreements.compAnnotationAttribsFscore("TIMEX", a, b, tmxA, tmxB, totalCounter, multipleStrategy = 'largest', countOnlyAligned = True)
         for k in res.keys():
             if (k not in allRes):
                allRes[k] = dict()
